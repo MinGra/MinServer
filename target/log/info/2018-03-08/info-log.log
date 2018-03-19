@@ -1,0 +1,1565 @@
+2018-03-08 15:58:10.068 INFO  com.http.server.Server - 服务器已启动，端口号：8089
+2018-03-08 16:13:07.142 INFO  com.http.server.Server - 服务器已启动，端口号：8089
+2018-03-08 16:13:27.095 INFO  com.http.handler.RequestHandler - 得到了uri /aa
+2018-03-08 16:27:52.986 INFO  com.http.server.Server - 服务器已启动，端口号：8089
+2018-03-08 16:28:00.565 INFO  com.http.handler.RequestHandler - 得到了uri /aa
+2018-03-08 16:31:42.346 INFO  com.http.server.Server - 服务器已启动，端口号：8089
+2018-03-08 16:31:45.870 INFO  com.http.handler.RequestHandler - 得到了uri /aa
+2018-03-08 16:36:10.702 INFO  com.http.server.Server - 服务器已启动，端口号：8089
+2018-03-08 16:36:13.814 INFO  com.http.handler.RequestHandler - 得到了uri /aa
+2018-03-08 16:36:13.824 INFO  com.http.handler.ClassMapper - 成功添加了URI： /webapps/download到servlet： servlet.DownloadServlet的映射
+2018-03-08 16:36:13.827 INFO  com.http.handler.ClassMapper - 成功添加了URI： /webapps/welcome到servlet： WelcomeServlet的映射
+2018-03-08 16:36:13.831 INFO  com.http.handler.ClassMapper - 成功添加了URI： /webapps/matrix到servlet： servlet.MatrixServlet的映射
+2018-03-08 16:36:13.966 INFO  com.http.handler.RequestHandler - 静态资源:webapps\/aa不存在或不是有效文件，显示404
+2018-03-08 16:46:01.703 INFO  com.http.server.Server - 服务器已启动，端口号：8089
+2018-03-08 16:49:55.095 INFO  com.http.server.Server - 服务器已启动，端口号：8089
+2018-03-08 16:50:03.927 INFO  com.http.handler.RequestHandler - 得到了uri /aa
+2018-03-08 16:50:03.942 INFO  com.http.handler.ClassMapper - 成功添加了URI： /webapps/download到servlet： servlet.DownloadServlet的映射
+2018-03-08 16:50:03.950 INFO  com.http.handler.ClassMapper - 成功添加了URI： /webapps/welcome到servlet： WelcomeServlet的映射
+2018-03-08 16:50:03.953 INFO  com.http.handler.ClassMapper - 成功添加了URI： /webapps/matrix到servlet： servlet.MatrixServlet的映射
+2018-03-08 16:50:03.964 INFO  com.http.handler.RequestHandler - 静态资源:webapps/aa不存在或不是有效文件，显示404
+2018-03-08 16:53:20.926 INFO  com.http.server.Server - 服务器已启动，端口号：8089
+2018-03-08 16:53:25.791 INFO  com.http.context.impl.HttpRequest - GET /aa HTTP/1.1
+2018-03-08 16:53:25.807 INFO  com.http.handler.RequestHandler - 得到了uri /aa
+2018-03-08 16:53:25.819 INFO  com.http.handler.ClassMapper - 成功添加了URI： /webapps/download到servlet： servlet.DownloadServlet的映射
+2018-03-08 16:53:25.820 INFO  com.http.handler.ClassMapper - 成功添加了URI： /webapps/welcome到servlet： WelcomeServlet的映射
+2018-03-08 16:53:25.821 INFO  com.http.handler.ClassMapper - 成功添加了URI： /webapps/matrix到servlet： servlet.MatrixServlet的映射
+2018-03-08 16:53:25.831 INFO  com.http.handler.RequestHandler - 静态资源:webapps/aa不存在或不是有效文件，显示404
+2018-03-08 16:53:42.658 INFO  com.http.context.impl.HttpRequest - 
+2018-03-08 16:57:05.450 INFO  com.http.server.Server - 服务器已启动，端口号：8089
+2018-03-08 16:57:08.839 INFO  com.http.handler.RequestHandler - 收到请求：
+GET /aa HTTP/1.1
+Host: localhost:8089
+Connection: keep-alive
+Cache-Control: max-age=0
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3350.0 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9
+Cookie: optimizelyEndUserId=oeu1506216020008r0.4545054078398614; _ga=GA1.1.1180129065.1489919936; Idea-7e4347d7=ed0e733b-8015-414b-bc82-8ac72402bfe1
+
+
+2018-03-08 16:57:08.841 INFO  com.http.context.impl.HttpRequest - GET /aa HTTP/1.1
+2018-03-08 16:57:08.860 INFO  com.http.handler.RequestHandler - 得到了uri /aa
+2018-03-08 16:57:08.873 INFO  com.http.handler.ClassMapper - 成功添加了URI： /webapps/download到servlet： servlet.DownloadServlet的映射
+2018-03-08 16:57:08.874 INFO  com.http.handler.ClassMapper - 成功添加了URI： /webapps/welcome到servlet： WelcomeServlet的映射
+2018-03-08 16:57:08.876 INFO  com.http.handler.ClassMapper - 成功添加了URI： /webapps/matrix到servlet： servlet.MatrixServlet的映射
+2018-03-08 16:57:08.892 INFO  com.http.handler.RequestHandler - 静态资源:webapps/aa不存在或不是有效文件，显示404
+2018-03-08 16:57:29.758 INFO  com.http.handler.RequestHandler - 收到请求：
+
+2018-03-08 16:57:29.759 INFO  com.http.context.impl.HttpRequest - 
+2018-03-08 17:45:13.466 INFO  com.http.server.Server - 服务器已启动，端口号：8089
+2018-03-08 17:45:17.795 INFO  com.http.handler.RequestHandler - 收到请求：
+GET /aa HTTP/1.1
+Host: localhost:8089
+Connection: keep-alive
+Cache-Control: max-age=0
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3350.0 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9
+Cookie: optimizelyEndUserId=oeu1506216020008r0.4545054078398614; _ga=GA1.1.1180129065.1489919936; Idea-7e4347d7=ed0e733b-8015-414b-bc82-8ac72402bfe1
+
+
+2018-03-08 17:45:17.798 INFO  com.http.context.impl.HttpRequest - GET /aa HTTP/1.1
+2018-03-08 17:45:17.819 INFO  com.http.handler.RequestHandler - 得到了uri /aa
+2018-03-08 17:45:17.832 INFO  com.http.handler.ClassMapper - 成功添加了URI： /webapps/download到servlet： servlet.DownloadServlet的映射
+2018-03-08 17:45:17.834 INFO  com.http.handler.ClassMapper - 成功添加了URI： /webapps/welcome到servlet： WelcomeServlet的映射
+2018-03-08 17:45:17.836 INFO  com.http.handler.ClassMapper - 成功添加了URI： /webapps/matrix到servlet： servlet.MatrixServlet的映射
+2018-03-08 17:45:17.846 INFO  com.http.handler.RequestHandler - 静态资源:webapps/aa不存在或不是有效文件，显示404
+2018-03-08 17:45:30.545 INFO  com.http.handler.RequestHandler - 收到请求：
+
+2018-03-08 17:45:30.546 INFO  com.http.context.impl.HttpRequest - 
+2018-03-08 17:51:05.431 INFO  com.http.server.Server - 服务器已启动，端口号：8089
+2018-03-08 17:51:09.675 INFO  com.http.handler.RequestHandler - 收到请求：
+GET /aa HTTP/1.1
+Host: localhost:8089
+Connection: keep-alive
+Cache-Control: max-age=0
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3350.0 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9
+Cookie: optimizelyEndUserId=oeu1506216020008r0.4545054078398614; _ga=GA1.1.1180129065.1489919936; Idea-7e4347d7=ed0e733b-8015-414b-bc82-8ac72402bfe1
+
+
+2018-03-08 17:51:09.699 INFO  com.http.handler.RequestHandler - 得到了uri /aa
+2018-03-08 17:51:09.716 INFO  com.http.handler.ClassMapper - 成功添加了URI： /webapps/download到servlet： servlet.DownloadServlet的映射
+2018-03-08 17:51:09.717 INFO  com.http.handler.ClassMapper - 成功添加了URI： /webapps/welcome到servlet： WelcomeServlet的映射
+2018-03-08 17:51:09.724 INFO  com.http.handler.ClassMapper - 成功添加了URI： /webapps/matrix到servlet： servlet.MatrixServlet的映射
+2018-03-08 17:51:09.734 INFO  com.http.handler.RequestHandler - 静态资源:webapps/aa不存在或不是有效文件，显示404
+2018-03-08 17:51:24.583 INFO  com.http.handler.RequestHandler - 收到请求：
+
+2018-03-08 17:53:49.461 INFO  com.http.server.Server - 服务器已启动，端口号：8089
+2018-03-08 17:53:53.411 INFO  com.http.handler.RequestHandler - 收到请求：
+GET /aa HTTP/1.1
+Host: localhost:8089
+Connection: keep-alive
+Cache-Control: max-age=0
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3350.0 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9
+Cookie: optimizelyEndUserId=oeu1506216020008r0.4545054078398614; _ga=GA1.1.1180129065.1489919936; Idea-7e4347d7=ed0e733b-8015-414b-bc82-8ac72402bfe1
+
+
+2018-03-08 17:53:53.441 INFO  com.http.handler.RequestHandler - 得到了uri /aa
+2018-03-08 17:53:53.455 INFO  com.http.handler.ClassMapper - 成功添加了URI： /webapps/download到servlet： servlet.DownloadServlet的映射
+2018-03-08 17:53:53.457 INFO  com.http.handler.ClassMapper - 成功添加了URI： /webapps/welcome到servlet： WelcomeServlet的映射
+2018-03-08 17:53:53.458 INFO  com.http.handler.ClassMapper - 成功添加了URI： /webapps/matrix到servlet： servlet.MatrixServlet的映射
+2018-03-08 17:53:53.467 INFO  com.http.handler.RequestHandler - 静态资源:webapps/aa不存在或不是有效文件，显示404
+2018-03-08 17:54:24.704 INFO  com.http.handler.RequestHandler - 收到请求：
+
+2018-03-08 18:07:36.033 INFO  com.http.server.Server - 服务器已启动，端口号：8089
+2018-03-08 18:07:39.025 INFO  com.http.handler.RequestHandler - 收到请求：
+GET /aa HTTP/1.1
+Host: localhost:8089
+Connection: keep-alive
+Cache-Control: max-age=0
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3350.0 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9
+Cookie: optimizelyEndUserId=oeu1506216020008r0.4545054078398614; _ga=GA1.1.1180129065.1489919936; Idea-7e4347d7=ed0e733b-8015-414b-bc82-8ac72402bfe1
+
+
+请求结束
+2018-03-08 18:07:39.050 INFO  com.http.handler.RequestHandler - 得到了uri /aa
+2018-03-08 18:07:39.064 INFO  com.http.handler.ClassMapper - 成功添加了URI： /webapps/download到servlet： servlet.DownloadServlet的映射
+2018-03-08 18:07:39.065 INFO  com.http.handler.ClassMapper - 成功添加了URI： /webapps/welcome到servlet： WelcomeServlet的映射
+2018-03-08 18:07:39.067 INFO  com.http.handler.ClassMapper - 成功添加了URI： /webapps/matrix到servlet： servlet.MatrixServlet的映射
+2018-03-08 18:07:39.083 INFO  com.http.handler.RequestHandler - 静态资源:webapps/aa不存在或不是有效文件，显示404
+2018-03-08 18:08:12.728 INFO  com.http.handler.RequestHandler - 收到请求：
+
+请求结束
+2018-03-08 18:31:48.786 INFO  com.http.server.Server - 服务器已启动，端口号：8089
+2018-03-08 18:31:52.972 INFO  com.http.handler.RequestHandler - 收到请求：
+
+请求结束
+2018-03-08 18:32:12.949 INFO  com.http.handler.RequestHandler - 收到请求：
+
+请求结束
+2018-03-08 18:34:00.068 INFO  com.http.server.Server - 服务器已启动，端口号：8089
+2018-03-08 18:34:02.670 INFO  com.http.handler.RequestHandler - 收到请求：
+
+请求结束
+2018-03-08 18:36:43.683 INFO  com.http.server.Server - 服务器已启动，端口号：8089
+2018-03-08 18:36:51.659 INFO  com.http.handler.RequestHandler - 收到请求：
+
+请求结束
+2018-03-08 19:30:58.100 INFO  com.http.server.Server - 服务器已启动，端口号：8089
+2018-03-08 19:31:02.331 INFO  com.http.handler.RequestHandler - 收到请求：
+GET /aa HTTP/1.1
+Host: localhost:8089
+Connection: keep-alive
+Cache-Control: max-age=0
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3350.0 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9
+Cookie: optimizelyEndUserId=oeu1506216020008r0.4545054078398614; _ga=GA1.1.1180129065.1489919936; Idea-7e4347d7=ed0e733b-8015-414b-bc82-8ac72402bfe1
+
+
+请求结束
+2018-03-08 19:31:02.428 INFO  com.http.handler.RequestHandler - 得到了uri /aa
+2018-03-08 19:31:02.497 INFO  com.http.handler.ClassMapper - 成功添加了URI： /webapps/download到servlet： servlet.DownloadServlet的映射
+2018-03-08 19:31:02.499 INFO  com.http.handler.ClassMapper - 成功添加了URI： /webapps/welcome到servlet： WelcomeServlet的映射
+2018-03-08 19:31:02.512 INFO  com.http.handler.ClassMapper - 成功添加了URI： /webapps/matrix到servlet： servlet.MatrixServlet的映射
+2018-03-08 19:31:02.518 INFO  com.http.handler.RequestHandler - 静态资源:webapps/aa不存在或不是有效文件，显示404
+2018-03-08 19:36:54.039 INFO  com.http.handler.RequestHandler - 收到请求：
+GET /html/welcome.html HTTP/1.1
+Host: localhost:8089
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3350.0 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9
+Cookie: optimizelyEndUserId=oeu1506216020008r0.4545054078398614; _ga=GA1.1.1180129065.1489919936; Idea-7e4347d7=ed0e733b-8015-414b-bc82-8ac72402bfe1
+
+
+请求结束
+2018-03-08 19:36:54.044 INFO  com.http.handler.RequestHandler - 得到了uri /html/welcome.html
+2018-03-08 19:36:54.061 INFO  com.http.handler.RequestHandler - 收到请求：
+GET /2.jpg HTTP/1.1
+Host: localhost:8089
+Connection: keep-alive
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3350.0 Safari/537.36
+Accept: image/webp,image/apng,image/*,*/*;q=0.8
+Referer: http://localhost:8089/html/welcome.html
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9
+Cookie: optimizelyEndUserId=oeu1506216020008r0.4545054078398614; _ga=GA1.1.1180129065.1489919936; Idea-7e4347d7=ed0e733b-8015-414b-bc82-8ac72402bfe1
+
+
+请求结束
+2018-03-08 19:36:54.066 INFO  com.http.handler.RequestHandler - 得到了uri /2.jpg
+2018-03-08 19:41:18.777 INFO  com.http.handler.RequestHandler - 收到请求：
+GET /html/welcome.html HTTP/1.1
+Host: localhost:8089
+Connection: keep-alive
+Cache-Control: max-age=0
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3350.0 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9
+Cookie: optimizelyEndUserId=oeu1506216020008r0.4545054078398614; _ga=GA1.1.1180129065.1489919936; Idea-7e4347d7=ed0e733b-8015-414b-bc82-8ac72402bfe1
+
+
+请求结束
+2018-03-08 19:41:18.788 INFO  com.http.handler.RequestHandler - 得到了uri /html/welcome.html
+2018-03-08 19:41:20.860 INFO  com.http.handler.RequestHandler - 收到请求：
+GET /html/welcome.html HTTP/1.1
+Host: localhost:8089
+Connection: keep-alive
+Cache-Control: max-age=0
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3350.0 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9
+Cookie: optimizelyEndUserId=oeu1506216020008r0.4545054078398614; _ga=GA1.1.1180129065.1489919936; Idea-7e4347d7=ed0e733b-8015-414b-bc82-8ac72402bfe1
+
+
+请求结束
+2018-03-08 19:41:20.865 INFO  com.http.handler.RequestHandler - 得到了uri /html/welcome.html
+2018-03-08 19:41:20.893 INFO  com.http.handler.RequestHandler - 收到请求：
+GET /2.jpg HTTP/1.1
+Host: localhost:8089
+Connection: keep-alive
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3350.0 Safari/537.36
+Accept: image/webp,image/apng,image/*,*/*;q=0.8
+Referer: http://localhost:8089/html/welcome.html
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9
+Cookie: optimizelyEndUserId=oeu1506216020008r0.4545054078398614; _ga=GA1.1.1180129065.1489919936; Idea-7e4347d7=ed0e733b-8015-414b-bc82-8ac72402bfe1
+
+
+请求结束
+2018-03-08 19:41:20.903 INFO  com.http.handler.RequestHandler - 得到了uri /2.jpg
+2018-03-08 19:49:29.535 INFO  com.http.handler.RequestHandler - 收到请求：
+GET /2.jpg HTTP/1.1
+Host: localhost:8089
+Connection: keep-alive
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3350.0 Safari/537.36
+Accept: image/webp,image/apng,image/*,*/*;q=0.8
+Referer: http://localhost:8089/html/welcome.html
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9
+Cookie: optimizelyEndUserId=oeu1506216020008r0.4545054078398614; _ga=GA1.1.1180129065.1489919936; Idea-7e4347d7=ed0e733b-8015-414b-bc82-8ac72402bfe1
+
+
+请求结束
+2018-03-08 19:49:29.554 INFO  com.http.handler.RequestHandler - 得到了uri /2.jpg
+2018-03-08 19:49:34.192 INFO  com.http.server.Server - 服务器已启动，端口号：8089
+2018-03-08 19:49:38.093 INFO  com.http.handler.RequestHandler - 收到请求：
+GET /html/welcome.html HTTP/1.1
+Host: localhost:8089
+Connection: keep-alive
+Cache-Control: max-age=0
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3350.0 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9
+Cookie: optimizelyEndUserId=oeu1506216020008r0.4545054078398614; _ga=GA1.1.1180129065.1489919936; Idea-7e4347d7=ed0e733b-8015-414b-bc82-8ac72402bfe1
+
+
+请求结束
+2018-03-08 19:49:38.120 INFO  com.http.handler.RequestHandler - 得到了uri /html/welcome.html
+2018-03-08 19:51:02.231 INFO  com.http.server.Server - 服务器已启动，端口号：8089
+2018-03-08 19:51:04.722 INFO  com.http.handler.RequestHandler - 收到请求：
+GET /html/welcome.html HTTP/1.1
+Host: localhost:8089
+Connection: keep-alive
+Cache-Control: max-age=0
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3350.0 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9
+Cookie: optimizelyEndUserId=oeu1506216020008r0.4545054078398614; _ga=GA1.1.1180129065.1489919936
+
+
+请求结束
+2018-03-08 19:51:04.760 INFO  com.http.handler.RequestHandler - 得到了uri /html/welcome.html
+2018-03-08 19:51:04.784 INFO  com.http.handler.ClassMapper - 成功添加了URI： /webapps/download到servlet： servlet.DownloadServlet的映射
+2018-03-08 19:51:04.790 INFO  com.http.handler.ClassMapper - 成功添加了URI： /webapps/welcome到servlet： WelcomeServlet的映射
+2018-03-08 19:51:04.793 INFO  com.http.handler.ClassMapper - 成功添加了URI： /webapps/matrix到servlet： servlet.MatrixServlet的映射
+2018-03-08 19:51:04.839 INFO  com.http.handler.RequestHandler - 收到请求：
+GET /favicon.ico HTTP/1.1
+Host: localhost:8089
+Connection: keep-alive
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3350.0 Safari/537.36
+Accept: image/webp,image/apng,image/*,*/*;q=0.8
+Referer: http://localhost:8089/html/welcome.html
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9
+Cookie: optimizelyEndUserId=oeu1506216020008r0.4545054078398614; _ga=GA1.1.1180129065.1489919936; Idea-7e4347d7=ed0e733b-8015-414b-bc82-8ac72402bfe1
+
+
+请求结束
+2018-03-08 19:51:04.846 INFO  com.http.handler.RequestHandler - 得到了uri /favicon.ico
+2018-03-08 19:51:04.848 INFO  com.http.handler.RequestHandler - 静态资源:webapps/favicon.ico不存在或不是有效文件，显示404
+2018-03-08 19:51:21.781 INFO  com.http.handler.RequestHandler - 收到请求：
+GET /html/welcome.html HTTP/1.1
+Host: localhost:8089
+Connection: keep-alive
+Cache-Control: max-age=0
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3350.0 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9
+Cookie: optimizelyEndUserId=oeu1506216020008r0.4545054078398614; _ga=GA1.1.1180129065.1489919936; Idea-7e4347d7=ed0e733b-8015-414b-bc82-8ac72402bfe1
+
+
+请求结束
+2018-03-08 19:51:21.789 INFO  com.http.handler.RequestHandler - 得到了uri /html/welcome.html
+2018-03-08 19:51:21.847 INFO  com.http.handler.RequestHandler - 收到请求：
+GET /favicon.ico HTTP/1.1
+Host: localhost:8089
+Connection: keep-alive
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3350.0 Safari/537.36
+Accept: image/webp,image/apng,image/*,*/*;q=0.8
+Referer: http://localhost:8089/html/welcome.html
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9
+Cookie: optimizelyEndUserId=oeu1506216020008r0.4545054078398614; _ga=GA1.1.1180129065.1489919936; Idea-7e4347d7=ed0e733b-8015-414b-bc82-8ac72402bfe1
+
+
+请求结束
+2018-03-08 19:51:21.862 INFO  com.http.handler.RequestHandler - 得到了uri /favicon.ico
+2018-03-08 19:51:21.863 INFO  com.http.handler.RequestHandler - 静态资源:webapps/favicon.ico不存在或不是有效文件，显示404
+2018-03-08 19:51:34.383 INFO  com.http.handler.RequestHandler - 收到请求：
+GET /html/welcome.html HTTP/1.1
+Host: localhost:8089
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3350.0 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9
+Cookie: optimizelyEndUserId=oeu1506216020008r0.4545054078398614; _ga=GA1.1.1180129065.1489919936; Idea-7e4347d7=ed0e733b-8015-414b-bc82-8ac72402bfe1
+
+
+请求结束
+2018-03-08 19:51:34.393 INFO  com.http.handler.RequestHandler - 得到了uri /html/welcome.html
+2018-03-08 19:54:56.179 INFO  com.http.server.Server - 服务器已启动，端口号：8089
+2018-03-08 19:54:56.376 INFO  com.http.handler.RequestHandler - 收到请求：
+GET /html/welcome.html HTTP/1.1
+Host: localhost:8089
+Connection: keep-alive
+Cache-Control: max-age=0
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3350.0 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9
+Cookie: optimizelyEndUserId=oeu1506216020008r0.4545054078398614; _ga=GA1.1.1180129065.1489919936
+
+
+请求结束
+2018-03-08 19:54:56.393 INFO  com.http.handler.RequestHandler - 得到了uri /html/welcome.html
+2018-03-08 19:54:56.405 INFO  com.http.handler.ClassMapper - 成功添加了URI： /webapps/download到servlet： servlet.DownloadServlet的映射
+2018-03-08 19:54:56.406 INFO  com.http.handler.ClassMapper - 成功添加了URI： /webapps/welcome到servlet： WelcomeServlet的映射
+2018-03-08 19:54:56.407 INFO  com.http.handler.ClassMapper - 成功添加了URI： /webapps/matrix到servlet： servlet.MatrixServlet的映射
+2018-03-08 19:55:00.879 INFO  com.http.handler.RequestHandler - 收到请求：
+GET /html/welcome.html HTTP/1.1
+Host: localhost:8089
+Connection: keep-alive
+Cache-Control: max-age=0
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3350.0 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9
+Cookie: optimizelyEndUserId=oeu1506216020008r0.4545054078398614; _ga=GA1.1.1180129065.1489919936
+
+
+请求结束
+2018-03-08 19:55:00.890 INFO  com.http.handler.RequestHandler - 得到了uri /html/welcome.html
+2018-03-08 19:55:00.914 INFO  com.http.handler.RequestHandler - 收到请求：
+GET /favicon.ico HTTP/1.1
+Host: localhost:8089
+Connection: keep-alive
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3350.0 Safari/537.36
+Accept: image/webp,image/apng,image/*,*/*;q=0.8
+Referer: http://localhost:8089/html/welcome.html
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9
+Cookie: optimizelyEndUserId=oeu1506216020008r0.4545054078398614; _ga=GA1.1.1180129065.1489919936; Idea-7e4347d7=ed0e733b-8015-414b-bc82-8ac72402bfe1
+
+
+请求结束
+2018-03-08 19:55:00.924 INFO  com.http.handler.RequestHandler - 得到了uri /favicon.ico
+2018-03-08 19:55:00.925 INFO  com.http.handler.RequestHandler - 静态资源:webapps/favicon.ico不存在或不是有效文件，显示404
+2018-03-08 20:26:30.238 INFO  com.http.server.Server - 服务器已启动，端口号：8089
+2018-03-08 20:26:34.641 INFO  com.http.handler.RequestHandler - 收到请求：
+GET /html/welcome.html HTTP/1.1
+Host: localhost:8089
+Connection: keep-alive
+Cache-Control: max-age=0
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3350.0 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9
+Cookie: optimizelyEndUserId=oeu1506216020008r0.4545054078398614; _ga=GA1.1.1180129065.1489919936; Idea-7e4347d7=ed0e733b-8015-414b-bc82-8ac72402bfe1
+
+
+请求结束
+2018-03-08 20:26:34.671 INFO  com.http.handler.RequestHandler - 得到了uri /html/welcome.html
+2018-03-08 20:26:34.683 INFO  com.http.handler.ClassMapper - 成功添加了URI： /webapps/download到servlet： servlet.DownloadServlet的映射
+2018-03-08 20:26:34.684 INFO  com.http.handler.ClassMapper - 成功添加了URI： /webapps/welcome到servlet： WelcomeServlet的映射
+2018-03-08 20:26:34.686 INFO  com.http.handler.ClassMapper - 成功添加了URI： /webapps/matrix到servlet： servlet.MatrixServlet的映射
+2018-03-08 20:30:39.873 INFO  com.http.server.Server - 服务器已启动，端口号：8089
+2018-03-08 20:30:43.575 INFO  com.http.handler.RequestHandler - 收到请求：
+GET /html/welcome.html HTTP/1.1
+Host: localhost:8089
+Connection: keep-alive
+Cache-Control: max-age=0
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3350.0 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9
+Cookie: optimizelyEndUserId=oeu1506216020008r0.4545054078398614; _ga=GA1.1.1180129065.1489919936; Idea-7e4347d7=ed0e733b-8015-414b-bc82-8ac72402bfe1
+
+
+请求结束
+2018-03-08 20:30:43.600 INFO  com.http.handler.RequestHandler - 得到了uri /html/welcome.html
+2018-03-08 20:30:43.614 INFO  com.http.handler.ClassMapper - 成功添加了URI： /download到servlet： servlet.DownloadServlet的映射
+2018-03-08 20:30:43.615 INFO  com.http.handler.ClassMapper - 成功添加了URI： /welcome到servlet： WelcomeServlet的映射
+2018-03-08 20:30:43.615 INFO  com.http.handler.ClassMapper - 成功添加了URI： /matrix到servlet： servlet.MatrixServlet的映射
+2018-03-08 20:31:48.627 INFO  com.http.handler.RequestHandler - 收到请求：
+GET /aa HTTP/1.1
+Host: localhost:8089
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3350.0 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9
+Cookie: optimizelyEndUserId=oeu1506216020008r0.4545054078398614; _ga=GA1.1.1180129065.1489919936; Idea-7e4347d7=ed0e733b-8015-414b-bc82-8ac72402bfe1
+
+
+请求结束
+2018-03-08 20:31:48.631 INFO  com.http.handler.RequestHandler - 得到了uri /aa
+2018-03-08 20:31:48.633 INFO  com.http.handler.RequestHandler - 静态资源:webapps/aa不存在或不是有效文件，显示404
+2018-03-08 20:33:19.646 INFO  com.http.server.Server - 服务器已启动，端口号：8089
+2018-03-08 20:33:23.541 INFO  com.http.handler.RequestHandler - 收到请求：
+GET /aa HTTP/1.1
+Host: localhost:8089
+Connection: keep-alive
+Cache-Control: max-age=0
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3350.0 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9
+Cookie: optimizelyEndUserId=oeu1506216020008r0.4545054078398614; _ga=GA1.1.1180129065.1489919936; Idea-7e4347d7=ed0e733b-8015-414b-bc82-8ac72402bfe1
+
+
+请求结束
+2018-03-08 20:33:23.571 INFO  com.http.handler.RequestHandler - 得到了uri /aa
+2018-03-08 20:33:23.582 INFO  com.http.handler.ClassMapper - 成功添加了URI： /download到servlet： servlet.DownloadServlet的映射
+2018-03-08 20:33:23.583 INFO  com.http.handler.ClassMapper - 成功添加了URI： /welcome到servlet： WelcomeServlet的映射
+2018-03-08 20:33:23.584 INFO  com.http.handler.ClassMapper - 成功添加了URI： /matrix到servlet： servlet.MatrixServlet的映射
+2018-03-08 20:33:23.596 INFO  com.http.handler.RequestHandler - 静态资源:webapps/aa不存在或不是有效文件，显示404
+2018-03-08 20:33:37.836 INFO  com.http.handler.RequestHandler - 收到请求：
+GET /aa HTTP/1.1
+Host: localhost:8089
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3350.0 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9
+Cookie: optimizelyEndUserId=oeu1506216020008r0.4545054078398614; _ga=GA1.1.1180129065.1489919936; Idea-7e4347d7=ed0e733b-8015-414b-bc82-8ac72402bfe1
+
+
+请求结束
+2018-03-08 20:33:37.840 INFO  com.http.handler.RequestHandler - 得到了uri /aa
+2018-03-08 20:33:37.842 INFO  com.http.handler.RequestHandler - 静态资源:webapps/aa不存在或不是有效文件，显示404
+2018-03-08 20:33:38.062 INFO  com.http.handler.RequestHandler - 收到请求：
+GET /aa HTTP/1.1
+Host: localhost:8089
+Connection: keep-alive
+Cache-Control: max-age=0
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3350.0 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9
+Cookie: optimizelyEndUserId=oeu1506216020008r0.4545054078398614; _ga=GA1.1.1180129065.1489919936
+
+
+请求结束
+2018-03-08 20:33:38.065 INFO  com.http.handler.RequestHandler - 得到了uri /aa
+2018-03-08 20:33:38.067 INFO  com.http.handler.RequestHandler - 静态资源:webapps/aa不存在或不是有效文件，显示404
+2018-03-08 20:33:43.080 INFO  com.http.handler.RequestHandler - 收到请求：
+GET /aa HTTP/1.1
+Host: localhost:8089
+Connection: keep-alive
+Cache-Control: max-age=0
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3350.0 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9
+Cookie: optimizelyEndUserId=oeu1506216020008r0.4545054078398614; _ga=GA1.1.1180129065.1489919936
+
+
+请求结束
+2018-03-08 20:33:43.083 INFO  com.http.handler.RequestHandler - 得到了uri /aa
+2018-03-08 20:33:43.084 INFO  com.http.handler.RequestHandler - 静态资源:webapps/aa不存在或不是有效文件，显示404
+2018-03-08 20:33:43.093 INFO  com.http.handler.RequestHandler - 收到请求：
+GET /aa HTTP/1.1
+Host: localhost:8089
+Connection: keep-alive
+Cache-Control: max-age=0
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3350.0 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9
+Cookie: optimizelyEndUserId=oeu1506216020008r0.4545054078398614; _ga=GA1.1.1180129065.1489919936
+
+
+请求结束
+2018-03-08 20:33:43.096 INFO  com.http.handler.RequestHandler - 得到了uri /aa
+2018-03-08 20:33:43.097 INFO  com.http.handler.RequestHandler - 静态资源:webapps/aa不存在或不是有效文件，显示404
+2018-03-08 20:33:43.105 INFO  com.http.handler.RequestHandler - 收到请求：
+GET /aa HTTP/1.1
+Host: localhost:8089
+Connection: keep-alive
+Cache-Control: max-age=0
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3350.0 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9
+Cookie: optimizelyEndUserId=oeu1506216020008r0.4545054078398614; _ga=GA1.1.1180129065.1489919936
+
+
+请求结束
+2018-03-08 20:33:43.113 INFO  com.http.handler.RequestHandler - 得到了uri /aa
+2018-03-08 20:33:43.114 INFO  com.http.handler.RequestHandler - 静态资源:webapps/aa不存在或不是有效文件，显示404
+2018-03-08 20:41:47.446 INFO  com.http.server.Server - 服务器已启动，端口号：8089
+2018-03-08 20:41:57.308 INFO  com.http.handler.RequestHandler - 收到请求：
+GET /html/welcome.html HTTP/1.1
+Host: localhost:8089
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3350.0 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9
+Cookie: optimizelyEndUserId=oeu1506216020008r0.4545054078398614; _ga=GA1.1.1180129065.1489919936; Idea-7e4347d7=ed0e733b-8015-414b-bc82-8ac72402bfe1
+
+
+请求结束
+2018-03-08 20:41:57.339 INFO  com.http.handler.RequestHandler - 得到了uri /html/welcome.html
+2018-03-08 20:41:57.351 INFO  com.http.handler.ClassMapper - 成功添加了URI： /download到servlet： servlet.DownloadServlet的映射
+2018-03-08 20:41:57.355 INFO  com.http.handler.ClassMapper - 成功添加了URI： /welcome到servlet： WelcomeServlet的映射
+2018-03-08 20:41:57.358 INFO  com.http.handler.ClassMapper - 成功添加了URI： /matrix到servlet： servlet.MatrixServlet的映射
+2018-03-08 20:42:27.510 INFO  com.http.handler.RequestHandler - 收到请求：
+GET /html/welcome.html HTTP/1.1
+Host: localhost:8089
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3350.0 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9
+Cookie: optimizelyEndUserId=oeu1506216020008r0.4545054078398614; _ga=GA1.1.1180129065.1489919936; Idea-7e4347d7=ed0e733b-8015-414b-bc82-8ac72402bfe1
+
+
+请求结束
+2018-03-08 20:42:27.517 INFO  com.http.handler.RequestHandler - 得到了uri /html/welcome.html
+2018-03-08 20:42:35.624 INFO  com.http.handler.RequestHandler - 收到请求：
+GET /html/welcome.html HTTP/1.1
+Host: localhost:8089
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3350.0 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9
+Cookie: optimizelyEndUserId=oeu1506216020008r0.4545054078398614; _ga=GA1.1.1180129065.1489919936; Idea-7e4347d7=ed0e733b-8015-414b-bc82-8ac72402bfe1
+
+
+请求结束
+2018-03-08 20:42:35.627 INFO  com.http.handler.RequestHandler - 得到了uri /html/welcome.html
+2018-03-08 20:44:51.793 INFO  com.http.server.Server - 服务器已启动，端口号：8089
+2018-03-08 20:44:55.641 INFO  com.http.handler.RequestHandler - 收到请求：
+GET /html/welcome.html HTTP/1.1
+Host: localhost:8089
+Connection: keep-alive
+Cache-Control: max-age=0
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3350.0 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9
+Cookie: optimizelyEndUserId=oeu1506216020008r0.4545054078398614; _ga=GA1.1.1180129065.1489919936; Idea-7e4347d7=ed0e733b-8015-414b-bc82-8ac72402bfe1
+
+
+请求结束
+2018-03-08 20:44:55.665 INFO  com.http.handler.RequestHandler - 得到了uri /html/welcome.html
+2018-03-08 20:44:55.681 INFO  com.http.handler.ClassMapper - 成功添加了URI： /download到servlet： servlet.DownloadServlet的映射
+2018-03-08 20:44:55.683 INFO  com.http.handler.ClassMapper - 成功添加了URI： /welcome到servlet： WelcomeServlet的映射
+2018-03-08 20:44:55.686 INFO  com.http.handler.ClassMapper - 成功添加了URI： /matrix到servlet： servlet.MatrixServlet的映射
+2018-03-08 20:46:04.594 INFO  com.http.server.Server - 服务器已启动，端口号：8089
+2018-03-08 20:46:08.233 INFO  com.http.handler.RequestHandler - 收到请求：
+GET /html/welcome.html HTTP/1.1
+Host: localhost:8089
+Connection: keep-alive
+Cache-Control: max-age=0
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3350.0 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9
+Cookie: optimizelyEndUserId=oeu1506216020008r0.4545054078398614; _ga=GA1.1.1180129065.1489919936; Idea-7e4347d7=ed0e733b-8015-414b-bc82-8ac72402bfe1
+
+
+请求结束
+2018-03-08 20:46:08.261 INFO  com.http.handler.RequestHandler - 得到了uri /html/welcome.html
+2018-03-08 20:46:08.272 INFO  com.http.handler.ClassMapper - 成功添加了URI： /download到servlet： servlet.DownloadServlet的映射
+2018-03-08 20:46:08.273 INFO  com.http.handler.ClassMapper - 成功添加了URI： /welcome到servlet： WelcomeServlet的映射
+2018-03-08 20:46:08.274 INFO  com.http.handler.ClassMapper - 成功添加了URI： /matrix到servlet： servlet.MatrixServlet的映射
+2018-03-08 20:51:21.404 INFO  com.http.server.Server - 服务器已启动，端口号：8089
+2018-03-08 20:51:26.237 INFO  com.http.handler.RequestHandler - 收到请求：
+GET /html/welcome.html HTTP/1.1
+Host: localhost:8089
+Connection: keep-alive
+Cache-Control: max-age=0
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3350.0 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9
+Cookie: optimizelyEndUserId=oeu1506216020008r0.4545054078398614; _ga=GA1.1.1180129065.1489919936; Idea-7e4347d7=ed0e733b-8015-414b-bc82-8ac72402bfe1
+
+
+请求结束
+2018-03-08 20:51:26.264 INFO  com.http.handler.RequestHandler - 得到了uri /html/welcome.html
+2018-03-08 20:51:26.278 INFO  com.http.handler.ClassMapper - 成功添加了URI： /download到servlet： servlet.DownloadServlet的映射
+2018-03-08 20:51:26.278 INFO  com.http.handler.ClassMapper - 成功添加了URI： /welcome到servlet： WelcomeServlet的映射
+2018-03-08 20:51:26.280 INFO  com.http.handler.ClassMapper - 成功添加了URI： /matrix到servlet： servlet.MatrixServlet的映射
+2018-03-08 21:01:52.447 INFO  com.http.server.Server - 服务器已启动，端口号：8089
+2018-03-08 21:01:58.675 INFO  com.http.handler.RequestHandler - 收到请求：
+GET /html/welcome.html HTTP/1.1
+Host: localhost:8089
+Connection: keep-alive
+Cache-Control: max-age=0
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3350.0 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9
+Cookie: optimizelyEndUserId=oeu1506216020008r0.4545054078398614; _ga=GA1.1.1180129065.1489919936; Idea-7e4347d7=ed0e733b-8015-414b-bc82-8ac72402bfe1
+
+
+请求结束
+2018-03-08 21:01:58.696 INFO  com.http.handler.RequestHandler - 得到了uri /html/welcome.html
+2018-03-08 21:01:58.712 INFO  com.http.handler.ClassMapper - 成功添加了URI： /download到servlet： servlet.DownloadServlet的映射
+2018-03-08 21:01:58.713 INFO  com.http.handler.ClassMapper - 成功添加了URI： /welcome到servlet： WelcomeServlet的映射
+2018-03-08 21:01:58.714 INFO  com.http.handler.ClassMapper - 成功添加了URI： /matrix到servlet： servlet.MatrixServlet的映射
+2018-03-08 21:03:04.463 INFO  com.http.handler.RequestHandler - 收到请求：
+GET /html/welcome.html HTTP/1.1
+Host: localhost:8089
+Connection: keep-alive
+Cache-Control: max-age=0
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3350.0 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9
+Cookie: optimizelyEndUserId=oeu1506216020008r0.4545054078398614; _ga=GA1.1.1180129065.1489919936; Idea-7e4347d7=ed0e733b-8015-414b-bc82-8ac72402bfe1
+
+
+请求结束
+2018-03-08 21:03:04.474 INFO  com.http.handler.RequestHandler - 得到了uri /html/welcome.html
+2018-03-08 21:21:02.198 INFO  com.http.server.Server - 服务器已启动，端口号：8089
+2018-03-08 21:21:07.657 INFO  com.http.handler.RequestHandler - 收到请求：
+GET /html/asa HTTP/1.1
+Host: localhost:8089
+Connection: keep-alive
+Cache-Control: max-age=0
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3350.0 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9
+Cookie: optimizelyEndUserId=oeu1506216020008r0.4545054078398614; _ga=GA1.1.1180129065.1489919936; Idea-7e4347d7=ed0e733b-8015-414b-bc82-8ac72402bfe1
+
+
+请求结束
+2018-03-08 21:21:07.788 INFO  com.http.handler.RequestHandler - 得到了uri /html/asa
+2018-03-08 21:21:07.801 INFO  com.http.handler.ClassMapper - 成功添加了URI： /download到servlet： servlet.DownloadServlet的映射
+2018-03-08 21:21:07.802 INFO  com.http.handler.ClassMapper - 成功添加了URI： /welcome到servlet： WelcomeServlet的映射
+2018-03-08 21:21:07.803 INFO  com.http.handler.ClassMapper - 成功添加了URI： /matrix到servlet： servlet.MatrixServlet的映射
+2018-03-08 21:21:07.820 INFO  com.http.handler.RequestHandler - 静态资源:webapps/html/asa不存在或不是有效文件，显示404
+2018-03-08 21:24:43.437 INFO  com.http.server.Server - 服务器已启动，端口号：8089
+2018-03-08 21:24:50.141 INFO  com.http.handler.RequestHandler - 收到请求：
+GET /html/asa HTTP/1.1
+Host: localhost:8089
+Connection: keep-alive
+Cache-Control: max-age=0
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3350.0 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9
+Cookie: optimizelyEndUserId=oeu1506216020008r0.4545054078398614; _ga=GA1.1.1180129065.1489919936; Idea-7e4347d7=ed0e733b-8015-414b-bc82-8ac72402bfe1
+
+
+请求结束
+2018-03-08 21:24:50.165 INFO  com.http.handler.RequestHandler - 得到了uri /html/asa
+2018-03-08 21:24:50.185 INFO  com.http.handler.ClassMapper - 成功添加了URI： /download到servlet： servlet.DownloadServlet的映射
+2018-03-08 21:24:50.187 INFO  com.http.handler.ClassMapper - 成功添加了URI： /welcome到servlet： WelcomeServlet的映射
+2018-03-08 21:24:50.190 INFO  com.http.handler.ClassMapper - 成功添加了URI： /matrix到servlet： servlet.MatrixServlet的映射
+2018-03-08 21:24:50.209 INFO  com.http.handler.RequestHandler - 静态资源:webapps/html/asa不存在或不是有效文件，显示404
+2018-03-08 21:26:51.075 INFO  com.http.handler.RequestHandler - 收到请求：
+GET /html/asa HTTP/1.1
+Host: localhost:8089
+Connection: keep-alive
+Cache-Control: max-age=0
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3350.0 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9
+Cookie: optimizelyEndUserId=oeu1506216020008r0.4545054078398614; _ga=GA1.1.1180129065.1489919936; Idea-7e4347d7=ed0e733b-8015-414b-bc82-8ac72402bfe1
+
+
+请求结束
+2018-03-08 21:26:51.081 INFO  com.http.handler.RequestHandler - 得到了uri /html/asa
+2018-03-08 21:26:51.089 INFO  com.http.handler.RequestHandler - 静态资源:webapps/html/asa不存在或不是有效文件，显示404
+2018-03-08 21:27:09.488 INFO  com.http.server.Server - 服务器已启动，端口号：8089
+2018-03-08 21:27:09.641 INFO  com.http.handler.RequestHandler - 收到请求：
+GET /html/asa HTTP/1.1
+Host: localhost:8089
+Connection: keep-alive
+Cache-Control: max-age=0
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3350.0 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9
+Cookie: optimizelyEndUserId=oeu1506216020008r0.4545054078398614; _ga=GA1.1.1180129065.1489919936
+
+
+请求结束
+2018-03-08 21:27:09.672 INFO  com.http.handler.RequestHandler - 得到了uri /html/asa
+2018-03-08 21:27:09.682 INFO  com.http.handler.ClassMapper - 成功添加了URI： /download到servlet： servlet.DownloadServlet的映射
+2018-03-08 21:27:09.683 INFO  com.http.handler.ClassMapper - 成功添加了URI： /welcome到servlet： WelcomeServlet的映射
+2018-03-08 21:27:09.683 INFO  com.http.handler.ClassMapper - 成功添加了URI： /matrix到servlet： servlet.MatrixServlet的映射
+2018-03-08 21:27:09.696 INFO  com.http.handler.RequestHandler - 静态资源:webapps/html/asa不存在或不是有效文件，显示404
+2018-03-08 21:27:09.723 INFO  com.http.handler.RequestHandler - 收到请求：
+GET /favicon.ico HTTP/1.1
+Host: localhost:8089
+Connection: keep-alive
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3350.0 Safari/537.36
+Accept: image/webp,image/apng,image/*,*/*;q=0.8
+Referer: http://localhost:8089/html/asa
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9
+Cookie: optimizelyEndUserId=oeu1506216020008r0.4545054078398614; _ga=GA1.1.1180129065.1489919936; Idea-7e4347d7=ed0e733b-8015-414b-bc82-8ac72402bfe1
+
+
+请求结束
+2018-03-08 21:27:09.725 INFO  com.http.handler.RequestHandler - 得到了uri /favicon.ico
+2018-03-08 21:27:09.732 INFO  com.http.handler.RequestHandler - 静态资源:webapps/favicon.ico不存在或不是有效文件，显示404
+2018-03-08 21:27:14.378 INFO  com.http.handler.RequestHandler - 收到请求：
+GET /html/asa HTTP/1.1
+Host: localhost:8089
+Connection: keep-alive
+Cache-Control: max-age=0
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3350.0 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9
+Cookie: optimizelyEndUserId=oeu1506216020008r0.4545054078398614; _ga=GA1.1.1180129065.1489919936; Idea-7e4347d7=ed0e733b-8015-414b-bc82-8ac72402bfe1
+
+
+请求结束
+2018-03-08 21:27:14.383 INFO  com.http.handler.RequestHandler - 得到了uri /html/asa
+2018-03-08 21:27:14.391 INFO  com.http.handler.RequestHandler - 静态资源:webapps/html/asa不存在或不是有效文件，显示404
+2018-03-08 21:27:14.419 INFO  com.http.handler.RequestHandler - 收到请求：
+GET /favicon.ico HTTP/1.1
+Host: localhost:8089
+Connection: keep-alive
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3350.0 Safari/537.36
+Accept: image/webp,image/apng,image/*,*/*;q=0.8
+Referer: http://localhost:8089/html/asa
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9
+Cookie: optimizelyEndUserId=oeu1506216020008r0.4545054078398614; _ga=GA1.1.1180129065.1489919936; Idea-7e4347d7=ed0e733b-8015-414b-bc82-8ac72402bfe1
+
+
+请求结束
+2018-03-08 21:27:14.428 INFO  com.http.handler.RequestHandler - 得到了uri /favicon.ico
+2018-03-08 21:27:14.436 INFO  com.http.handler.RequestHandler - 静态资源:webapps/favicon.ico不存在或不是有效文件，显示404
+2018-03-08 21:27:15.643 INFO  com.http.handler.RequestHandler - 收到请求：
+GET /html/asa HTTP/1.1
+Host: localhost:8089
+Connection: keep-alive
+Cache-Control: max-age=0
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3350.0 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9
+Cookie: optimizelyEndUserId=oeu1506216020008r0.4545054078398614; _ga=GA1.1.1180129065.1489919936; Idea-7e4347d7=ed0e733b-8015-414b-bc82-8ac72402bfe1
+
+
+请求结束
+2018-03-08 21:27:15.647 INFO  com.http.handler.RequestHandler - 得到了uri /html/asa
+2018-03-08 21:27:15.656 INFO  com.http.handler.RequestHandler - 静态资源:webapps/html/asa不存在或不是有效文件，显示404
+2018-03-08 21:27:15.683 INFO  com.http.handler.RequestHandler - 收到请求：
+GET /favicon.ico HTTP/1.1
+Host: localhost:8089
+Connection: keep-alive
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3350.0 Safari/537.36
+Accept: image/webp,image/apng,image/*,*/*;q=0.8
+Referer: http://localhost:8089/html/asa
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9
+Cookie: optimizelyEndUserId=oeu1506216020008r0.4545054078398614; _ga=GA1.1.1180129065.1489919936; Idea-7e4347d7=ed0e733b-8015-414b-bc82-8ac72402bfe1
+
+
+请求结束
+2018-03-08 21:27:15.693 INFO  com.http.handler.RequestHandler - 得到了uri /favicon.ico
+2018-03-08 21:27:15.695 INFO  com.http.handler.RequestHandler - 静态资源:webapps/favicon.ico不存在或不是有效文件，显示404
+2018-03-08 21:27:19.848 INFO  com.http.handler.RequestHandler - 收到请求：
+GET /html/welcome.html HTTP/1.1
+Host: localhost:8089
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3350.0 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9
+Cookie: optimizelyEndUserId=oeu1506216020008r0.4545054078398614; _ga=GA1.1.1180129065.1489919936; Idea-7e4347d7=ed0e733b-8015-414b-bc82-8ac72402bfe1
+
+
+请求结束
+2018-03-08 21:27:19.853 INFO  com.http.handler.RequestHandler - 得到了uri /html/welcome.html
+2018-03-08 21:27:19.877 INFO  com.http.handler.RequestHandler - 收到请求：
+GET /2.jpg HTTP/1.1
+Host: localhost:8089
+Connection: keep-alive
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3350.0 Safari/537.36
+Accept: image/webp,image/apng,image/*,*/*;q=0.8
+Referer: http://localhost:8089/html/welcome.html
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9
+Cookie: optimizelyEndUserId=oeu1506216020008r0.4545054078398614; _ga=GA1.1.1180129065.1489919936; Idea-7e4347d7=ed0e733b-8015-414b-bc82-8ac72402bfe1
+
+
+请求结束
+2018-03-08 21:27:19.877 INFO  com.http.handler.RequestHandler - 收到请求：
+GET /picture/1.jpg HTTP/1.1
+Host: localhost:8089
+Connection: keep-alive
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3350.0 Safari/537.36
+Accept: image/webp,image/apng,image/*,*/*;q=0.8
+Referer: http://localhost:8089/html/welcome.html
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9
+Cookie: optimizelyEndUserId=oeu1506216020008r0.4545054078398614; _ga=GA1.1.1180129065.1489919936; Idea-7e4347d7=ed0e733b-8015-414b-bc82-8ac72402bfe1
+
+
+请求结束
+2018-03-08 21:28:34.307 INFO  com.http.server.Server - 服务器已启动，端口号：8089
+2018-03-08 21:28:38.388 INFO  com.http.handler.RequestHandler - 收到请求：
+GET /html/welcome.html HTTP/1.1
+Host: localhost:8089
+Connection: keep-alive
+Cache-Control: max-age=0
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3350.0 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9
+Cookie: optimizelyEndUserId=oeu1506216020008r0.4545054078398614; _ga=GA1.1.1180129065.1489919936; Idea-7e4347d7=ed0e733b-8015-414b-bc82-8ac72402bfe1
+
+
+请求结束
+2018-03-08 21:28:38.416 INFO  com.http.handler.RequestHandler - 得到了uri /html/welcome.html
+2018-03-08 21:28:38.429 INFO  com.http.handler.ClassMapper - 成功添加了URI： /download到servlet： servlet.DownloadServlet的映射
+2018-03-08 21:28:38.430 INFO  com.http.handler.ClassMapper - 成功添加了URI： /welcome到servlet： WelcomeServlet的映射
+2018-03-08 21:28:38.431 INFO  com.http.handler.ClassMapper - 成功添加了URI： /matrix到servlet： servlet.MatrixServlet的映射
+2018-03-08 21:28:38.475 INFO  com.http.handler.RequestHandler - 收到请求：
+GET /picture/1.jpg HTTP/1.1
+Host: localhost:8089
+Connection: keep-alive
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3350.0 Safari/537.36
+Accept: image/webp,image/apng,image/*,*/*;q=0.8
+Referer: http://localhost:8089/html/welcome.html
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9
+Cookie: optimizelyEndUserId=oeu1506216020008r0.4545054078398614; _ga=GA1.1.1180129065.1489919936; Idea-7e4347d7=ed0e733b-8015-414b-bc82-8ac72402bfe1
+
+
+请求结束
+2018-03-08 21:28:38.475 INFO  com.http.handler.RequestHandler - 收到请求：
+GET /2.jpg HTTP/1.1
+Host: localhost:8089
+Connection: keep-alive
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3350.0 Safari/537.36
+Accept: image/webp,image/apng,image/*,*/*;q=0.8
+Referer: http://localhost:8089/html/welcome.html
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9
+Cookie: optimizelyEndUserId=oeu1506216020008r0.4545054078398614; _ga=GA1.1.1180129065.1489919936; Idea-7e4347d7=ed0e733b-8015-414b-bc82-8ac72402bfe1
+
+
+请求结束
+2018-03-08 21:28:38.485 INFO  com.http.handler.RequestHandler - 得到了uri /picture/1.jpg
+2018-03-08 21:28:38.487 INFO  com.http.handler.RequestHandler - 得到了uri /2.jpg
+2018-03-08 21:29:51.179 INFO  com.http.handler.RequestHandler - 收到请求：
+GET /webapps/download HTTP/1.1
+Host: localhost:8089
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3350.0 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+Referer: http://localhost:8089/html/welcome.html
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9
+Cookie: optimizelyEndUserId=oeu1506216020008r0.4545054078398614; _ga=GA1.1.1180129065.1489919936; Idea-7e4347d7=ed0e733b-8015-414b-bc82-8ac72402bfe1
+
+
+请求结束
+2018-03-08 21:29:51.183 INFO  com.http.handler.RequestHandler - 得到了uri /webapps/download
+2018-03-08 21:29:51.185 INFO  com.http.handler.RequestHandler - 静态资源:webapps/webapps/download不存在或不是有效文件，显示404
+2018-03-08 21:29:51.221 INFO  com.http.handler.RequestHandler - 收到请求：
+GET /picture/1.jpg HTTP/1.1
+Host: localhost:8089
+Connection: keep-alive
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3350.0 Safari/537.36
+Accept: image/webp,image/apng,image/*,*/*;q=0.8
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9
+Cookie: optimizelyEndUserId=oeu1506216020008r0.4545054078398614; _ga=GA1.1.1180129065.1489919936
+
+
+请求结束
+2018-03-08 21:29:51.221 INFO  com.http.handler.RequestHandler - 收到请求：
+GET /2.jpg HTTP/1.1
+Host: localhost:8089
+Connection: keep-alive
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3350.0 Safari/537.36
+Accept: image/webp,image/apng,image/*,*/*;q=0.8
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9
+Cookie: optimizelyEndUserId=oeu1506216020008r0.4545054078398614; _ga=GA1.1.1180129065.1489919936
+
+
+请求结束
+2018-03-08 21:29:51.224 INFO  com.http.handler.RequestHandler - 得到了uri /2.jpg
+2018-03-08 21:30:11.243 INFO  com.http.handler.RequestHandler - 收到请求：
+GET /2.jpg HTTP/1.1
+Host: localhost:8089
+Connection: keep-alive
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3350.0 Safari/537.36
+Accept: image/webp,image/apng,image/*,*/*;q=0.8
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9
+Cookie: optimizelyEndUserId=oeu1506216020008r0.4545054078398614; _ga=GA1.1.1180129065.1489919936
+
+
+请求结束
+2018-03-08 21:30:11.247 INFO  com.http.handler.RequestHandler - 得到了uri /2.jpg
+2018-03-08 21:47:37.680 INFO  com.http.handler.RequestHandler - 收到请求：
+GET /webapps/download HTTP/1.1
+Host: localhost:8089
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:58.0) Gecko/20100101 Firefox/58.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Accept-Language: zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2
+Accept-Encoding: gzip, deflate
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+
+
+请求结束
+2018-03-08 21:47:37.702 INFO  com.http.handler.RequestHandler - 收到请求：
+GET /asa HTTP/1.1
+Host: localhost:8089
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:58.0) Gecko/20100101 Firefox/58.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Accept-Language: zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2
+Accept-Encoding: gzip, deflate
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+
+
+请求结束
+2018-03-08 21:47:37.834 INFO  com.http.handler.RequestHandler - 收到请求：
+GET /webapps/download HTTP/1.1
+Host: localhost:8089
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:58.0) Gecko/20100101 Firefox/58.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Accept-Language: zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2
+Accept-Encoding: gzip, deflate
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+
+
+请求结束
+2018-03-08 22:02:06.284 INFO  com.http.server.Server - 服务器已启动，端口号：8089
+2018-03-08 22:02:23.832 INFO  com.http.handler.RequestHandler - 收到请求：
+GET /html/welcome.html HTTP/1.1
+Host: localhost:8089
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3350.0 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9
+Cookie: optimizelyEndUserId=oeu1506216020008r0.4545054078398614; _ga=GA1.1.1180129065.1489919936; Idea-7e4347d7=ed0e733b-8015-414b-bc82-8ac72402bfe1
+
+
+请求结束
+2018-03-08 22:02:23.859 INFO  com.http.handler.RequestHandler - 得到了uri /html/welcome.html
+2018-03-08 22:02:23.873 INFO  com.http.handler.ClassMapper - 成功添加了URI： /download到servlet： servlet.DownloadServlet的映射
+2018-03-08 22:02:23.875 INFO  com.http.handler.ClassMapper - 成功添加了URI： /welcome到servlet： WelcomeServlet的映射
+2018-03-08 22:02:23.876 INFO  com.http.handler.ClassMapper - 成功添加了URI： /matrix到servlet： servlet.MatrixServlet的映射
+2018-03-08 22:02:24.013 INFO  com.http.handler.RequestHandler - 收到请求：
+GET /picture/1.jpg HTTP/1.1
+Host: localhost:8089
+Connection: keep-alive
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3350.0 Safari/537.36
+Accept: image/webp,image/apng,image/*,*/*;q=0.8
+Referer: http://localhost:8089/html/welcome.html
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9
+Cookie: optimizelyEndUserId=oeu1506216020008r0.4545054078398614; _ga=GA1.1.1180129065.1489919936; Idea-7e4347d7=ed0e733b-8015-414b-bc82-8ac72402bfe1
+
+
+请求结束
+2018-03-08 22:02:24.013 INFO  com.http.handler.RequestHandler - 收到请求：
+GET /2.jpg HTTP/1.1
+Host: localhost:8089
+Connection: keep-alive
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3350.0 Safari/537.36
+Accept: image/webp,image/apng,image/*,*/*;q=0.8
+Referer: http://localhost:8089/html/welcome.html
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9
+Cookie: optimizelyEndUserId=oeu1506216020008r0.4545054078398614; _ga=GA1.1.1180129065.1489919936; Idea-7e4347d7=ed0e733b-8015-414b-bc82-8ac72402bfe1
+
+
+请求结束
+2018-03-08 22:03:12.161 INFO  com.http.handler.RequestHandler - 收到请求：
+GET /html/welcome.html HTTP/1.1
+Host: localhost:8089
+Connection: keep-alive
+Cache-Control: max-age=0
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3350.0 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9
+Cookie: optimizelyEndUserId=oeu1506216020008r0.4545054078398614; _ga=GA1.1.1180129065.1489919936; Idea-7e4347d7=ed0e733b-8015-414b-bc82-8ac72402bfe1
+
+
+请求结束
+2018-03-08 22:03:12.166 INFO  com.http.handler.RequestHandler - 得到了uri /html/welcome.html
+2018-03-08 22:03:32.183 INFO  com.http.handler.RequestHandler - 收到请求：
+GET /html/welcome.html HTTP/1.1
+Host: localhost:8089
+Connection: keep-alive
+Cache-Control: max-age=0
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3350.0 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9
+Cookie: optimizelyEndUserId=oeu1506216020008r0.4545054078398614; _ga=GA1.1.1180129065.1489919936; Idea-7e4347d7=ed0e733b-8015-414b-bc82-8ac72402bfe1
+
+
+请求结束
+2018-03-08 22:03:32.186 INFO  com.http.handler.RequestHandler - 得到了uri /html/welcome.html
+2018-03-08 22:03:32.214 INFO  com.http.handler.RequestHandler - 收到请求：
+GET /2.jpg HTTP/1.1
+Host: localhost:8089
+Connection: keep-alive
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3350.0 Safari/537.36
+Accept: image/webp,image/apng,image/*,*/*;q=0.8
+Referer: http://localhost:8089/html/welcome.html
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9
+Cookie: optimizelyEndUserId=oeu1506216020008r0.4545054078398614; _ga=GA1.1.1180129065.1489919936; Idea-7e4347d7=ed0e733b-8015-414b-bc82-8ac72402bfe1
+
+
+请求结束
+2018-03-08 22:03:32.234 INFO  com.http.handler.RequestHandler - 收到请求：
+GET /picture/1.jpg HTTP/1.1
+Host: localhost:8089
+Connection: keep-alive
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3350.0 Safari/537.36
+Accept: image/webp,image/apng,image/*,*/*;q=0.8
+Referer: http://localhost:8089/html/welcome.html
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9
+Cookie: optimizelyEndUserId=oeu1506216020008r0.4545054078398614; _ga=GA1.1.1180129065.1489919936; Idea-7e4347d7=ed0e733b-8015-414b-bc82-8ac72402bfe1
+
+
+请求结束
+2018-03-08 22:03:32.238 INFO  com.http.handler.RequestHandler - 得到了uri /2.jpg
+2018-03-08 22:03:32.247 INFO  com.http.handler.RequestHandler - 得到了uri /picture/1.jpg
+2018-03-08 22:07:42.327 INFO  com.http.server.Server - 服务器已启动，端口号：8089
+2018-03-08 22:07:48.391 INFO  com.http.handler.RequestHandler - 收到请求：
+GET /html/welcome.html HTTP/1.1
+Host: localhost:8089
+Connection: keep-alive
+Cache-Control: max-age=0
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3350.0 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9
+Cookie: optimizelyEndUserId=oeu1506216020008r0.4545054078398614; _ga=GA1.1.1180129065.1489919936; Idea-7e4347d7=ed0e733b-8015-414b-bc82-8ac72402bfe1
+
+
+请求结束
+2018-03-08 22:07:48.413 INFO  com.http.handler.RequestHandler - 得到了uri /html/welcome.html
+2018-03-08 22:07:48.425 INFO  com.http.handler.ClassMapper - 成功添加了URI： /download到servlet： servlet.DownloadServlet的映射
+2018-03-08 22:07:48.427 INFO  com.http.handler.ClassMapper - 成功添加了URI： /welcome到servlet： WelcomeServlet的映射
+2018-03-08 22:07:48.430 INFO  com.http.handler.ClassMapper - 成功添加了URI： /matrix到servlet： servlet.MatrixServlet的映射
+2018-03-08 22:07:48.470 INFO  com.http.handler.RequestHandler - 收到请求：
+GET /picture/1.jpg HTTP/1.1
+Host: localhost:8089
+Connection: keep-alive
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3350.0 Safari/537.36
+Accept: image/webp,image/apng,image/*,*/*;q=0.8
+Referer: http://localhost:8089/html/welcome.html
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9
+Cookie: optimizelyEndUserId=oeu1506216020008r0.4545054078398614; _ga=GA1.1.1180129065.1489919936; Idea-7e4347d7=ed0e733b-8015-414b-bc82-8ac72402bfe1
+
+
+请求结束
+2018-03-08 22:07:48.470 INFO  com.http.handler.RequestHandler - 收到请求：
+GET /2.jpg HTTP/1.1
+Host: localhost:8089
+Connection: keep-alive
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3350.0 Safari/537.36
+Accept: image/webp,image/apng,image/*,*/*;q=0.8
+Referer: http://localhost:8089/html/welcome.html
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9
+Cookie: optimizelyEndUserId=oeu1506216020008r0.4545054078398614; _ga=GA1.1.1180129065.1489919936; Idea-7e4347d7=ed0e733b-8015-414b-bc82-8ac72402bfe1
+
+
+请求结束
+2018-03-08 22:08:26.087 INFO  com.http.handler.RequestHandler - 收到请求：
+GET /2.jpg HTTP/1.1
+Host: localhost:8089
+Connection: keep-alive
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3350.0 Safari/537.36
+Accept: image/webp,image/apng,image/*,*/*;q=0.8
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9
+Cookie: optimizelyEndUserId=oeu1506216020008r0.4545054078398614; _ga=GA1.1.1180129065.1489919936
+
+
+请求结束
+2018-03-08 22:08:26.089 INFO  com.http.handler.RequestHandler - 得到了uri /2.jpg
+2018-03-08 22:08:26.150 INFO  com.http.handler.RequestHandler - 收到请求：
+GET /picture/1.jpg HTTP/1.1
+Host: localhost:8089
+Connection: keep-alive
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3350.0 Safari/537.36
+Accept: image/webp,image/apng,image/*,*/*;q=0.8
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9
+Cookie: optimizelyEndUserId=oeu1506216020008r0.4545054078398614; _ga=GA1.1.1180129065.1489919936
+
+
+请求结束
+2018-03-08 22:08:26.153 INFO  com.http.handler.RequestHandler - 得到了uri /picture/1.jpg
+2018-03-08 22:08:35.275 INFO  com.http.handler.RequestHandler - 收到请求：
+GET /html/welcome.html HTTP/1.1
+Host: localhost:8089
+Connection: keep-alive
+Cache-Control: max-age=0
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3350.0 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9
+Cookie: optimizelyEndUserId=oeu1506216020008r0.4545054078398614; _ga=GA1.1.1180129065.1489919936; Idea-7e4347d7=ed0e733b-8015-414b-bc82-8ac72402bfe1
+
+
+请求结束
+2018-03-08 22:08:35.279 INFO  com.http.handler.RequestHandler - 得到了uri /html/welcome.html
+2018-03-08 22:08:55.295 INFO  com.http.handler.RequestHandler - 收到请求：
+GET /html/welcome.html HTTP/1.1
+Host: localhost:8089
+Connection: keep-alive
+Cache-Control: max-age=0
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3350.0 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9
+Cookie: optimizelyEndUserId=oeu1506216020008r0.4545054078398614; _ga=GA1.1.1180129065.1489919936; Idea-7e4347d7=ed0e733b-8015-414b-bc82-8ac72402bfe1
+
+
+请求结束
+2018-03-08 22:08:55.301 INFO  com.http.handler.RequestHandler - 得到了uri /html/welcome.html
+2018-03-08 22:08:55.346 INFO  com.http.handler.RequestHandler - 收到请求：
+GET /2.jpg HTTP/1.1
+Host: localhost:8089
+Connection: keep-alive
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3350.0 Safari/537.36
+Accept: image/webp,image/apng,image/*,*/*;q=0.8
+Referer: http://localhost:8089/html/welcome.html
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9
+Cookie: optimizelyEndUserId=oeu1506216020008r0.4545054078398614; _ga=GA1.1.1180129065.1489919936; Idea-7e4347d7=ed0e733b-8015-414b-bc82-8ac72402bfe1
+
+
+请求结束
+2018-03-08 22:08:55.351 INFO  com.http.handler.RequestHandler - 收到请求：
+GET /picture/1.jpg HTTP/1.1
+Host: localhost:8089
+Connection: keep-alive
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3350.0 Safari/537.36
+Accept: image/webp,image/apng,image/*,*/*;q=0.8
+Referer: http://localhost:8089/html/welcome.html
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9
+Cookie: optimizelyEndUserId=oeu1506216020008r0.4545054078398614; _ga=GA1.1.1180129065.1489919936; Idea-7e4347d7=ed0e733b-8015-414b-bc82-8ac72402bfe1
+
+
+请求结束
+2018-03-08 22:13:10.711 INFO  com.http.server.Server - 服务器已启动，端口号：8089
+2018-03-08 22:13:14.533 INFO  com.http.handler.RequestHandler - 收到请求：
+GET /html/welcome.html HTTP/1.1
+Host: localhost:8089
+Connection: keep-alive
+Cache-Control: max-age=0
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3350.0 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9
+Cookie: optimizelyEndUserId=oeu1506216020008r0.4545054078398614; _ga=GA1.1.1180129065.1489919936; Idea-7e4347d7=ed0e733b-8015-414b-bc82-8ac72402bfe1
+
+
+请求结束
+2018-03-08 22:13:14.554 INFO  com.http.handler.RequestHandler - 得到了uri /html/welcome.html
+2018-03-08 22:13:14.567 INFO  com.http.handler.ClassMapper - 成功添加了URI： /download到servlet： servlet.DownloadServlet的映射
+2018-03-08 22:13:14.570 INFO  com.http.handler.ClassMapper - 成功添加了URI： /welcome到servlet： WelcomeServlet的映射
+2018-03-08 22:13:14.572 INFO  com.http.handler.ClassMapper - 成功添加了URI： /matrix到servlet： servlet.MatrixServlet的映射
+2018-03-08 22:13:14.600 INFO  com.http.handler.RequestHandler - 收到请求：
+GET /picture/1.jpg HTTP/1.1
+Host: localhost:8089
+Connection: keep-alive
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3350.0 Safari/537.36
+Accept: image/webp,image/apng,image/*,*/*;q=0.8
+Referer: http://localhost:8089/html/welcome.html
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9
+Cookie: optimizelyEndUserId=oeu1506216020008r0.4545054078398614; _ga=GA1.1.1180129065.1489919936; Idea-7e4347d7=ed0e733b-8015-414b-bc82-8ac72402bfe1
+
+
+请求结束
+2018-03-08 22:13:14.600 INFO  com.http.handler.RequestHandler - 收到请求：
+GET /2.jpg HTTP/1.1
+Host: localhost:8089
+Connection: keep-alive
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3350.0 Safari/537.36
+Accept: image/webp,image/apng,image/*,*/*;q=0.8
+Referer: http://localhost:8089/html/welcome.html
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9
+Cookie: optimizelyEndUserId=oeu1506216020008r0.4545054078398614; _ga=GA1.1.1180129065.1489919936; Idea-7e4347d7=ed0e733b-8015-414b-bc82-8ac72402bfe1
+
+
+请求结束
+2018-03-08 22:14:48.844 INFO  com.http.server.Server - 服务器已启动，端口号：8089
+2018-03-08 22:14:59.871 INFO  com.http.handler.RequestHandler - 收到请求：
+GET /html/welcome.html HTTP/1.1
+Host: localhost:8089
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3350.0 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9
+Cookie: optimizelyEndUserId=oeu1506216020008r0.4545054078398614; _ga=GA1.1.1180129065.1489919936; Idea-7e4347d7=ed0e733b-8015-414b-bc82-8ac72402bfe1
+
+
+请求结束
+2018-03-08 22:14:59.895 INFO  com.http.handler.RequestHandler - 得到了uri /html/welcome.html
+2018-03-08 22:14:59.910 INFO  com.http.handler.ClassMapper - 成功添加了URI： /download到servlet： servlet.DownloadServlet的映射
+2018-03-08 22:14:59.911 INFO  com.http.handler.ClassMapper - 成功添加了URI： /welcome到servlet： WelcomeServlet的映射
+2018-03-08 22:14:59.912 INFO  com.http.handler.ClassMapper - 成功添加了URI： /matrix到servlet： servlet.MatrixServlet的映射
+2018-03-08 22:15:00.036 INFO  com.http.handler.RequestHandler - 收到请求：
+GET /picture/1.jpg HTTP/1.1
+Host: localhost:8089
+Connection: keep-alive
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3350.0 Safari/537.36
+Accept: image/webp,image/apng,image/*,*/*;q=0.8
+Referer: http://localhost:8089/html/welcome.html
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9
+Cookie: optimizelyEndUserId=oeu1506216020008r0.4545054078398614; _ga=GA1.1.1180129065.1489919936; Idea-7e4347d7=ed0e733b-8015-414b-bc82-8ac72402bfe1
+
+
+请求结束
+2018-03-08 22:15:00.036 INFO  com.http.handler.RequestHandler - 收到请求：
+GET /2.jpg HTTP/1.1
+Host: localhost:8089
+Connection: keep-alive
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3350.0 Safari/537.36
+Accept: image/webp,image/apng,image/*,*/*;q=0.8
+Referer: http://localhost:8089/html/welcome.html
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9
+Cookie: optimizelyEndUserId=oeu1506216020008r0.4545054078398614; _ga=GA1.1.1180129065.1489919936; Idea-7e4347d7=ed0e733b-8015-414b-bc82-8ac72402bfe1
+
+
+请求结束
+2018-03-08 22:15:28.912 INFO  com.http.handler.RequestHandler - 收到请求：
+GET /html/welcome.html HTTP/1.1
+Host: localhost:8089
+Connection: keep-alive
+Cache-Control: max-age=0
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3350.0 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9
+Cookie: optimizelyEndUserId=oeu1506216020008r0.4545054078398614; _ga=GA1.1.1180129065.1489919936; Idea-7e4347d7=ed0e733b-8015-414b-bc82-8ac72402bfe1
+
+
+请求结束
+2018-03-08 22:15:28.914 INFO  com.http.handler.RequestHandler - 得到了uri /html/welcome.html
+2018-03-08 22:15:28.934 INFO  com.http.handler.RequestHandler - 收到请求：
+GET /2.jpg HTTP/1.1
+Host: localhost:8089
+Connection: keep-alive
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3350.0 Safari/537.36
+Accept: image/webp,image/apng,image/*,*/*;q=0.8
+Referer: http://localhost:8089/html/welcome.html
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9
+Cookie: optimizelyEndUserId=oeu1506216020008r0.4545054078398614; _ga=GA1.1.1180129065.1489919936; Idea-7e4347d7=ed0e733b-8015-414b-bc82-8ac72402bfe1
+
+
+请求结束
+2018-03-08 22:15:28.935 INFO  com.http.handler.RequestHandler - 收到请求：
+GET /picture/1.jpg HTTP/1.1
+Host: localhost:8089
+Connection: keep-alive
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3350.0 Safari/537.36
+Accept: image/webp,image/apng,image/*,*/*;q=0.8
+Referer: http://localhost:8089/html/welcome.html
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9
+Cookie: optimizelyEndUserId=oeu1506216020008r0.4545054078398614; _ga=GA1.1.1180129065.1489919936; Idea-7e4347d7=ed0e733b-8015-414b-bc82-8ac72402bfe1
+
+
+请求结束
+2018-03-08 22:20:57.466 INFO  com.http.server.Server - 服务器已启动，端口号：8089
+2018-03-08 22:21:00.913 INFO  com.http.handler.RequestHandler - 收到请求：
+GET /html/welcome.html HTTP/1.1
+Host: localhost:8089
+Connection: keep-alive
+Cache-Control: max-age=0
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3350.0 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9
+Cookie: optimizelyEndUserId=oeu1506216020008r0.4545054078398614; _ga=GA1.1.1180129065.1489919936; Idea-7e4347d7=ed0e733b-8015-414b-bc82-8ac72402bfe1
+
+
+请求结束
+2018-03-08 22:21:00.936 INFO  com.http.handler.RequestHandler - 得到了uri /html/welcome.html
+2018-03-08 22:21:00.949 INFO  com.http.handler.ClassMapper - 成功添加了URI： /download到servlet： servlet.DownloadServlet的映射
+2018-03-08 22:21:00.950 INFO  com.http.handler.ClassMapper - 成功添加了URI： /welcome到servlet： WelcomeServlet的映射
+2018-03-08 22:21:00.952 INFO  com.http.handler.ClassMapper - 成功添加了URI： /matrix到servlet： servlet.MatrixServlet的映射
+2018-03-08 22:21:00.994 INFO  com.http.handler.RequestHandler - 收到请求：
+GET /2.jpg HTTP/1.1
+Host: localhost:8089
+Connection: keep-alive
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3350.0 Safari/537.36
+Accept: image/webp,image/apng,image/*,*/*;q=0.8
+Referer: http://localhost:8089/html/welcome.html
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9
+Cookie: optimizelyEndUserId=oeu1506216020008r0.4545054078398614; _ga=GA1.1.1180129065.1489919936; Idea-7e4347d7=ed0e733b-8015-414b-bc82-8ac72402bfe1
+
+
+请求结束
+2018-03-08 22:21:01.013 INFO  com.http.handler.RequestHandler - 收到请求：
+GET /picture/1.jpg HTTP/1.1
+Host: localhost:8089
+Connection: keep-alive
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3350.0 Safari/537.36
+Accept: image/webp,image/apng,image/*,*/*;q=0.8
+Referer: http://localhost:8089/html/welcome.html
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9
+Cookie: optimizelyEndUserId=oeu1506216020008r0.4545054078398614; _ga=GA1.1.1180129065.1489919936; Idea-7e4347d7=ed0e733b-8015-414b-bc82-8ac72402bfe1
+
+
+请求结束
+2018-03-08 22:21:01.014 INFO  com.http.handler.RequestHandler - 得到了uri /2.jpg
+2018-03-08 22:21:01.022 INFO  com.http.handler.RequestHandler - 得到了uri /picture/1.jpg
+2018-03-08 22:25:44.058 INFO  com.http.server.Server - 服务器已启动，端口号：8089
+2018-03-08 22:25:59.756 INFO  com.http.handler.RequestHandler - 收到请求：
+GET /html/welcome.html HTTP/1.1
+Host: localhost:8089
+Connection: keep-alive
+Cache-Control: max-age=0
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3350.0 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9
+Cookie: optimizelyEndUserId=oeu1506216020008r0.4545054078398614; _ga=GA1.1.1180129065.1489919936; Idea-7e4347d7=ed0e733b-8015-414b-bc82-8ac72402bfe1
+
+
+请求结束
+2018-03-08 22:25:59.785 INFO  com.http.handler.RequestHandler - 得到了uri /html/welcome.html
+2018-03-08 22:25:59.797 INFO  com.http.handler.ClassMapper - 成功添加了URI： /download到servlet： servlet.DownloadServlet的映射
+2018-03-08 22:25:59.798 INFO  com.http.handler.ClassMapper - 成功添加了URI： /welcome到servlet： WelcomeServlet的映射
+2018-03-08 22:25:59.799 INFO  com.http.handler.ClassMapper - 成功添加了URI： /matrix到servlet： servlet.MatrixServlet的映射
+2018-03-08 22:25:59.838 INFO  com.http.handler.RequestHandler - 收到请求：
+GET /2.jpg HTTP/1.1
+Host: localhost:8089
+Connection: keep-alive
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3350.0 Safari/537.36
+Accept: image/webp,image/apng,image/*,*/*;q=0.8
+Referer: http://localhost:8089/html/welcome.html
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9
+Cookie: optimizelyEndUserId=oeu1506216020008r0.4545054078398614; _ga=GA1.1.1180129065.1489919936; Idea-7e4347d7=ed0e733b-8015-414b-bc82-8ac72402bfe1
+
+
+请求结束
+2018-03-08 22:25:59.838 INFO  com.http.handler.RequestHandler - 收到请求：
+GET /picture/1.jpg HTTP/1.1
+Host: localhost:8089
+Connection: keep-alive
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3350.0 Safari/537.36
+Accept: image/webp,image/apng,image/*,*/*;q=0.8
+Referer: http://localhost:8089/html/welcome.html
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9
+Cookie: optimizelyEndUserId=oeu1506216020008r0.4545054078398614; _ga=GA1.1.1180129065.1489919936; Idea-7e4347d7=ed0e733b-8015-414b-bc82-8ac72402bfe1
+
+
+请求结束
+2018-03-08 22:29:30.272 INFO  com.http.server.Server - 服务器已启动，端口号：8089
+2018-03-08 22:29:30.472 INFO  com.http.handler.RequestHandler - 收到请求：
+GET /favicon.ico HTTP/1.1
+Host: localhost:8089
+Connection: keep-alive
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3350.0 Safari/537.36
+Accept: image/webp,image/apng,image/*,*/*;q=0.8
+Referer: http://localhost:8089/html/welcome.html
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9
+Cookie: optimizelyEndUserId=oeu1506216020008r0.4545054078398614; _ga=GA1.1.1180129065.1489919936; Idea-7e4347d7=ed0e733b-8015-414b-bc82-8ac72402bfe1
+
+
+请求结束
+2018-03-08 22:29:30.491 INFO  com.http.handler.RequestHandler - 得到了uri /favicon.ico
+2018-03-08 22:29:30.502 INFO  com.http.handler.ClassMapper - 成功添加了URI： /download到servlet： servlet.DownloadServlet的映射
+2018-03-08 22:29:30.503 INFO  com.http.handler.ClassMapper - 成功添加了URI： /welcome到servlet： WelcomeServlet的映射
+2018-03-08 22:29:30.506 INFO  com.http.handler.ClassMapper - 成功添加了URI： /matrix到servlet： servlet.MatrixServlet的映射
+2018-03-08 22:29:30.517 INFO  com.http.handler.RequestHandler - 静态资源:webapps/favicon.ico不存在或不是有效文件，显示404
+2018-03-08 22:29:30.526 INFO  com.http.handler.RequestHandler - 收到请求：
+GET /2.jpg HTTP/1.1
+Host: localhost:8089
+Connection: keep-alive
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3350.0 Safari/537.36
+Accept: image/webp,image/apng,image/*,*/*;q=0.8
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9
+Cookie: optimizelyEndUserId=oeu1506216020008r0.4545054078398614; _ga=GA1.1.1180129065.1489919936
+
+
+请求结束
+2018-03-08 22:29:30.528 INFO  com.http.handler.RequestHandler - 收到请求：
+GET /picture/1.jpg HTTP/1.1
+Host: localhost:8089
+Connection: keep-alive
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3350.0 Safari/537.36
+Accept: image/webp,image/apng,image/*,*/*;q=0.8
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9
+Cookie: optimizelyEndUserId=oeu1506216020008r0.4545054078398614; _ga=GA1.1.1180129065.1489919936
+
+
+请求结束
+2018-03-08 22:29:30.537 INFO  com.http.handler.RequestHandler - 得到了uri /2.jpg
+2018-03-08 22:29:30.538 INFO  com.http.handler.RequestHandler - 得到了uri /picture/1.jpg
+2018-03-08 22:34:23.926 INFO  com.http.server.Server - 服务器已启动，端口号：8089
+2018-03-08 22:34:26.797 INFO  com.http.handler.RequestHandler - 收到请求：
+GET /html/welcome.html HTTP/1.1
+Host: localhost:8089
+Connection: keep-alive
+Cache-Control: max-age=0
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3350.0 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9
+Cookie: optimizelyEndUserId=oeu1506216020008r0.4545054078398614; _ga=GA1.1.1180129065.1489919936; Idea-7e4347d7=ed0e733b-8015-414b-bc82-8ac72402bfe1
+
+
+请求结束
+2018-03-08 22:34:26.825 INFO  com.http.handler.RequestHandler - 得到了uri /html/welcome.html
+2018-03-08 22:34:26.840 INFO  com.http.handler.ClassMapper - 成功添加了URI： /download到servlet： servlet.DownloadServlet的映射
+2018-03-08 22:34:26.842 INFO  com.http.handler.ClassMapper - 成功添加了URI： /welcome到servlet： WelcomeServlet的映射
+2018-03-08 22:34:26.845 INFO  com.http.handler.ClassMapper - 成功添加了URI： /matrix到servlet： servlet.MatrixServlet的映射
+2018-03-08 22:34:26.885 INFO  com.http.handler.RequestHandler - 收到请求：
+GET /2.jpg HTTP/1.1
+Host: localhost:8089
+Connection: keep-alive
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3350.0 Safari/537.36
+Accept: image/webp,image/apng,image/*,*/*;q=0.8
+Referer: http://localhost:8089/html/welcome.html
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9
+Cookie: optimizelyEndUserId=oeu1506216020008r0.4545054078398614; _ga=GA1.1.1180129065.1489919936; Idea-7e4347d7=ed0e733b-8015-414b-bc82-8ac72402bfe1
+
+
+请求结束
+2018-03-08 22:34:26.902 INFO  com.http.handler.RequestHandler - 收到请求：
+GET /picture/1.jpg HTTP/1.1
+Host: localhost:8089
+Connection: keep-alive
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3350.0 Safari/537.36
+Accept: image/webp,image/apng,image/*,*/*;q=0.8
+Referer: http://localhost:8089/html/welcome.html
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9
+Cookie: optimizelyEndUserId=oeu1506216020008r0.4545054078398614; _ga=GA1.1.1180129065.1489919936; Idea-7e4347d7=ed0e733b-8015-414b-bc82-8ac72402bfe1
+
+
+请求结束
+2018-03-08 22:34:26.905 INFO  com.http.handler.RequestHandler - 得到了uri /2.jpg
+2018-03-08 22:34:26.909 INFO  com.http.handler.RequestHandler - 得到了uri /picture/1.jpg

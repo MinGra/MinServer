@@ -1,0 +1,618 @@
+2018-03-10 20:35:33.389 INFO  com.http.server.Server - 服务器已启动，端口号：8089
+2018-03-10 20:35:57.609 INFO  com.http.handler.RequestHandler - 收到请求：
+GET /helloworld HTTP/1.1
+Host: localhost:8089
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3350.0 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9
+Cookie: optimizelyEndUserId=oeu1506216020008r0.4545054078398614; _ga=GA1.1.1180129065.1489919936; Idea-7e4347d7=ed0e733b-8015-414b-bc82-8ac72402bfe1
+
+
+请求结束
+2018-03-10 20:35:57.697 INFO  com.http.handler.RequestHandler - 得到了uri /helloworld
+2018-03-10 20:35:58.000 INFO  com.http.handler.ClassMapper - 成功添加了URI： /helloworld到servlet： HelloWorld的映射
+2018-03-10 21:01:57.120 INFO  com.http.server.Server - 服务器已启动，端口号：8089
+2018-03-10 21:02:36.886 INFO  com.http.handler.RequestHandler - 收到请求：
+GET /helloworld HTTP/1.1
+Host: localhost:8089
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3350.0 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9
+Cookie: optimizelyEndUserId=oeu1506216020008r0.4545054078398614; _ga=GA1.1.1180129065.1489919936; Idea-7e4347d7=ed0e733b-8015-414b-bc82-8ac72402bfe1
+
+
+请求结束
+2018-03-10 21:02:36.910 INFO  com.http.handler.RequestHandler - 得到了uri /helloworld
+2018-03-10 21:06:11.394 INFO  com.http.server.Server - 服务器已启动，端口号：8089
+2018-03-10 21:06:14.453 INFO  com.http.handler.RequestHandler - 收到请求：
+GET /helloworld HTTP/1.1
+Host: localhost:8089
+Connection: keep-alive
+Cache-Control: max-age=0
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3350.0 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9
+Cookie: optimizelyEndUserId=oeu1506216020008r0.4545054078398614; _ga=GA1.1.1180129065.1489919936; Idea-7e4347d7=ed0e733b-8015-414b-bc82-8ac72402bfe1
+
+
+请求结束
+2018-03-10 21:06:14.475 INFO  com.http.handler.RequestHandler - 得到了uri /helloworld
+2018-03-10 21:06:14.495 INFO  com.http.handler.ClassMapper - 成功添加了URI： /helloworld到servlet： HelloWorld的映射
+2018-03-10 21:12:02.273 INFO  com.http.server.Server - 服务器已启动，端口号：8089
+2018-03-10 21:12:07.694 INFO  com.http.handler.RequestHandler - 收到请求：
+GET /helloworld HTTP/1.1
+Host: localhost:8089
+Connection: keep-alive
+Cache-Control: max-age=0
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3350.0 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9
+Cookie: optimizelyEndUserId=oeu1506216020008r0.4545054078398614; _ga=GA1.1.1180129065.1489919936; Idea-7e4347d7=ed0e733b-8015-414b-bc82-8ac72402bfe1
+
+
+请求结束
+2018-03-10 21:12:07.717 INFO  com.http.handler.RequestHandler - 得到了uri /helloworld
+2018-03-10 21:12:07.737 INFO  com.http.handler.ClassMapper - 成功添加了URI： /helloworld到servlet： HelloWorld的映射
+2018-03-10 21:20:10.190 INFO  com.http.server.Server - 服务器已启动，端口号：8089
+2018-03-10 21:20:13.618 INFO  com.http.handler.RequestHandler - 收到请求：
+GET /helloworld HTTP/1.1
+Host: localhost:8089
+Connection: keep-alive
+Cache-Control: max-age=0
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3350.0 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9
+Cookie: optimizelyEndUserId=oeu1506216020008r0.4545054078398614; _ga=GA1.1.1180129065.1489919936; Idea-7e4347d7=ed0e733b-8015-414b-bc82-8ac72402bfe1
+
+
+请求结束
+2018-03-10 21:20:13.641 INFO  com.http.handler.RequestHandler - 得到了uri /helloworld
+2018-03-10 21:20:13.658 INFO  com.http.handler.ClassMapper - 成功添加了URI： /helloworld到servlet： HelloWorld的映射
+2018-03-10 21:27:24.074 INFO  com.http.server.Server - 服务器已启动，端口号：8089
+2018-03-10 21:27:29.262 INFO  com.http.handler.RequestHandler - 收到请求：
+GET /helloworld HTTP/1.1
+Host: localhost:8089
+Connection: keep-alive
+Cache-Control: max-age=0
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3350.0 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9
+Cookie: optimizelyEndUserId=oeu1506216020008r0.4545054078398614; _ga=GA1.1.1180129065.1489919936; Idea-7e4347d7=ed0e733b-8015-414b-bc82-8ac72402bfe1
+
+
+请求结束
+2018-03-10 21:27:29.286 INFO  com.http.handler.RequestHandler - 得到了uri /helloworld
+2018-03-10 21:27:29.306 INFO  com.http.handler.ClassMapper - 成功添加了URI： /helloworld到servlet： HelloWorld的映射
+2018-03-10 21:29:08.910 INFO  com.http.server.Server - 服务器已启动，端口号：8089
+2018-03-10 21:29:12.455 INFO  com.http.handler.RequestHandler - 收到请求：
+GET /helloworld HTTP/1.1
+Host: localhost:8089
+Connection: keep-alive
+Cache-Control: max-age=0
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3350.0 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9
+Cookie: optimizelyEndUserId=oeu1506216020008r0.4545054078398614; _ga=GA1.1.1180129065.1489919936; Idea-7e4347d7=ed0e733b-8015-414b-bc82-8ac72402bfe1
+
+
+请求结束
+2018-03-10 21:29:12.478 INFO  com.http.handler.RequestHandler - 得到了uri /helloworld
+2018-03-10 21:29:12.498 INFO  com.http.handler.ClassMapper - 成功添加了URI： /helloworld到servlet： HelloWorld的映射
+2018-03-10 21:39:58.952 INFO  com.http.server.Server - 服务器已启动，端口号：8089
+2018-03-10 21:40:03.633 INFO  com.http.handler.RequestHandler - 收到请求：
+GET /helloworld HTTP/1.1
+Host: localhost:8089
+Connection: keep-alive
+Cache-Control: max-age=0
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3350.0 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9
+Cookie: optimizelyEndUserId=oeu1506216020008r0.4545054078398614; _ga=GA1.1.1180129065.1489919936; Idea-7e4347d7=ed0e733b-8015-414b-bc82-8ac72402bfe1
+
+
+请求结束
+2018-03-10 21:40:03.669 INFO  com.http.handler.RequestHandler - 得到了uri /helloworld
+2018-03-10 21:40:03.697 INFO  com.http.handler.ClassMapper - 成功添加了URI： /helloworld到servlet： HelloWorld的映射
+2018-03-10 21:41:54.905 INFO  com.http.server.Server - 服务器已启动，端口号：8089
+2018-03-10 21:41:57.823 INFO  com.http.handler.RequestHandler - 收到请求：
+GET /helloworld HTTP/1.1
+Host: localhost:8089
+Connection: keep-alive
+Cache-Control: max-age=0
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3350.0 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9
+Cookie: optimizelyEndUserId=oeu1506216020008r0.4545054078398614; _ga=GA1.1.1180129065.1489919936; Idea-7e4347d7=ed0e733b-8015-414b-bc82-8ac72402bfe1
+
+
+请求结束
+2018-03-10 21:41:57.852 INFO  com.http.handler.RequestHandler - 得到了uri /helloworld
+2018-03-10 21:41:57.875 INFO  com.http.handler.ClassMapper - 成功添加了URI： /helloworld到servlet： HelloWorld的映射
+2018-03-10 21:43:10.551 INFO  com.http.server.Server - 服务器已启动，端口号：8089
+2018-03-10 21:43:10.667 INFO  com.http.handler.RequestHandler - 收到请求：
+GET /helloworld HTTP/1.1
+Host: localhost:8089
+Connection: keep-alive
+Cache-Control: max-age=0
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3350.0 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9
+Cookie: optimizelyEndUserId=oeu1506216020008r0.4545054078398614; _ga=GA1.1.1180129065.1489919936; Idea-7e4347d7=ed0e733b-8015-414b-bc82-8ac72402bfe1
+
+
+请求结束
+2018-03-10 21:43:10.699 INFO  com.http.handler.RequestHandler - 得到了uri /helloworld
+2018-03-10 21:43:10.723 INFO  com.http.handler.ClassMapper - 成功添加了URI： /helloworld到servlet： HelloWorld的映射
+2018-03-10 21:48:36.275 INFO  com.http.server.Server - 服务器已启动，端口号：8089
+2018-03-10 21:48:40.527 INFO  com.http.handler.RequestHandler - 收到请求：
+GET /helloworld HTTP/1.1
+Host: localhost:8089
+Connection: keep-alive
+Cache-Control: max-age=0
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3350.0 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9
+Cookie: optimizelyEndUserId=oeu1506216020008r0.4545054078398614; _ga=GA1.1.1180129065.1489919936; Idea-7e4347d7=ed0e733b-8015-414b-bc82-8ac72402bfe1
+
+
+请求结束
+2018-03-10 21:48:40.558 INFO  com.http.handler.RequestHandler - 得到了uri /helloworld
+2018-03-10 21:48:40.584 INFO  com.http.handler.ClassMapper - 成功添加了URI： /helloworld到servlet： HelloWorld的映射
+2018-03-10 21:50:22.955 INFO  com.http.server.Server - 服务器已启动，端口号：8089
+2018-03-10 21:50:26.132 INFO  com.http.handler.RequestHandler - 收到请求：
+GET /helloworld HTTP/1.1
+Host: localhost:8089
+Connection: keep-alive
+Cache-Control: max-age=0
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3350.0 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9
+Cookie: optimizelyEndUserId=oeu1506216020008r0.4545054078398614; _ga=GA1.1.1180129065.1489919936; Idea-7e4347d7=ed0e733b-8015-414b-bc82-8ac72402bfe1
+
+
+请求结束
+2018-03-10 21:50:26.161 INFO  com.http.handler.RequestHandler - 得到了uri /helloworld
+2018-03-10 21:50:26.187 INFO  com.http.handler.ClassMapper - 成功添加了URI： /helloworld到servlet： HelloWorld的映射
+2018-03-10 21:51:27.044 INFO  com.http.server.Server - 服务器已启动，端口号：8089
+2018-03-10 21:51:30.766 INFO  com.http.handler.RequestHandler - 收到请求：
+GET /helloworld HTTP/1.1
+Host: localhost:8089
+Connection: keep-alive
+Cache-Control: max-age=0
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3350.0 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9
+Cookie: optimizelyEndUserId=oeu1506216020008r0.4545054078398614; _ga=GA1.1.1180129065.1489919936; Idea-7e4347d7=ed0e733b-8015-414b-bc82-8ac72402bfe1
+
+
+请求结束
+2018-03-10 21:51:30.792 INFO  com.http.handler.RequestHandler - 得到了uri /helloworld
+2018-03-10 21:51:30.814 INFO  com.http.handler.ClassMapper - 成功添加了URI： /helloworld到servlet： HelloWorld的映射
+2018-03-10 21:54:45.137 INFO  com.http.server.Server - 服务器已启动，端口号：8089
+2018-03-10 21:54:48.382 INFO  com.http.handler.RequestHandler - 收到请求：
+GET /helloworld HTTP/1.1
+Host: localhost:8089
+Connection: keep-alive
+Cache-Control: max-age=0
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3350.0 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9
+Cookie: optimizelyEndUserId=oeu1506216020008r0.4545054078398614; _ga=GA1.1.1180129065.1489919936; Idea-7e4347d7=ed0e733b-8015-414b-bc82-8ac72402bfe1
+
+
+请求结束
+2018-03-10 21:54:48.411 INFO  com.http.handler.RequestHandler - 得到了uri /helloworld
+2018-03-10 21:54:48.434 INFO  com.http.handler.ClassMapper - 成功添加了URI： /helloworld到servlet： HelloWorld的映射
+2018-03-10 21:55:43.949 INFO  com.http.server.Server - 服务器已启动，端口号：8089
+2018-03-10 21:55:47.871 INFO  com.http.handler.RequestHandler - 收到请求：
+GET /helloworld HTTP/1.1
+Host: localhost:8089
+Connection: keep-alive
+Cache-Control: max-age=0
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3350.0 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9
+Cookie: optimizelyEndUserId=oeu1506216020008r0.4545054078398614; _ga=GA1.1.1180129065.1489919936; Idea-7e4347d7=ed0e733b-8015-414b-bc82-8ac72402bfe1
+
+
+请求结束
+2018-03-10 21:55:47.901 INFO  com.http.handler.RequestHandler - 得到了uri /helloworld
+2018-03-10 21:55:47.925 INFO  com.http.handler.ClassMapper - 成功添加了URI： /helloworld到servlet： HelloWorld的映射
+2018-03-10 22:02:23.440 INFO  com.http.server.Server - 服务器已启动，端口号：8089
+2018-03-10 22:02:27.648 INFO  com.http.handler.RequestHandler - 收到请求：
+GET /helloworld HTTP/1.1
+Host: localhost:8089
+Connection: keep-alive
+Cache-Control: max-age=0
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3350.0 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9
+Cookie: optimizelyEndUserId=oeu1506216020008r0.4545054078398614; _ga=GA1.1.1180129065.1489919936; Idea-7e4347d7=ed0e733b-8015-414b-bc82-8ac72402bfe1
+
+
+请求结束
+2018-03-10 22:02:27.683 INFO  com.http.handler.RequestHandler - 得到了uri /helloworld
+2018-03-10 22:02:27.709 INFO  com.http.handler.ClassMapper - 成功添加了URI： /helloworld到servlet： HelloWorld的映射
+2018-03-10 22:03:19.552 INFO  com.http.server.Server - 服务器已启动，端口号：8089
+2018-03-10 22:03:22.568 INFO  com.http.handler.RequestHandler - 收到请求：
+GET /helloworld HTTP/1.1
+Host: localhost:8089
+Connection: keep-alive
+Cache-Control: max-age=0
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3350.0 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9
+Cookie: optimizelyEndUserId=oeu1506216020008r0.4545054078398614; _ga=GA1.1.1180129065.1489919936; Idea-7e4347d7=ed0e733b-8015-414b-bc82-8ac72402bfe1
+
+
+请求结束
+2018-03-10 22:03:22.602 INFO  com.http.handler.RequestHandler - 得到了uri /helloworld
+2018-03-10 22:03:22.627 INFO  com.http.handler.ClassMapper - 成功添加了URI： /helloworld到servlet： HelloWorld的映射
+2018-03-10 22:04:15.467 INFO  com.http.server.Server - 服务器已启动，端口号：8089
+2018-03-10 22:04:19.155 INFO  com.http.handler.RequestHandler - 收到请求：
+GET /helloworld HTTP/1.1
+Host: localhost:8089
+Connection: keep-alive
+Cache-Control: max-age=0
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3350.0 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9
+Cookie: optimizelyEndUserId=oeu1506216020008r0.4545054078398614; _ga=GA1.1.1180129065.1489919936; Idea-7e4347d7=ed0e733b-8015-414b-bc82-8ac72402bfe1
+
+
+请求结束
+2018-03-10 22:04:19.174 INFO  com.http.handler.RequestHandler - 得到了uri /helloworld
+2018-03-10 22:04:19.198 INFO  com.http.handler.ClassMapper - 成功添加了URI： /helloworld到servlet： HelloWorld的映射
+2018-03-10 22:04:19.233 INFO  com.http.ServletProxy - servlet响应已写出
+2018-03-10 22:04:46.083 INFO  com.http.handler.RequestHandler - 收到请求：
+GET /helloworld HTTP/1.1
+Host: localhost:8089
+Connection: keep-alive
+Cache-Control: max-age=0
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3350.0 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9
+Cookie: optimizelyEndUserId=oeu1506216020008r0.4545054078398614; _ga=GA1.1.1180129065.1489919936; Idea-7e4347d7=ed0e733b-8015-414b-bc82-8ac72402bfe1
+
+
+请求结束
+2018-03-10 22:04:46.086 INFO  com.http.handler.RequestHandler - 得到了uri /helloworld
+2018-03-10 22:04:46.088 INFO  com.http.ServletProxy - servlet响应已写出
+2018-03-10 22:08:59.009 INFO  com.http.server.Server - 服务器已启动，端口号：8089
+2018-03-10 22:09:01.249 INFO  com.http.handler.RequestHandler - 收到请求：
+GET /helloworld HTTP/1.1
+Host: localhost:8089
+Connection: keep-alive
+Cache-Control: max-age=0
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3350.0 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9
+Cookie: optimizelyEndUserId=oeu1506216020008r0.4545054078398614; _ga=GA1.1.1180129065.1489919936
+
+
+请求结束
+2018-03-10 22:09:01.283 INFO  com.http.handler.RequestHandler - 得到了uri /helloworld
+2018-03-10 22:09:01.305 INFO  com.http.handler.ClassMapper - 成功添加了URI： /helloworld到servlet： HelloWorld的映射
+2018-03-10 22:09:01.358 INFO  com.http.ServletProxy - servlet响应已写出
+2018-03-10 22:09:01.381 INFO  com.http.handler.RequestHandler - 收到请求：
+GET /helloworld HTTP/1.1
+Host: localhost:8089
+Connection: keep-alive
+Cache-Control: max-age=0
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3350.0 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9
+Cookie: optimizelyEndUserId=oeu1506216020008r0.4545054078398614; _ga=GA1.1.1180129065.1489919936
+
+
+请求结束
+2018-03-10 22:09:01.392 INFO  com.http.handler.RequestHandler - 得到了uri /helloworld
+2018-03-10 22:09:01.406 INFO  com.http.ServletProxy - servlet响应已写出
+2018-03-10 22:09:01.420 INFO  com.http.handler.RequestHandler - 收到请求：
+GET /helloworld HTTP/1.1
+Host: localhost:8089
+Connection: keep-alive
+Cache-Control: max-age=0
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3350.0 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9
+Cookie: optimizelyEndUserId=oeu1506216020008r0.4545054078398614; _ga=GA1.1.1180129065.1489919936
+
+
+请求结束
+2018-03-10 22:09:01.423 INFO  com.http.handler.RequestHandler - 得到了uri /helloworld
+2018-03-10 22:09:01.426 INFO  com.http.ServletProxy - servlet响应已写出
+2018-03-10 22:09:31.442 INFO  com.http.handler.RequestHandler - 收到请求：
+GET /helloworld HTTP/1.1
+Host: localhost:8089
+Connection: keep-alive
+Cache-Control: max-age=0
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3350.0 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9
+Cookie: optimizelyEndUserId=oeu1506216020008r0.4545054078398614; _ga=GA1.1.1180129065.1489919936
+
+
+请求结束
+2018-03-10 22:09:31.446 INFO  com.http.handler.RequestHandler - 得到了uri /helloworld
+2018-03-10 22:09:31.459 INFO  com.http.ServletProxy - servlet响应已写出
+2018-03-10 22:09:31.464 INFO  com.http.handler.RequestHandler - 收到请求：
+GET /helloworld HTTP/1.1
+Host: localhost:8089
+Connection: keep-alive
+Cache-Control: max-age=0
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3350.0 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9
+Cookie: optimizelyEndUserId=oeu1506216020008r0.4545054078398614; _ga=GA1.1.1180129065.1489919936
+
+
+请求结束
+2018-03-10 22:09:31.488 INFO  com.http.handler.RequestHandler - 得到了uri /helloworld
+2018-03-10 22:09:31.505 INFO  com.http.ServletProxy - servlet响应已写出
+2018-03-10 22:09:31.527 INFO  com.http.handler.RequestHandler - 收到请求：
+GET /helloworld HTTP/1.1
+Host: localhost:8089
+Connection: keep-alive
+Cache-Control: max-age=0
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3350.0 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9
+Cookie: optimizelyEndUserId=oeu1506216020008r0.4545054078398614; _ga=GA1.1.1180129065.1489919936
+
+
+请求结束
+2018-03-10 22:09:31.540 INFO  com.http.handler.RequestHandler - 得到了uri /helloworld
+2018-03-10 22:09:31.543 INFO  com.http.ServletProxy - servlet响应已写出
+2018-03-10 22:10:31.568 INFO  com.http.handler.RequestHandler - 收到请求：
+GET /helloworld HTTP/1.1
+Host: localhost:8089
+Connection: keep-alive
+Cache-Control: max-age=0
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3350.0 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9
+Cookie: optimizelyEndUserId=oeu1506216020008r0.4545054078398614; _ga=GA1.1.1180129065.1489919936
+
+
+请求结束
+2018-03-10 22:10:31.590 INFO  com.http.handler.RequestHandler - 得到了uri /helloworld
+2018-03-10 22:10:31.618 INFO  com.http.ServletProxy - servlet响应已写出
+2018-03-10 22:10:31.639 INFO  com.http.handler.RequestHandler - 收到请求：
+GET /helloworld HTTP/1.1
+Host: localhost:8089
+Connection: keep-alive
+Cache-Control: max-age=0
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3350.0 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9
+Cookie: optimizelyEndUserId=oeu1506216020008r0.4545054078398614; _ga=GA1.1.1180129065.1489919936
+
+
+请求结束
+2018-03-10 22:10:31.650 INFO  com.http.handler.RequestHandler - 得到了uri /helloworld
+2018-03-10 22:10:31.669 INFO  com.http.ServletProxy - servlet响应已写出
+2018-03-10 22:10:31.687 INFO  com.http.handler.RequestHandler - 收到请求：
+GET /helloworld HTTP/1.1
+Host: localhost:8089
+Connection: keep-alive
+Cache-Control: max-age=0
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3350.0 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9
+Cookie: optimizelyEndUserId=oeu1506216020008r0.4545054078398614; _ga=GA1.1.1180129065.1489919936
+
+
+请求结束
+2018-03-10 22:10:31.711 INFO  com.http.handler.RequestHandler - 得到了uri /helloworld
+2018-03-10 22:10:31.729 INFO  com.http.ServletProxy - servlet响应已写出
+2018-03-10 22:14:06.360 INFO  com.http.server.Server - 服务器已启动，端口号：8089
+2018-03-10 22:14:09.505 INFO  com.http.handler.RequestHandler - 收到请求：
+GET /helloworld HTTP/1.1
+Host: localhost:8089
+Connection: keep-alive
+Cache-Control: max-age=0
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3350.0 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9
+Cookie: optimizelyEndUserId=oeu1506216020008r0.4545054078398614; _ga=GA1.1.1180129065.1489919936; Idea-7e4347d7=ed0e733b-8015-414b-bc82-8ac72402bfe1
+
+
+请求结束
+2018-03-10 22:14:09.555 INFO  com.http.handler.RequestHandler - 得到了uri /helloworld
+2018-03-10 22:14:09.575 INFO  com.http.handler.ClassMapper - 成功添加了URI： /helloworld到servlet： HelloWorld的映射
+2018-03-10 22:14:09.630 INFO  com.http.ServletProxy - servlet响应已写出
+2018-03-10 22:14:09.657 INFO  com.http.handler.RequestHandler - 收到请求：
+GET /helloworld HTTP/1.1
+Host: localhost:8089
+Connection: keep-alive
+Cache-Control: max-age=0
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3350.0 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9
+Cookie: optimizelyEndUserId=oeu1506216020008r0.4545054078398614; _ga=GA1.1.1180129065.1489919936; Idea-7e4347d7=ed0e733b-8015-414b-bc82-8ac72402bfe1
+
+
+请求结束
+2018-03-10 22:14:09.678 INFO  com.http.handler.RequestHandler - 得到了uri /helloworld
+2018-03-10 22:14:09.693 INFO  com.http.ServletProxy - servlet响应已写出
+2018-03-10 22:14:09.706 INFO  com.http.handler.RequestHandler - 收到请求：
+GET /helloworld HTTP/1.1
+Host: localhost:8089
+Connection: keep-alive
+Cache-Control: max-age=0
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3350.0 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9
+Cookie: optimizelyEndUserId=oeu1506216020008r0.4545054078398614; _ga=GA1.1.1180129065.1489919936; Idea-7e4347d7=ed0e733b-8015-414b-bc82-8ac72402bfe1
+
+
+请求结束
+2018-03-10 22:14:09.708 INFO  com.http.handler.RequestHandler - 得到了uri /helloworld
+2018-03-10 22:14:09.719 INFO  com.http.ServletProxy - servlet响应已写出
+2018-03-10 22:18:37.857 INFO  com.http.server.Server - 服务器已启动，端口号：8089
+2018-03-10 22:18:40.601 INFO  com.http.handler.RequestHandler - 收到请求：
+GET /helloworld HTTP/1.1
+Host: localhost:8089
+Connection: keep-alive
+Cache-Control: max-age=0
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3350.0 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9
+Cookie: optimizelyEndUserId=oeu1506216020008r0.4545054078398614; _ga=GA1.1.1180129065.1489919936; Idea-7e4347d7=ed0e733b-8015-414b-bc82-8ac72402bfe1
+
+
+请求结束
+2018-03-10 22:18:40.628 INFO  com.http.handler.RequestHandler - 得到了uri /helloworld
+2018-03-10 22:18:40.651 INFO  com.http.handler.ClassMapper - 成功添加了URI： /helloworld到servlet： HelloWorld的映射
+2018-03-10 22:18:40.710 INFO  com.http.ServletProxy - servlet响应已写出
+2018-03-10 22:18:40.759 INFO  com.http.handler.RequestHandler - 收到请求：
+GET /favicon.ico HTTP/1.1
+Host: localhost:8089
+Connection: keep-alive
+Pragma: no-cache
+Cache-Control: no-cache
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3350.0 Safari/537.36
+Accept: image/webp,image/apng,image/*,*/*;q=0.8
+Referer: http://localhost:8089/helloworld
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9
+Cookie: optimizelyEndUserId=oeu1506216020008r0.4545054078398614; _ga=GA1.1.1180129065.1489919936; Idea-7e4347d7=ed0e733b-8015-414b-bc82-8ac72402bfe1
+
+
+请求结束
+2018-03-10 22:18:40.778 INFO  com.http.handler.RequestHandler - 得到了uri /favicon.ico
+2018-03-10 22:18:40.796 INFO  com.http.handler.RequestHandler - 静态资源:webapps/favicon.ico不存在或不是有效文件，显示404
+2018-03-10 22:24:43.787 INFO  com.http.server.Server - 服务器已启动，端口号：8089
+2018-03-10 22:25:03.542 INFO  com.http.server.Server - 服务器已启动，端口号：8089
+2018-03-10 22:25:05.487 INFO  com.http.handler.RequestHandler - 收到请求：
+GET /helloworld HTTP/1.1
+Host: localhost:8089
+Connection: keep-alive
+Cache-Control: max-age=0
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3350.0 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9
+Cookie: optimizelyEndUserId=oeu1506216020008r0.4545054078398614; _ga=GA1.1.1180129065.1489919936
+
+
+请求结束
+2018-03-10 22:25:05.530 INFO  com.http.handler.RequestHandler - 得到了uri /helloworld
+2018-03-10 22:25:05.556 INFO  com.http.handler.ClassMapper - 成功添加了URI： /helloworld到servlet： HelloWorld的映射
+2018-03-10 22:25:05.606 INFO  com.http.ServletProxy - servlet响应已写出
+2018-03-10 22:29:20.379 INFO  com.http.handler.RequestHandler - 收到请求：
+GET /helloworld HTTP/1.1
+Host: localhost:8089
+Connection: keep-alive
+Cache-Control: max-age=0
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3350.0 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9
+Cookie: optimizelyEndUserId=oeu1506216020008r0.4545054078398614; _ga=GA1.1.1180129065.1489919936; Idea-7e4347d7=ed0e733b-8015-414b-bc82-8ac72402bfe1
+
+
+请求结束
+2018-03-10 22:29:20.384 INFO  com.http.handler.RequestHandler - 得到了uri /helloworld
+2018-03-10 22:29:20.399 INFO  com.http.ServletProxy - servlet响应已写出
+2018-03-10 22:29:21.060 INFO  com.http.handler.RequestHandler - 收到请求：
+GET /helloworld HTTP/1.1
+Host: localhost:8089
+Connection: keep-alive
+Cache-Control: max-age=0
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3350.0 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9
+Cookie: optimizelyEndUserId=oeu1506216020008r0.4545054078398614; _ga=GA1.1.1180129065.1489919936; Idea-7e4347d7=ed0e733b-8015-414b-bc82-8ac72402bfe1
+
+
+请求结束
+2018-03-10 22:29:21.064 INFO  com.http.handler.RequestHandler - 得到了uri /helloworld
+2018-03-10 22:29:21.078 INFO  com.http.ServletProxy - servlet响应已写出
+2018-03-10 22:29:21.640 INFO  com.http.handler.RequestHandler - 收到请求：
+GET /helloworld HTTP/1.1
+Host: localhost:8089
+Connection: keep-alive
+Cache-Control: max-age=0
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3350.0 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9
+Cookie: optimizelyEndUserId=oeu1506216020008r0.4545054078398614; _ga=GA1.1.1180129065.1489919936; Idea-7e4347d7=ed0e733b-8015-414b-bc82-8ac72402bfe1
+
+
+请求结束
+2018-03-10 22:29:21.642 INFO  com.http.handler.RequestHandler - 得到了uri /helloworld
+2018-03-10 22:29:21.655 INFO  com.http.ServletProxy - servlet响应已写出

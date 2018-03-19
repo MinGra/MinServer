@@ -1,0 +1,848 @@
+2018-03-10 20:35:57.600 DEBUG com.http.server.Server - 请求长度540
+2018-03-10 20:35:57.600 DEBUG com.http.server.Server - 请求内容GET /helloworld HTTP/1.1
+Host: localhost:8089
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3350.0 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9
+Cookie: optimizelyEndUserId=oeu1506216020008r0.4545054078398614; _ga=GA1.1.1180129065.1489919936; Idea-7e4347d7=ed0e733b-8015-414b-bc82-8ac72402bfe1
+
+
+2018-03-10 20:35:57.610 DEBUG com.http.context.impl.HttpRequest - 请求行：
+GET /helloworld HTTP/1.1
+请求行结束
+2018-03-10 20:35:57.612 DEBUG com.http.context.impl.HttpRequest - 请求行分割3
+2018-03-10 21:02:36.877 DEBUG com.http.server.Server - 请求长度540
+2018-03-10 21:02:36.878 DEBUG com.http.server.Server - 请求内容GET /helloworld HTTP/1.1
+Host: localhost:8089
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3350.0 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9
+Cookie: optimizelyEndUserId=oeu1506216020008r0.4545054078398614; _ga=GA1.1.1180129065.1489919936; Idea-7e4347d7=ed0e733b-8015-414b-bc82-8ac72402bfe1
+
+
+2018-03-10 21:02:36.889 DEBUG com.http.HttpRequest - 请求行：
+GET /helloworld HTTP/1.1
+请求行结束
+2018-03-10 21:02:36.890 DEBUG com.http.HttpRequest - 请求行分割3
+2018-03-10 21:06:14.448 DEBUG com.http.server.Server - 请求长度566
+2018-03-10 21:06:14.449 DEBUG com.http.server.Server - 请求内容GET /helloworld HTTP/1.1
+Host: localhost:8089
+Connection: keep-alive
+Cache-Control: max-age=0
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3350.0 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9
+Cookie: optimizelyEndUserId=oeu1506216020008r0.4545054078398614; _ga=GA1.1.1180129065.1489919936; Idea-7e4347d7=ed0e733b-8015-414b-bc82-8ac72402bfe1
+
+
+2018-03-10 21:06:14.454 DEBUG com.http.HttpRequest - 请求行：
+GET /helloworld HTTP/1.1
+请求行结束
+2018-03-10 21:06:14.454 DEBUG com.http.HttpRequest - 请求行分割3
+2018-03-10 21:12:07.687 DEBUG com.http.server.Server - 请求长度566
+2018-03-10 21:12:07.688 DEBUG com.http.server.Server - 请求内容GET /helloworld HTTP/1.1
+Host: localhost:8089
+Connection: keep-alive
+Cache-Control: max-age=0
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3350.0 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9
+Cookie: optimizelyEndUserId=oeu1506216020008r0.4545054078398614; _ga=GA1.1.1180129065.1489919936; Idea-7e4347d7=ed0e733b-8015-414b-bc82-8ac72402bfe1
+
+
+2018-03-10 21:12:07.696 DEBUG com.http.HttpRequest - 请求行：
+GET /helloworld HTTP/1.1
+请求行结束
+2018-03-10 21:12:07.702 DEBUG com.http.HttpRequest - 请求行分割3
+2018-03-10 21:20:13.612 DEBUG com.http.server.Server - 请求长度566
+2018-03-10 21:20:13.612 DEBUG com.http.server.Server - 请求内容GET /helloworld HTTP/1.1
+Host: localhost:8089
+Connection: keep-alive
+Cache-Control: max-age=0
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3350.0 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9
+Cookie: optimizelyEndUserId=oeu1506216020008r0.4545054078398614; _ga=GA1.1.1180129065.1489919936; Idea-7e4347d7=ed0e733b-8015-414b-bc82-8ac72402bfe1
+
+
+2018-03-10 21:20:13.620 DEBUG com.http.HttpRequest - 请求行：
+GET /helloworld HTTP/1.1
+请求行结束
+2018-03-10 21:20:13.621 DEBUG com.http.HttpRequest - 请求行分割3
+2018-03-10 21:27:29.256 DEBUG com.http.server.Server - 请求长度566
+2018-03-10 21:27:29.257 DEBUG com.http.server.Server - 请求内容GET /helloworld HTTP/1.1
+Host: localhost:8089
+Connection: keep-alive
+Cache-Control: max-age=0
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3350.0 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9
+Cookie: optimizelyEndUserId=oeu1506216020008r0.4545054078398614; _ga=GA1.1.1180129065.1489919936; Idea-7e4347d7=ed0e733b-8015-414b-bc82-8ac72402bfe1
+
+
+2018-03-10 21:27:29.267 DEBUG com.http.HttpRequest - 请求行：
+GET /helloworld HTTP/1.1
+请求行结束
+2018-03-10 21:27:29.267 DEBUG com.http.HttpRequest - 请求行分割3
+2018-03-10 21:27:29.325 DEBUG com.http.handler.RequestHandler - 代理类接口：class java.lang.reflect.Proxy
+2018-03-10 21:29:12.449 DEBUG com.http.server.Server - 请求长度566
+2018-03-10 21:29:12.450 DEBUG com.http.server.Server - 请求内容GET /helloworld HTTP/1.1
+Host: localhost:8089
+Connection: keep-alive
+Cache-Control: max-age=0
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3350.0 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9
+Cookie: optimizelyEndUserId=oeu1506216020008r0.4545054078398614; _ga=GA1.1.1180129065.1489919936; Idea-7e4347d7=ed0e733b-8015-414b-bc82-8ac72402bfe1
+
+
+2018-03-10 21:29:12.457 DEBUG com.http.HttpRequest - 请求行：
+GET /helloworld HTTP/1.1
+请求行结束
+2018-03-10 21:29:12.460 DEBUG com.http.HttpRequest - 请求行分割3
+2018-03-10 21:29:12.499 DEBUG com.http.handler.RequestHandler - HelloWorld
+2018-03-10 21:29:12.520 DEBUG com.http.handler.RequestHandler - 代理类接口：class java.lang.reflect.Proxy
+2018-03-10 21:40:03.625 DEBUG com.http.server.Server - 请求长度566
+2018-03-10 21:40:03.626 DEBUG com.http.server.Server - 请求内容GET /helloworld HTTP/1.1
+Host: localhost:8089
+Connection: keep-alive
+Cache-Control: max-age=0
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3350.0 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9
+Cookie: optimizelyEndUserId=oeu1506216020008r0.4545054078398614; _ga=GA1.1.1180129065.1489919936; Idea-7e4347d7=ed0e733b-8015-414b-bc82-8ac72402bfe1
+
+
+2018-03-10 21:40:03.636 DEBUG com.http.HttpRequest - 请求行：
+GET /helloworld HTTP/1.1
+请求行结束
+2018-03-10 21:40:03.646 DEBUG com.http.HttpRequest - 请求行分割3
+2018-03-10 21:40:03.697 DEBUG com.http.handler.RequestHandler - HelloWorld
+2018-03-10 21:41:57.818 DEBUG com.http.server.Server - 请求长度566
+2018-03-10 21:41:57.819 DEBUG com.http.server.Server - 请求内容GET /helloworld HTTP/1.1
+Host: localhost:8089
+Connection: keep-alive
+Cache-Control: max-age=0
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3350.0 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9
+Cookie: optimizelyEndUserId=oeu1506216020008r0.4545054078398614; _ga=GA1.1.1180129065.1489919936; Idea-7e4347d7=ed0e733b-8015-414b-bc82-8ac72402bfe1
+
+
+2018-03-10 21:41:57.827 DEBUG com.http.HttpRequest - 请求行：
+GET /helloworld HTTP/1.1
+请求行结束
+2018-03-10 21:41:57.833 DEBUG com.http.HttpRequest - 请求行分割3
+2018-03-10 21:41:57.875 DEBUG com.http.handler.RequestHandler - HelloWorld
+2018-03-10 21:43:10.660 DEBUG com.http.server.Server - 请求长度566
+2018-03-10 21:43:10.661 DEBUG com.http.server.Server - 请求内容GET /helloworld HTTP/1.1
+Host: localhost:8089
+Connection: keep-alive
+Cache-Control: max-age=0
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3350.0 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9
+Cookie: optimizelyEndUserId=oeu1506216020008r0.4545054078398614; _ga=GA1.1.1180129065.1489919936; Idea-7e4347d7=ed0e733b-8015-414b-bc82-8ac72402bfe1
+
+
+2018-03-10 21:43:10.673 DEBUG com.http.HttpRequest - 请求行：
+GET /helloworld HTTP/1.1
+请求行结束
+2018-03-10 21:43:10.679 DEBUG com.http.HttpRequest - 请求行分割3
+2018-03-10 21:43:10.723 DEBUG com.http.handler.RequestHandler - HelloWorld
+2018-03-10 21:43:10.744 DEBUG com.http.handler.RequestHandler - 代理类接口：1
+2018-03-10 21:48:40.522 DEBUG com.http.server.Server - 请求长度566
+2018-03-10 21:48:40.523 DEBUG com.http.server.Server - 请求内容GET /helloworld HTTP/1.1
+Host: localhost:8089
+Connection: keep-alive
+Cache-Control: max-age=0
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3350.0 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9
+Cookie: optimizelyEndUserId=oeu1506216020008r0.4545054078398614; _ga=GA1.1.1180129065.1489919936; Idea-7e4347d7=ed0e733b-8015-414b-bc82-8ac72402bfe1
+
+
+2018-03-10 21:48:40.529 DEBUG com.http.HttpRequest - 请求行：
+GET /helloworld HTTP/1.1
+请求行结束
+2018-03-10 21:48:40.534 DEBUG com.http.HttpRequest - 请求行分割3
+2018-03-10 21:48:40.584 DEBUG com.http.handler.RequestHandler - HelloWorld
+2018-03-10 21:48:40.617 DEBUG com.http.handler.RequestHandler - 代理类接口：java.io.Serializable
+2018-03-10 21:50:26.127 DEBUG com.http.server.Server - 请求长度566
+2018-03-10 21:50:26.127 DEBUG com.http.server.Server - 请求内容GET /helloworld HTTP/1.1
+Host: localhost:8089
+Connection: keep-alive
+Cache-Control: max-age=0
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3350.0 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9
+Cookie: optimizelyEndUserId=oeu1506216020008r0.4545054078398614; _ga=GA1.1.1180129065.1489919936; Idea-7e4347d7=ed0e733b-8015-414b-bc82-8ac72402bfe1
+
+
+2018-03-10 21:50:26.135 DEBUG com.http.HttpRequest - 请求行：
+GET /helloworld HTTP/1.1
+请求行结束
+2018-03-10 21:50:26.139 DEBUG com.http.HttpRequest - 请求行分割3
+2018-03-10 21:50:26.188 DEBUG com.http.handler.RequestHandler - HelloWorld
+2018-03-10 21:50:26.210 DEBUG com.http.handler.RequestHandler - 代理类接口：java.io.Serializable
+2018-03-10 21:51:30.756 DEBUG com.http.server.Server - 请求长度566
+2018-03-10 21:51:30.756 DEBUG com.http.server.Server - 请求内容GET /helloworld HTTP/1.1
+Host: localhost:8089
+Connection: keep-alive
+Cache-Control: max-age=0
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3350.0 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9
+Cookie: optimizelyEndUserId=oeu1506216020008r0.4545054078398614; _ga=GA1.1.1180129065.1489919936; Idea-7e4347d7=ed0e733b-8015-414b-bc82-8ac72402bfe1
+
+
+2018-03-10 21:51:30.772 DEBUG com.http.HttpRequest - 请求行：
+GET /helloworld HTTP/1.1
+请求行结束
+2018-03-10 21:51:30.773 DEBUG com.http.HttpRequest - 请求行分割3
+2018-03-10 21:51:30.814 DEBUG com.http.handler.RequestHandler - HelloWorld
+2018-03-10 21:51:30.838 DEBUG com.http.handler.RequestHandler - 代理类接口：java.lang.reflect.Proxy
+2018-03-10 21:54:48.376 DEBUG com.http.server.Server - 请求长度566
+2018-03-10 21:54:48.377 DEBUG com.http.server.Server - 请求内容GET /helloworld HTTP/1.1
+Host: localhost:8089
+Connection: keep-alive
+Cache-Control: max-age=0
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3350.0 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9
+Cookie: optimizelyEndUserId=oeu1506216020008r0.4545054078398614; _ga=GA1.1.1180129065.1489919936; Idea-7e4347d7=ed0e733b-8015-414b-bc82-8ac72402bfe1
+
+
+2018-03-10 21:54:48.386 DEBUG com.http.HttpRequest - 请求行：
+GET /helloworld HTTP/1.1
+请求行结束
+2018-03-10 21:54:48.392 DEBUG com.http.HttpRequest - 请求行分割3
+2018-03-10 21:54:48.435 DEBUG com.http.handler.RequestHandler - HelloWorld
+2018-03-10 21:54:48.460 DEBUG com.http.handler.RequestHandler - 代理类接口：0
+2018-03-10 21:55:47.866 DEBUG com.http.server.Server - 请求长度566
+2018-03-10 21:55:47.867 DEBUG com.http.server.Server - 请求内容GET /helloworld HTTP/1.1
+Host: localhost:8089
+Connection: keep-alive
+Cache-Control: max-age=0
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3350.0 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9
+Cookie: optimizelyEndUserId=oeu1506216020008r0.4545054078398614; _ga=GA1.1.1180129065.1489919936; Idea-7e4347d7=ed0e733b-8015-414b-bc82-8ac72402bfe1
+
+
+2018-03-10 21:55:47.875 DEBUG com.http.HttpRequest - 请求行：
+GET /helloworld HTTP/1.1
+请求行结束
+2018-03-10 21:55:47.881 DEBUG com.http.HttpRequest - 请求行分割3
+2018-03-10 21:55:47.926 DEBUG com.http.handler.RequestHandler - HelloWorld
+2018-03-10 21:55:47.962 DEBUG com.http.handler.RequestHandler - 代理类接口：0
+2018-03-10 22:02:27.642 DEBUG com.http.server.Server - 请求长度566
+2018-03-10 22:02:27.643 DEBUG com.http.server.Server - 请求内容GET /helloworld HTTP/1.1
+Host: localhost:8089
+Connection: keep-alive
+Cache-Control: max-age=0
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3350.0 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9
+Cookie: optimizelyEndUserId=oeu1506216020008r0.4545054078398614; _ga=GA1.1.1180129065.1489919936; Idea-7e4347d7=ed0e733b-8015-414b-bc82-8ac72402bfe1
+
+
+2018-03-10 22:02:27.652 DEBUG com.http.HttpRequest - 请求行：
+GET /helloworld HTTP/1.1
+请求行结束
+2018-03-10 22:02:27.662 DEBUG com.http.HttpRequest - 请求行分割3
+2018-03-10 22:02:27.709 DEBUG com.http.handler.RequestHandler - HelloWorld
+2018-03-10 22:02:27.731 DEBUG com.http.handler.RequestHandler - 被代理类名称：com.http.HttpServlet
+2018-03-10 22:02:27.731 DEBUG com.http.handler.RequestHandler - 被代理类实现接口数：0
+2018-03-10 22:03:22.560 DEBUG com.http.server.Server - 请求长度566
+2018-03-10 22:03:22.561 DEBUG com.http.server.Server - 请求内容GET /helloworld HTTP/1.1
+Host: localhost:8089
+Connection: keep-alive
+Cache-Control: max-age=0
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3350.0 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9
+Cookie: optimizelyEndUserId=oeu1506216020008r0.4545054078398614; _ga=GA1.1.1180129065.1489919936; Idea-7e4347d7=ed0e733b-8015-414b-bc82-8ac72402bfe1
+
+
+2018-03-10 22:03:22.570 DEBUG com.http.HttpRequest - 请求行：
+GET /helloworld HTTP/1.1
+请求行结束
+2018-03-10 22:03:22.580 DEBUG com.http.HttpRequest - 请求行分割3
+2018-03-10 22:03:22.627 DEBUG com.http.handler.RequestHandler - HelloWorld
+2018-03-10 22:03:22.655 DEBUG com.http.handler.RequestHandler - 被代理类名称：com.http.GenericServlet
+2018-03-10 22:03:22.655 DEBUG com.http.handler.RequestHandler - 被代理类实现接口数：2
+2018-03-10 22:04:19.150 DEBUG com.http.server.Server - 请求长度566
+2018-03-10 22:04:19.151 DEBUG com.http.server.Server - 请求内容GET /helloworld HTTP/1.1
+Host: localhost:8089
+Connection: keep-alive
+Cache-Control: max-age=0
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3350.0 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9
+Cookie: optimizelyEndUserId=oeu1506216020008r0.4545054078398614; _ga=GA1.1.1180129065.1489919936; Idea-7e4347d7=ed0e733b-8015-414b-bc82-8ac72402bfe1
+
+
+2018-03-10 22:04:19.156 DEBUG com.http.HttpRequest - 请求行：
+GET /helloworld HTTP/1.1
+请求行结束
+2018-03-10 22:04:19.157 DEBUG com.http.HttpRequest - 请求行分割3
+2018-03-10 22:04:19.199 DEBUG com.http.handler.RequestHandler - HelloWorld
+2018-03-10 22:04:19.222 DEBUG com.http.handler.RequestHandler - 被代理类名称：com.http.GenericServlet
+2018-03-10 22:04:19.223 DEBUG com.http.handler.RequestHandler - 被代理类实现接口数：2
+2018-03-10 22:04:46.081 DEBUG com.http.server.Server - 请求长度566
+2018-03-10 22:04:46.082 DEBUG com.http.server.Server - 请求内容GET /helloworld HTTP/1.1
+Host: localhost:8089
+Connection: keep-alive
+Cache-Control: max-age=0
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3350.0 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9
+Cookie: optimizelyEndUserId=oeu1506216020008r0.4545054078398614; _ga=GA1.1.1180129065.1489919936; Idea-7e4347d7=ed0e733b-8015-414b-bc82-8ac72402bfe1
+
+
+2018-03-10 22:04:46.084 DEBUG com.http.HttpRequest - 请求行：
+GET /helloworld HTTP/1.1
+请求行结束
+2018-03-10 22:04:46.085 DEBUG com.http.HttpRequest - 请求行分割3
+2018-03-10 22:04:46.087 DEBUG com.http.handler.RequestHandler - HelloWorld
+2018-03-10 22:04:46.087 DEBUG com.http.handler.RequestHandler - 被代理类名称：com.http.GenericServlet
+2018-03-10 22:04:46.087 DEBUG com.http.handler.RequestHandler - 被代理类实现接口数：2
+2018-03-10 22:09:01.238 DEBUG com.http.server.Server - 请求长度514
+2018-03-10 22:09:01.239 DEBUG com.http.server.Server - 请求内容GET /helloworld HTTP/1.1
+Host: localhost:8089
+Connection: keep-alive
+Cache-Control: max-age=0
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3350.0 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9
+Cookie: optimizelyEndUserId=oeu1506216020008r0.4545054078398614; _ga=GA1.1.1180129065.1489919936
+
+
+2018-03-10 22:09:01.253 DEBUG com.http.HttpRequest - 请求行：
+GET /helloworld HTTP/1.1
+请求行结束
+2018-03-10 22:09:01.258 DEBUG com.http.HttpRequest - 请求行分割3
+2018-03-10 22:09:01.305 DEBUG com.http.handler.RequestHandler - HelloWorld
+2018-03-10 22:09:01.330 DEBUG com.http.handler.RequestHandler - 被代理类名称：com.http.GenericServlet
+2018-03-10 22:09:01.333 DEBUG com.http.handler.RequestHandler - 被代理类实现接口数：2
+2018-03-10 22:09:01.353 DEBUG com.http.ServletProxy - HTTP/1.1 200 OK
+CONTENT_LENGTH: 0
+CONTENT_TYPE: text/html
+DATE: 2018-03-10
+SERVER: MinServer
+
+
+2018-03-10 22:09:01.359 DEBUG com.http.server.Server - 请求长度514
+2018-03-10 22:09:01.372 DEBUG com.http.server.Server - 请求内容GET /helloworld HTTP/1.1
+Host: localhost:8089
+Connection: keep-alive
+Cache-Control: max-age=0
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3350.0 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9
+Cookie: optimizelyEndUserId=oeu1506216020008r0.4545054078398614; _ga=GA1.1.1180129065.1489919936
+
+
+2018-03-10 22:09:01.391 DEBUG com.http.HttpRequest - 请求行：
+GET /helloworld HTTP/1.1
+请求行结束
+2018-03-10 22:09:01.391 DEBUG com.http.HttpRequest - 请求行分割3
+2018-03-10 22:09:01.393 DEBUG com.http.handler.RequestHandler - HelloWorld
+2018-03-10 22:09:01.399 DEBUG com.http.handler.RequestHandler - 被代理类名称：com.http.GenericServlet
+2018-03-10 22:09:01.405 DEBUG com.http.handler.RequestHandler - 被代理类实现接口数：2
+2018-03-10 22:09:01.405 DEBUG com.http.ServletProxy - HTTP/1.1 200 OK
+CONTENT_LENGTH: 0
+CONTENT_TYPE: text/html
+DATE: 2018-03-10
+SERVER: MinServer
+
+
+2018-03-10 22:09:01.418 DEBUG com.http.server.Server - 请求长度514
+2018-03-10 22:09:01.419 DEBUG com.http.server.Server - 请求内容GET /helloworld HTTP/1.1
+Host: localhost:8089
+Connection: keep-alive
+Cache-Control: max-age=0
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3350.0 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9
+Cookie: optimizelyEndUserId=oeu1506216020008r0.4545054078398614; _ga=GA1.1.1180129065.1489919936
+
+
+2018-03-10 22:09:01.421 DEBUG com.http.HttpRequest - 请求行：
+GET /helloworld HTTP/1.1
+请求行结束
+2018-03-10 22:09:01.422 DEBUG com.http.HttpRequest - 请求行分割3
+2018-03-10 22:09:01.423 DEBUG com.http.handler.RequestHandler - HelloWorld
+2018-03-10 22:09:01.424 DEBUG com.http.handler.RequestHandler - 被代理类名称：com.http.GenericServlet
+2018-03-10 22:09:01.425 DEBUG com.http.handler.RequestHandler - 被代理类实现接口数：2
+2018-03-10 22:09:01.426 DEBUG com.http.ServletProxy - HTTP/1.1 200 OK
+CONTENT_LENGTH: 0
+CONTENT_TYPE: text/html
+DATE: 2018-03-10
+SERVER: MinServer
+
+
+2018-03-10 22:09:31.440 DEBUG com.http.server.Server - 请求长度514
+2018-03-10 22:09:31.441 DEBUG com.http.server.Server - 请求内容GET /helloworld HTTP/1.1
+Host: localhost:8089
+Connection: keep-alive
+Cache-Control: max-age=0
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3350.0 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9
+Cookie: optimizelyEndUserId=oeu1506216020008r0.4545054078398614; _ga=GA1.1.1180129065.1489919936
+
+
+2018-03-10 22:09:31.444 DEBUG com.http.HttpRequest - 请求行：
+GET /helloworld HTTP/1.1
+请求行结束
+2018-03-10 22:09:31.445 DEBUG com.http.HttpRequest - 请求行分割3
+2018-03-10 22:09:31.447 DEBUG com.http.handler.RequestHandler - HelloWorld
+2018-03-10 22:09:31.447 DEBUG com.http.handler.RequestHandler - 被代理类名称：com.http.GenericServlet
+2018-03-10 22:09:31.455 DEBUG com.http.handler.RequestHandler - 被代理类实现接口数：2
+2018-03-10 22:09:31.457 DEBUG com.http.ServletProxy - HTTP/1.1 200 OK
+CONTENT_LENGTH: 0
+CONTENT_TYPE: text/html
+DATE: 2018-03-10
+SERVER: MinServer
+
+
+2018-03-10 22:09:31.460 DEBUG com.http.server.Server - 请求长度514
+2018-03-10 22:09:31.462 DEBUG com.http.server.Server - 请求内容GET /helloworld HTTP/1.1
+Host: localhost:8089
+Connection: keep-alive
+Cache-Control: max-age=0
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3350.0 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9
+Cookie: optimizelyEndUserId=oeu1506216020008r0.4545054078398614; _ga=GA1.1.1180129065.1489919936
+
+
+2018-03-10 22:09:31.478 DEBUG com.http.HttpRequest - 请求行：
+GET /helloworld HTTP/1.1
+请求行结束
+2018-03-10 22:09:31.479 DEBUG com.http.HttpRequest - 请求行分割3
+2018-03-10 22:09:31.494 DEBUG com.http.handler.RequestHandler - HelloWorld
+2018-03-10 22:09:31.495 DEBUG com.http.handler.RequestHandler - 被代理类名称：com.http.GenericServlet
+2018-03-10 22:09:31.498 DEBUG com.http.handler.RequestHandler - 被代理类实现接口数：2
+2018-03-10 22:09:31.504 DEBUG com.http.ServletProxy - HTTP/1.1 200 OK
+CONTENT_LENGTH: 0
+CONTENT_TYPE: text/html
+DATE: 2018-03-10
+SERVER: MinServer
+
+
+2018-03-10 22:09:31.520 DEBUG com.http.server.Server - 请求长度514
+2018-03-10 22:09:31.526 DEBUG com.http.server.Server - 请求内容GET /helloworld HTTP/1.1
+Host: localhost:8089
+Connection: keep-alive
+Cache-Control: max-age=0
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3350.0 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9
+Cookie: optimizelyEndUserId=oeu1506216020008r0.4545054078398614; _ga=GA1.1.1180129065.1489919936
+
+
+2018-03-10 22:09:31.538 DEBUG com.http.HttpRequest - 请求行：
+GET /helloworld HTTP/1.1
+请求行结束
+2018-03-10 22:09:31.538 DEBUG com.http.HttpRequest - 请求行分割3
+2018-03-10 22:09:31.540 DEBUG com.http.handler.RequestHandler - HelloWorld
+2018-03-10 22:09:31.541 DEBUG com.http.handler.RequestHandler - 被代理类名称：com.http.GenericServlet
+2018-03-10 22:09:31.542 DEBUG com.http.handler.RequestHandler - 被代理类实现接口数：2
+2018-03-10 22:09:31.542 DEBUG com.http.ServletProxy - HTTP/1.1 200 OK
+CONTENT_LENGTH: 0
+CONTENT_TYPE: text/html
+DATE: 2018-03-10
+SERVER: MinServer
+
+
+2018-03-10 22:10:31.564 DEBUG com.http.server.Server - 请求长度514
+2018-03-10 22:10:31.565 DEBUG com.http.server.Server - 请求内容GET /helloworld HTTP/1.1
+Host: localhost:8089
+Connection: keep-alive
+Cache-Control: max-age=0
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3350.0 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9
+Cookie: optimizelyEndUserId=oeu1506216020008r0.4545054078398614; _ga=GA1.1.1180129065.1489919936
+
+
+2018-03-10 22:10:31.572 DEBUG com.http.HttpRequest - 请求行：
+GET /helloworld HTTP/1.1
+请求行结束
+2018-03-10 22:10:31.580 DEBUG com.http.HttpRequest - 请求行分割3
+2018-03-10 22:10:31.592 DEBUG com.http.handler.RequestHandler - HelloWorld
+2018-03-10 22:10:31.602 DEBUG com.http.handler.RequestHandler - 被代理类名称：com.http.GenericServlet
+2018-03-10 22:10:31.605 DEBUG com.http.handler.RequestHandler - 被代理类实现接口数：2
+2018-03-10 22:10:31.612 DEBUG com.http.ServletProxy - HTTP/1.1 200 OK
+CONTENT_LENGTH: 0
+CONTENT_TYPE: text/html
+DATE: 2018-03-10
+SERVER: MinServer
+
+
+2018-03-10 22:10:31.620 DEBUG com.http.server.Server - 请求长度514
+2018-03-10 22:10:31.638 DEBUG com.http.server.Server - 请求内容GET /helloworld HTTP/1.1
+Host: localhost:8089
+Connection: keep-alive
+Cache-Control: max-age=0
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3350.0 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9
+Cookie: optimizelyEndUserId=oeu1506216020008r0.4545054078398614; _ga=GA1.1.1180129065.1489919936
+
+
+2018-03-10 22:10:31.643 DEBUG com.http.HttpRequest - 请求行：
+GET /helloworld HTTP/1.1
+请求行结束
+2018-03-10 22:10:31.649 DEBUG com.http.HttpRequest - 请求行分割3
+2018-03-10 22:10:31.653 DEBUG com.http.handler.RequestHandler - HelloWorld
+2018-03-10 22:10:31.663 DEBUG com.http.handler.RequestHandler - 被代理类名称：com.http.GenericServlet
+2018-03-10 22:10:31.665 DEBUG com.http.handler.RequestHandler - 被代理类实现接口数：2
+2018-03-10 22:10:31.665 DEBUG com.http.ServletProxy - HTTP/1.1 200 OK
+CONTENT_LENGTH: 0
+CONTENT_TYPE: text/html
+DATE: 2018-03-10
+SERVER: MinServer
+
+
+2018-03-10 22:10:31.679 DEBUG com.http.server.Server - 请求长度514
+2018-03-10 22:10:31.686 DEBUG com.http.server.Server - 请求内容GET /helloworld HTTP/1.1
+Host: localhost:8089
+Connection: keep-alive
+Cache-Control: max-age=0
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3350.0 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9
+Cookie: optimizelyEndUserId=oeu1506216020008r0.4545054078398614; _ga=GA1.1.1180129065.1489919936
+
+
+2018-03-10 22:10:31.698 DEBUG com.http.HttpRequest - 请求行：
+GET /helloworld HTTP/1.1
+请求行结束
+2018-03-10 22:10:31.704 DEBUG com.http.HttpRequest - 请求行分割3
+2018-03-10 22:10:31.712 DEBUG com.http.handler.RequestHandler - HelloWorld
+2018-03-10 22:10:31.715 DEBUG com.http.handler.RequestHandler - 被代理类名称：com.http.GenericServlet
+2018-03-10 22:10:31.716 DEBUG com.http.handler.RequestHandler - 被代理类实现接口数：2
+2018-03-10 22:10:31.726 DEBUG com.http.ServletProxy - HTTP/1.1 200 OK
+CONTENT_LENGTH: 0
+CONTENT_TYPE: text/html
+DATE: 2018-03-10
+SERVER: MinServer
+
+
+2018-03-10 22:14:09.495 DEBUG com.http.server.Server - 请求长度566
+2018-03-10 22:14:09.496 DEBUG com.http.server.Server - 请求内容GET /helloworld HTTP/1.1
+Host: localhost:8089
+Connection: keep-alive
+Cache-Control: max-age=0
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3350.0 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9
+Cookie: optimizelyEndUserId=oeu1506216020008r0.4545054078398614; _ga=GA1.1.1180129065.1489919936; Idea-7e4347d7=ed0e733b-8015-414b-bc82-8ac72402bfe1
+
+
+2018-03-10 22:14:09.516 DEBUG com.http.HttpRequest - 请求行：
+GET /helloworld HTTP/1.1
+请求行结束
+2018-03-10 22:14:09.525 DEBUG com.http.HttpRequest - 请求行分割3
+2018-03-10 22:14:09.575 DEBUG com.http.handler.RequestHandler - HelloWorld
+2018-03-10 22:14:09.598 DEBUG com.http.handler.RequestHandler - 被代理类名称：com.http.GenericServlet
+2018-03-10 22:14:09.601 DEBUG com.http.handler.RequestHandler - 被代理类实现接口数：2
+2018-03-10 22:14:09.628 DEBUG com.http.ServletProxy - HTTP/1.1 200 OK
+DATE: 2018-03-10
+CONTENT_TYPE: text/html
+SERVER: MinServer
+CONTENT_LENGTH: 15
+
+
+2018-03-10 22:14:09.632 DEBUG com.http.server.Server - 请求长度566
+2018-03-10 22:14:09.654 DEBUG com.http.server.Server - 请求内容GET /helloworld HTTP/1.1
+Host: localhost:8089
+Connection: keep-alive
+Cache-Control: max-age=0
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3350.0 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9
+Cookie: optimizelyEndUserId=oeu1506216020008r0.4545054078398614; _ga=GA1.1.1180129065.1489919936; Idea-7e4347d7=ed0e733b-8015-414b-bc82-8ac72402bfe1
+
+
+2018-03-10 22:14:09.668 DEBUG com.http.HttpRequest - 请求行：
+GET /helloworld HTTP/1.1
+请求行结束
+2018-03-10 22:14:09.677 DEBUG com.http.HttpRequest - 请求行分割3
+2018-03-10 22:14:09.678 DEBUG com.http.handler.RequestHandler - HelloWorld
+2018-03-10 22:14:09.679 DEBUG com.http.handler.RequestHandler - 被代理类名称：com.http.GenericServlet
+2018-03-10 22:14:09.681 DEBUG com.http.handler.RequestHandler - 被代理类实现接口数：2
+2018-03-10 22:14:09.692 DEBUG com.http.ServletProxy - HTTP/1.1 200 OK
+DATE: 2018-03-10
+CONTENT_TYPE: text/html
+SERVER: MinServer
+CONTENT_LENGTH: 15
+
+
+2018-03-10 22:14:09.704 DEBUG com.http.server.Server - 请求长度566
+2018-03-10 22:14:09.705 DEBUG com.http.server.Server - 请求内容GET /helloworld HTTP/1.1
+Host: localhost:8089
+Connection: keep-alive
+Cache-Control: max-age=0
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3350.0 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9
+Cookie: optimizelyEndUserId=oeu1506216020008r0.4545054078398614; _ga=GA1.1.1180129065.1489919936; Idea-7e4347d7=ed0e733b-8015-414b-bc82-8ac72402bfe1
+
+
+2018-03-10 22:14:09.707 DEBUG com.http.HttpRequest - 请求行：
+GET /helloworld HTTP/1.1
+请求行结束
+2018-03-10 22:14:09.707 DEBUG com.http.HttpRequest - 请求行分割3
+2018-03-10 22:14:09.709 DEBUG com.http.handler.RequestHandler - HelloWorld
+2018-03-10 22:14:09.710 DEBUG com.http.handler.RequestHandler - 被代理类名称：com.http.GenericServlet
+2018-03-10 22:14:09.711 DEBUG com.http.handler.RequestHandler - 被代理类实现接口数：2
+2018-03-10 22:14:09.718 DEBUG com.http.ServletProxy - HTTP/1.1 200 OK
+DATE: 2018-03-10
+CONTENT_TYPE: text/html
+SERVER: MinServer
+CONTENT_LENGTH: 15
+
+
+2018-03-10 22:18:40.590 DEBUG com.http.server.Server - 请求长度566
+2018-03-10 22:18:40.592 DEBUG com.http.server.Server - 请求内容GET /helloworld HTTP/1.1
+Host: localhost:8089
+Connection: keep-alive
+Cache-Control: max-age=0
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3350.0 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9
+Cookie: optimizelyEndUserId=oeu1506216020008r0.4545054078398614; _ga=GA1.1.1180129065.1489919936; Idea-7e4347d7=ed0e733b-8015-414b-bc82-8ac72402bfe1
+
+
+2018-03-10 22:18:40.603 DEBUG com.http.HttpRequest - 请求行：
+GET /helloworld HTTP/1.1
+请求行结束
+2018-03-10 22:18:40.609 DEBUG com.http.HttpRequest - 请求行分割3
+2018-03-10 22:18:40.651 DEBUG com.http.handler.RequestHandler - HelloWorld
+2018-03-10 22:18:40.675 DEBUG com.http.handler.RequestHandler - 被代理类名称：com.http.GenericServlet
+2018-03-10 22:18:40.676 DEBUG com.http.handler.RequestHandler - 被代理类实现接口数：2
+2018-03-10 22:18:40.706 DEBUG com.http.ServletProxy - HTTP/1.1 200 OK
+DATE: 2018-03-10
+CONTENT_TYPE: text/html
+CONTENT_LENGTH: 15
+SERVER: MinServer
+
+
+2018-03-10 22:18:40.743 DEBUG com.http.server.Server - 请求长度551
+2018-03-10 22:18:40.743 DEBUG com.http.server.Server - 请求内容GET /favicon.ico HTTP/1.1
+Host: localhost:8089
+Connection: keep-alive
+Pragma: no-cache
+Cache-Control: no-cache
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3350.0 Safari/537.36
+Accept: image/webp,image/apng,image/*,*/*;q=0.8
+Referer: http://localhost:8089/helloworld
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9
+Cookie: optimizelyEndUserId=oeu1506216020008r0.4545054078398614; _ga=GA1.1.1180129065.1489919936; Idea-7e4347d7=ed0e733b-8015-414b-bc82-8ac72402bfe1
+
+
+2018-03-10 22:18:40.773 DEBUG com.http.HttpRequest - 请求行：
+GET /favicon.ico HTTP/1.1
+请求行结束
+2018-03-10 22:18:40.777 DEBUG com.http.HttpRequest - 请求行分割3
+2018-03-10 22:18:40.793 DEBUG com.http.handler.RequestHandler - 响应内容为：
+HTTP/1.1 404 Not Found
+DATE: 2018-03-10
+CONTENT_TYPE: text/html
+CONTENT_LENGTH: 203
+SERVER: MinServer
+
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<title>404 From MinServer</title>
+	</head>
+	<body>
+		<h1>404 NOT Found</h1>
+		<p style="color:red;">--Min Server--</p>
+	</body>
+</html>
+2018-03-10 22:18:40.794 DEBUG com.http.handler.RequestHandler - 响应长度为：
+312
+2018-03-10 22:18:40.799 DEBUG com.http.handler.RequestHandler - 响应已输出
+2018-03-10 22:25:05.478 DEBUG com.http.server.Server - 请求长度514
+2018-03-10 22:25:05.478 DEBUG com.http.server.Server - 请求内容GET /helloworld HTTP/1.1
+Host: localhost:8089
+Connection: keep-alive
+Cache-Control: max-age=0
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3350.0 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9
+Cookie: optimizelyEndUserId=oeu1506216020008r0.4545054078398614; _ga=GA1.1.1180129065.1489919936
+
+
+2018-03-10 22:25:05.497 DEBUG com.http.HttpRequest - 请求行：
+GET /helloworld HTTP/1.1
+请求行结束
+2018-03-10 22:25:05.499 DEBUG com.http.HttpRequest - 请求行分割3
+2018-03-10 22:25:05.557 DEBUG com.http.handler.RequestHandler - HelloWorld
+2018-03-10 22:25:05.579 DEBUG com.http.handler.RequestHandler - 被代理类名称：com.http.GenericServlet
+2018-03-10 22:25:05.580 DEBUG com.http.handler.RequestHandler - 被代理类实现接口数：2
+2018-03-10 22:25:05.585 DEBUG com.http.ServletProxy - HTTP/1.1 200 OK
+DATE: 2018-03-10
+CONTENT_LENGTH: 56
+SERVER: MinServer
+CONTENT_TYPE: text/html
+
+
+2018-03-10 22:29:20.377 DEBUG com.http.server.Server - 请求长度566
+2018-03-10 22:29:20.378 DEBUG com.http.server.Server - 请求内容GET /helloworld HTTP/1.1
+Host: localhost:8089
+Connection: keep-alive
+Cache-Control: max-age=0
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3350.0 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9
+Cookie: optimizelyEndUserId=oeu1506216020008r0.4545054078398614; _ga=GA1.1.1180129065.1489919936; Idea-7e4347d7=ed0e733b-8015-414b-bc82-8ac72402bfe1
+
+
+2018-03-10 22:29:20.381 DEBUG com.http.HttpRequest - 请求行：
+GET /helloworld HTTP/1.1
+请求行结束
+2018-03-10 22:29:20.382 DEBUG com.http.HttpRequest - 请求行分割3
+2018-03-10 22:29:20.386 DEBUG com.http.handler.RequestHandler - HelloWorld
+2018-03-10 22:29:20.395 DEBUG com.http.handler.RequestHandler - 被代理类名称：com.http.GenericServlet
+2018-03-10 22:29:20.396 DEBUG com.http.handler.RequestHandler - 被代理类实现接口数：2
+2018-03-10 22:29:20.398 DEBUG com.http.ServletProxy - HTTP/1.1 200 OK
+DATE: 2018-03-10
+CONTENT_LENGTH: 56
+SERVER: MinServer
+CONTENT_TYPE: text/html
+
+
+2018-03-10 22:29:21.058 DEBUG com.http.server.Server - 请求长度566
+2018-03-10 22:29:21.059 DEBUG com.http.server.Server - 请求内容GET /helloworld HTTP/1.1
+Host: localhost:8089
+Connection: keep-alive
+Cache-Control: max-age=0
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3350.0 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9
+Cookie: optimizelyEndUserId=oeu1506216020008r0.4545054078398614; _ga=GA1.1.1180129065.1489919936; Idea-7e4347d7=ed0e733b-8015-414b-bc82-8ac72402bfe1
+
+
+2018-03-10 22:29:21.061 DEBUG com.http.HttpRequest - 请求行：
+GET /helloworld HTTP/1.1
+请求行结束
+2018-03-10 22:29:21.062 DEBUG com.http.HttpRequest - 请求行分割3
+2018-03-10 22:29:21.064 DEBUG com.http.handler.RequestHandler - HelloWorld
+2018-03-10 22:29:21.065 DEBUG com.http.handler.RequestHandler - 被代理类名称：com.http.GenericServlet
+2018-03-10 22:29:21.068 DEBUG com.http.handler.RequestHandler - 被代理类实现接口数：2
+2018-03-10 22:29:21.076 DEBUG com.http.ServletProxy - HTTP/1.1 200 OK
+DATE: 2018-03-10
+CONTENT_LENGTH: 56
+SERVER: MinServer
+CONTENT_TYPE: text/html
+
+
+2018-03-10 22:29:21.637 DEBUG com.http.server.Server - 请求长度566
+2018-03-10 22:29:21.638 DEBUG com.http.server.Server - 请求内容GET /helloworld HTTP/1.1
+Host: localhost:8089
+Connection: keep-alive
+Cache-Control: max-age=0
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3350.0 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9
+Cookie: optimizelyEndUserId=oeu1506216020008r0.4545054078398614; _ga=GA1.1.1180129065.1489919936; Idea-7e4347d7=ed0e733b-8015-414b-bc82-8ac72402bfe1
+
+
+2018-03-10 22:29:21.641 DEBUG com.http.HttpRequest - 请求行：
+GET /helloworld HTTP/1.1
+请求行结束
+2018-03-10 22:29:21.641 DEBUG com.http.HttpRequest - 请求行分割3
+2018-03-10 22:29:21.644 DEBUG com.http.handler.RequestHandler - HelloWorld
+2018-03-10 22:29:21.644 DEBUG com.http.handler.RequestHandler - 被代理类名称：com.http.GenericServlet
+2018-03-10 22:29:21.645 DEBUG com.http.handler.RequestHandler - 被代理类实现接口数：2
+2018-03-10 22:29:21.653 DEBUG com.http.ServletProxy - HTTP/1.1 200 OK
+DATE: 2018-03-10
+CONTENT_LENGTH: 56
+SERVER: MinServer
+CONTENT_TYPE: text/html
+
+

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app>
+	<!--该文件放在MinServer的同级目录下-->
+	<servlet>
+		<servlet-class>HelloWorld</servlet-class>
+		<url-patten>/helloworld</url-patten> 
+	</servlet>
+</web-app>

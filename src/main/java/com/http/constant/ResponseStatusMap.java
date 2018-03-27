@@ -12,6 +12,7 @@ public class ResponseStatusMap {
 	public static final Map<Integer, String> MAP = new HashMap<>();
 	static {
 		MAP.put(200, "OK");
+		MAP.put(302, "Move temporarily");	//重定向的时候用
 		MAP.put(404, "Not Found");
 		MAP.put(500, "Internal Server Error");
 		Collections.unmodifiableMap(MAP);

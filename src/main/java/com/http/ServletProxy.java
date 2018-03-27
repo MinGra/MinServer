@@ -11,6 +11,7 @@ import java.nio.channels.CompletionHandler;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
+import com.http.constant.Constant;
 import com.http.constant.HttpHeader;
 import com.http.constant.ResponseStatusMap;
 import com.http.utils.CommonUtil;
@@ -28,6 +29,14 @@ public class ServletProxy  implements InvocationHandler {
 		// 在代理真实对象后添加一些自己的操作
 		HttpRequest request = (HttpRequest)args[0];
 		HttpResponse response = (HttpResponse)args[1];
+		
+		//处理SessionId
+		if (request.isSessionCreated()) {
+			Cookie cookie = new Cookie(Constant.JSESSION_ID_COOKIE_NAME, request.getSession().getId());
+			cookie.setMaxAge(1200);
+			response.addCookie(cookie);
+		}
+		
 		
 		byte[] entityByteArray = ((ByteArrayOutputStream)(response.getOutputStream())).toByteArray();
 //		ByteBuffer responseBuffer = ByteBuffer.wrap(byteArray);

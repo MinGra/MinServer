@@ -19,4 +19,10 @@ public class Constant {
 	
 	public static final String SERVER_NAME = "MinServer";
 	
+	public static final int DEFAULT_PORT = 12345;
+	
+	public static final long MILLISECOND_IN_20_MINUTES = 20*60*1000;
+	
+	public static final String JSESSION_ID_COOKIE_NAME = "JSESSIONID";
+	
 }

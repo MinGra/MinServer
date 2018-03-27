@@ -1,4 +1,4 @@
-package com.http.classloader;
+package com.http.utils;
 
 import java.io.File;
 import java.io.FileFilter;
@@ -11,29 +11,19 @@ import java.net.URLClassLoader;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
+import com.http.classloader.MinServletClassLoader;
+
 public class LibraryLoader {
 	private static Logger logger = LoggerFactory.getLogger(LibraryLoader.class);
-	private static volatile LibraryLoader instance = null;
-	
-	private LibraryLoader() {
+	public LibraryLoader() {
+		throw new AssertionError("不允许实例化工具类");
 	}
 	
-	public static LibraryLoader getInstance() {
-		if (instance == null) {
-			synchronized (LibraryLoader.class) {
-				if (instance == null) {
-					instance = new LibraryLoader();
-					instance.loadJars();
-				}
-			}
-		}
-		return instance;
-	}
-	
-	private void loadJars() {
+	public static void loadJars() {
 		String path = new File(
 				MinServletClassLoader.class.getProtectionDomain().getCodeSource().getLocation().getFile()).getParent()
-				+ "webapps/WEB-INF/lib/";
+				+ "/webapps/WEB-INF/lib/";
+		logger.debug("jar包路径：" + path);
 		File parent = new File(path);
 		File[] jarFiles = null;
 		if (parent.exists() && parent.isDirectory()) {
@@ -47,6 +37,7 @@ public class LibraryLoader {
 						return true;
 				}
 			});
+			logger.debug("有" + (jarFiles == null ? 0 : jarFiles.length) + "个jar包");
 			if (jarFiles != null) {
 				// 从URLClassLoader类中获取类所在文件夹的方法
 				Method method = null;
@@ -59,6 +50,7 @@ public class LibraryLoader {
 						try {
 							url = file.toURI().toURL();
 							try {
+								logger.debug("加载" + url.toString());
 								method.invoke(classLoader, url);
 							} catch (IllegalAccessException | IllegalArgumentException | InvocationTargetException e) {
 								e.printStackTrace();

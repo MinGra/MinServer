@@ -1,0 +1,91 @@
+2018-03-26 23:23:00.109 INFO  com.http.server.Server - 服务器已启动，端口号：8089
+2018-03-26 23:23:52.716 INFO  com.http.handler.RequestHandler - 收到请求：
+GET /test-dispatcher HTTP/1.1
+Host: localhost:8089
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:59.0) Gecko/20100101 Firefox/59.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Accept-Language: zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2
+Accept-Encoding: gzip, deflate
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+
+
+请求结束
+2018-03-26 23:29:04.992 INFO  com.http.server.Server - 服务器已启动，端口号：8089
+2018-03-26 23:29:10.359 INFO  com.http.handler.RequestHandler - 收到请求：
+GET /test-dispatcher HTTP/1.1
+Host: localhost:8089
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:59.0) Gecko/20100101 Firefox/59.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Accept-Language: zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2
+Accept-Encoding: gzip, deflate
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+
+
+请求结束
+2018-03-26 23:30:17.331 INFO  com.http.server.Server - 服务器已启动，端口号：8089
+2018-03-26 23:30:17.519 INFO  com.http.handler.RequestHandler - 收到请求：
+GET /test-dispatcher HTTP/1.1
+Host: localhost:8089
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:59.0) Gecko/20100101 Firefox/59.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Accept-Language: zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2
+Accept-Encoding: gzip, deflate
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+
+
+请求结束
+2018-03-26 23:30:17.654 INFO  com.http.handler.RequestHandler - 得到了uri /test-dispatcher
+2018-03-26 23:30:17.705 INFO  com.http.handler.ClassMapper - 成功添加了URI： /helloworld到servlet： HelloWorld的映射
+2018-03-26 23:30:17.706 INFO  com.http.handler.ClassMapper - 成功添加了URI： /test-thread-party-fast-json到servlet： TestThridPartyJar的映射
+2018-03-26 23:30:17.718 INFO  com.http.handler.ClassMapper - 成功添加了URI： /test-dispatcher到servlet： DispatcherTest的映射
+2018-03-26 23:30:17.719 INFO  com.http.handler.ClassMapper - 成功添加了URI： /show-request-message到servlet： ShowRequestMessage的映射
+2018-03-26 23:30:17.752 INFO  com.http.ServletProxy - servlet响应已写出
+2018-03-26 23:30:17.760 INFO  com.http.ServletProxy - servlet响应已写出
+2018-03-26 23:30:17.822 INFO  com.http.handler.RequestHandler - 收到请求：
+GET /favicon.ico HTTP/1.1
+Host: localhost:8089
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:59.0) Gecko/20100101 Firefox/59.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Accept-Language: zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2
+Accept-Encoding: gzip, deflate
+Connection: keep-alive
+
+
+请求结束
+2018-03-26 23:30:17.827 INFO  com.http.handler.RequestHandler - 得到了uri /favicon.ico
+2018-03-26 23:30:17.836 INFO  com.http.handler.RequestHandler - 静态资源:webapps/favicon.ico不存在或不是有效文件，显示404
+2018-03-26 23:36:15.294 INFO  com.http.handler.RequestHandler - 收到请求：
+GET /test-dispatcher HTTP/1.1
+Host: localhost:8089
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:59.0) Gecko/20100101 Firefox/59.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Accept-Language: zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2
+Accept-Encoding: gzip, deflate
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+Cache-Control: max-age=0
+
+
+请求结束
+2018-03-26 23:36:15.296 INFO  com.http.handler.RequestHandler - 得到了uri /test-dispatcher
+2018-03-26 23:36:15.303 INFO  com.http.ServletProxy - servlet响应已写出
+2018-03-26 23:36:15.305 INFO  com.http.ServletProxy - servlet响应已写出
+2018-03-26 23:36:44.614 INFO  com.http.handler.RequestHandler - 收到请求：
+GET /test-dispatcher HTTP/1.1
+Host: localhost:8089
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:59.0) Gecko/20100101 Firefox/59.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Accept-Language: zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2
+Accept-Encoding: gzip, deflate
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+Cache-Control: max-age=0
+
+
+请求结束
+2018-03-26 23:36:44.616 INFO  com.http.handler.RequestHandler - 得到了uri /test-dispatcher
+2018-03-26 23:36:44.622 INFO  com.http.ServletProxy - servlet响应已写出
+2018-03-26 23:36:44.624 INFO  com.http.ServletProxy - servlet响应已写出

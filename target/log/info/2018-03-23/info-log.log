@@ -1,0 +1,210 @@
+2018-03-23 20:17:32.964 INFO  com.http.server.Server - 服务器已启动，端口号：8089
+2018-03-23 20:17:45.974 INFO  com.http.handler.RequestHandler - 收到请求：
+GET /helloworld HTTP/1.1
+Host: localhost:8089
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3350.0 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9
+Cookie: optimizelyEndUserId=oeu1506216020008r0.4545054078398614; _ga=GA1.1.1180129065.1489919936; Idea-7e4347d7=ed0e733b-8015-414b-bc82-8ac72402bfe1
+
+
+请求结束
+2018-03-23 20:17:46.051 INFO  com.http.handler.RequestHandler - 得到了uri /helloworld
+2018-03-23 20:17:46.162 INFO  com.http.handler.ClassMapper - 成功添加了URI： /helloworld到servlet： HelloWorld的映射
+2018-03-23 20:17:46.186 INFO  com.http.ServletProxy - servlet响应已写出
+2018-03-23 20:17:46.247 INFO  com.http.handler.RequestHandler - 收到请求：
+GET /favicon.ico HTTP/1.1
+Host: localhost:8089
+Connection: keep-alive
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3350.0 Safari/537.36
+Accept: image/webp,image/apng,image/*,*/*;q=0.8
+Referer: http://localhost:8089/helloworld
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9
+Cookie: optimizelyEndUserId=oeu1506216020008r0.4545054078398614; _ga=GA1.1.1180129065.1489919936; Idea-7e4347d7=ed0e733b-8015-414b-bc82-8ac72402bfe1
+
+
+请求结束
+2018-03-23 20:17:46.250 INFO  com.http.handler.RequestHandler - 得到了uri /favicon.ico
+2018-03-23 20:17:46.259 INFO  com.http.handler.RequestHandler - 静态资源:webapps/favicon.ico不存在或不是有效文件，显示404
+2018-03-23 20:19:20.264 INFO  com.http.server.Server - 服务器已启动，端口号：8089
+2018-03-23 20:19:35.467 INFO  com.http.handler.RequestHandler - 收到请求：
+GET /helloworld HTTP/1.1
+Host: localhost:8089
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3350.0 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9
+Cookie: optimizelyEndUserId=oeu1506216020008r0.4545054078398614; _ga=GA1.1.1180129065.1489919936; Idea-7e4347d7=ed0e733b-8015-414b-bc82-8ac72402bfe1
+
+
+请求结束
+2018-03-23 20:19:35.491 INFO  com.http.handler.RequestHandler - 得到了uri /helloworld
+2018-03-23 20:19:35.516 INFO  com.http.handler.ClassMapper - 成功添加了URI： /helloworld到servlet： HelloWorld的映射
+2018-03-23 20:19:35.517 INFO  com.http.handler.ClassMapper - 成功添加了URI： /test-thread-party-fast-json到servlet： TestThridPartyJar的映射
+2018-03-23 20:19:35.553 INFO  com.http.ServletProxy - servlet响应已写出
+2018-03-23 20:19:49.868 INFO  com.http.handler.RequestHandler - 收到请求：
+GET /test-thread-party-fast-json HTTP/1.1
+Host: localhost:8089
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3350.0 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9
+Cookie: optimizelyEndUserId=oeu1506216020008r0.4545054078398614; _ga=GA1.1.1180129065.1489919936; Idea-7e4347d7=ed0e733b-8015-414b-bc82-8ac72402bfe1
+
+
+请求结束
+2018-03-23 20:19:49.876 INFO  com.http.handler.RequestHandler - 得到了uri /test-thread-party-fast-json
+2018-03-23 20:20:51.393 INFO  com.http.server.Server - 服务器已启动，端口号：8089
+2018-03-23 20:20:51.434 INFO  com.http.handler.RequestHandler - 收到请求：
+GET /test-thread-party-fast-json HTTP/1.1
+Host: localhost:8089
+Connection: keep-alive
+Cache-Control: max-age=0
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3350.0 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9
+Cookie: optimizelyEndUserId=oeu1506216020008r0.4545054078398614; _ga=GA1.1.1180129065.1489919936
+
+
+请求结束
+2018-03-23 20:20:51.456 INFO  com.http.handler.RequestHandler - 得到了uri /test-thread-party-fast-json
+2018-03-23 20:20:51.483 INFO  com.http.handler.ClassMapper - 成功添加了URI： /helloworld到servlet： HelloWorld的映射
+2018-03-23 20:20:51.485 INFO  com.http.handler.ClassMapper - 成功添加了URI： /test-thread-party-fast-json到servlet： TestThridPartyJar的映射
+2018-03-23 20:21:08.340 INFO  com.http.server.Server - 服务器已启动，端口号：8089
+2018-03-23 20:21:10.976 INFO  com.http.handler.RequestHandler - 收到请求：
+GET /test-thread-party-fast-json HTTP/1.1
+Host: localhost:8089
+Connection: keep-alive
+Cache-Control: max-age=0
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3350.0 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9
+Cookie: optimizelyEndUserId=oeu1506216020008r0.4545054078398614; _ga=GA1.1.1180129065.1489919936
+
+
+请求结束
+2018-03-23 20:21:11.010 INFO  com.http.handler.RequestHandler - 得到了uri /test-thread-party-fast-json
+2018-03-23 20:21:11.033 INFO  com.http.handler.ClassMapper - 成功添加了URI： /helloworld到servlet： HelloWorld的映射
+2018-03-23 20:21:11.035 INFO  com.http.handler.ClassMapper - 成功添加了URI： /test-thread-party-fast-json到servlet： TestThridPartyJar的映射
+2018-03-23 20:34:03.042 INFO  com.http.server.Server - 服务器已启动，端口号：8089
+2018-03-23 20:34:09.514 INFO  com.http.handler.RequestHandler - 收到请求：
+GET /test-thread-party-fast-json HTTP/1.1
+Host: localhost:8089
+Connection: keep-alive
+Cache-Control: max-age=0
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3350.0 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9
+Cookie: optimizelyEndUserId=oeu1506216020008r0.4545054078398614; _ga=GA1.1.1180129065.1489919936; Idea-7e4347d7=ed0e733b-8015-414b-bc82-8ac72402bfe1
+
+
+请求结束
+2018-03-23 20:34:09.546 INFO  com.http.handler.RequestHandler - 得到了uri /test-thread-party-fast-json
+2018-03-23 20:34:09.562 INFO  com.http.handler.ClassMapper - 成功添加了URI： /helloworld到servlet： HelloWorld的映射
+2018-03-23 20:34:09.563 INFO  com.http.handler.ClassMapper - 成功添加了URI： /test-thread-party-fast-json到servlet： TestThridPartyJar的映射
+2018-03-23 20:41:16.754 INFO  com.http.server.Server - 服务器已启动，端口号：8089
+2018-03-23 20:41:20.253 INFO  com.http.handler.RequestHandler - 收到请求：
+GET /test-thread-party-fast-json HTTP/1.1
+Host: localhost:8089
+Connection: keep-alive
+Cache-Control: max-age=0
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3350.0 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9
+Cookie: optimizelyEndUserId=oeu1506216020008r0.4545054078398614; _ga=GA1.1.1180129065.1489919936; Idea-7e4347d7=ed0e733b-8015-414b-bc82-8ac72402bfe1
+
+
+请求结束
+2018-03-23 20:41:20.277 INFO  com.http.handler.RequestHandler - 得到了uri /test-thread-party-fast-json
+2018-03-23 20:41:20.288 INFO  com.http.handler.ClassMapper - 成功添加了URI： /helloworld到servlet： HelloWorld的映射
+2018-03-23 20:41:20.291 INFO  com.http.handler.ClassMapper - 成功添加了URI： /test-thread-party-fast-json到servlet： TestThridPartyJar的映射
+2018-03-23 20:59:29.667 INFO  com.http.server.Server - 服务器已启动，端口号：8089
+2018-03-23 20:59:35.158 INFO  com.http.handler.RequestHandler - 收到请求：
+GET /test-thread-party-fast-json HTTP/1.1
+Host: localhost:8089
+Connection: keep-alive
+Cache-Control: max-age=0
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3350.0 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9
+Cookie: optimizelyEndUserId=oeu1506216020008r0.4545054078398614; _ga=GA1.1.1180129065.1489919936; Idea-7e4347d7=ed0e733b-8015-414b-bc82-8ac72402bfe1
+
+
+请求结束
+2018-03-23 20:59:35.226 INFO  com.http.handler.RequestHandler - 得到了uri /test-thread-party-fast-json
+2018-03-23 20:59:35.276 INFO  com.http.handler.ClassMapper - 成功添加了URI： /helloworld到servlet： HelloWorld的映射
+2018-03-23 20:59:35.282 INFO  com.http.handler.ClassMapper - 成功添加了URI： /test-thread-party-fast-json到servlet： TestThridPartyJar的映射
+2018-03-23 21:09:02.874 INFO  com.http.server.Server - 服务器已启动，端口号：8089
+2018-03-23 21:09:22.784 INFO  com.http.handler.RequestHandler - 收到请求：
+GET /test-thread-party-fast-json HTTP/1.1
+Host: localhost:8089
+Connection: keep-alive
+Cache-Control: max-age=0
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3350.0 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9
+Cookie: optimizelyEndUserId=oeu1506216020008r0.4545054078398614; _ga=GA1.1.1180129065.1489919936; Idea-7e4347d7=ed0e733b-8015-414b-bc82-8ac72402bfe1
+
+
+请求结束
+2018-03-23 21:09:22.823 INFO  com.http.handler.RequestHandler - 得到了uri /test-thread-party-fast-json
+2018-03-23 21:09:22.843 INFO  com.http.handler.ClassMapper - 成功添加了URI： /helloworld到servlet： HelloWorld的映射
+2018-03-23 21:09:22.845 INFO  com.http.handler.ClassMapper - 成功添加了URI： /test-thread-party-fast-json到servlet： TestThridPartyJar的映射
+2018-03-23 21:17:08.385 INFO  com.http.server.Server - 服务器已启动，端口号：8089
+2018-03-23 21:17:19.644 INFO  com.http.handler.RequestHandler - 收到请求：
+GET /test-thread-party-fast-json HTTP/1.1
+Host: localhost:8089
+Connection: keep-alive
+Cache-Control: max-age=0
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3350.0 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9
+Cookie: optimizelyEndUserId=oeu1506216020008r0.4545054078398614; _ga=GA1.1.1180129065.1489919936; Idea-7e4347d7=ed0e733b-8015-414b-bc82-8ac72402bfe1
+
+
+请求结束
+2018-03-23 21:17:19.676 INFO  com.http.handler.RequestHandler - 得到了uri /test-thread-party-fast-json
+2018-03-23 21:17:19.694 INFO  com.http.handler.ClassMapper - 成功添加了URI： /helloworld到servlet： HelloWorld的映射
+2018-03-23 21:17:19.695 INFO  com.http.handler.ClassMapper - 成功添加了URI： /test-thread-party-fast-json到servlet： TestThridPartyJar的映射
+2018-03-23 21:21:08.412 INFO  com.http.server.Server - 服务器已启动，端口号：8089
+2018-03-23 21:22:34.030 INFO  com.http.server.Server - 服务器已启动，端口号：8089
+2018-03-23 21:22:39.422 INFO  com.http.handler.RequestHandler - 收到请求：
+GET /test-thread-party-fast-json HTTP/1.1
+Host: localhost:8089
+Connection: keep-alive
+Cache-Control: max-age=0
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3350.0 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9
+Cookie: optimizelyEndUserId=oeu1506216020008r0.4545054078398614; _ga=GA1.1.1180129065.1489919936; Idea-7e4347d7=ed0e733b-8015-414b-bc82-8ac72402bfe1
+
+
+请求结束
+2018-03-23 21:22:39.445 INFO  com.http.handler.RequestHandler - 得到了uri /test-thread-party-fast-json
+2018-03-23 21:22:39.480 INFO  com.http.handler.ClassMapper - 成功添加了URI： /helloworld到servlet： HelloWorld的映射
+2018-03-23 21:22:39.481 INFO  com.http.handler.ClassMapper - 成功添加了URI： /test-thread-party-fast-json到servlet： TestThridPartyJar的映射
+2018-03-23 21:22:39.810 INFO  com.http.ServletProxy - servlet响应已写出

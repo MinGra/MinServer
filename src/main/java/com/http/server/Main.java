@@ -6,6 +6,8 @@ import java.util.concurrent.TimeUnit;
 
 import org.dom4j.Element;
 
+import com.http.constant.Constant;
+import com.http.utils.LibraryLoader;
 import com.http.utils.XMLUtil;
 /**
  * MinServer入口
@@ -16,8 +18,13 @@ public class Main {
 	
 	//MinServer入口
 	public static void main(String[] args) {
-		int port = 12345;
+		int port = Constant.DEFAULT_PORT;
+		
+		//加载第三方Jar包
+		LibraryLoader.loadJars();
+		
 		Element e = XMLUtil.getRootElement("server.xml").element("port");
+		
 		if(e != null) {
 			port = Integer.parseInt(e.getText());
 		}

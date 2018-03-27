@@ -17,7 +17,6 @@ import org.slf4j.LoggerFactory;
 import com.http.Config;
 import com.http.Context;
 import com.http.ServletProxy;
-import com.http.classloader.LibraryLoader;
 import com.http.HttpConfig;
 import com.http.HttpContext;
 import com.http.HttpRequest;
@@ -29,12 +28,13 @@ import com.http.constant.Constant;
 import com.http.constant.HttpHeader;
 import com.http.constant.ResponseStatusMap;
 import com.http.utils.CommonUtil;
+import com.http.utils.LibraryLoader;
 
 /**
  * 此类用于处理一次请求后删除
  * 
  * @author MYD
- *
+ * 
  */
 // public class RequestHandler implements Runnable {
 public class RequestHandler {
@@ -47,9 +47,9 @@ public class RequestHandler {
 	private static final int STATUS_IS_FAVICON = 1;
 	private static final int STATUS_IS_STATIC = 2;
 	private static final int STATUS_NOT_FOUND = 3;
-	// http请求字符串
-//	private String requestStr;
-	// 针对uri选择不同的处理器
+	//	http请求字符串
+	//	private String requestStr;
+	//	针对uri选择不同的处理器
 	private Servlet servlet;
 
 	private AsynchronousSocketChannel channel;
@@ -64,7 +64,7 @@ public class RequestHandler {
 	// @Override
 	// public void run() {
 	public void handleRequest(Request request, Response response, String uri) {
-		LibraryLoader.getInstance(); // 确保Jar包中的类已被加载，这个实现有点傻的
+//		LibraryLoader.getInstance(); // 确保Jar包中的类已被加载，这个实现有点傻的
 		
 		Config config = new HttpConfig(request.getContext());
 		if (uri.equals(Constant.FAVICON_URI)) {
@@ -120,7 +120,7 @@ public class RequestHandler {
 						.append(ResponseStatusMap.MAP.get(response.getStatus())).append("\r\n");
 				// 构造响应头
 				for (HttpHeader key : response.getHeaderMap().keySet()) {
-					sb.append(key).append(": ").append(response.getHeaderMap().get(key)).append("\r\n");
+					sb.append(key.toString()).append(": ").append(response.getHeaderMap().get(key)).append("\r\n");
 				}
 				// 空行
 				sb.append("\r\n");
@@ -227,7 +227,7 @@ public class RequestHandler {
 		Response response = new HttpResponse(channel, request.getContext());
 		String uri = request.getRequestURI(); // 得到uri
 		logger.info("得到了uri " + uri);
-
+		
 		handleRequest(request, response, uri);
 
 	}

@@ -1,0 +1,2055 @@
+2018-03-27 00:01:15.338 INFO  com.http.server.Server - 服务器已启动，端口号：8089
+2018-03-27 00:01:24.919 INFO  com.http.handler.RequestHandler - 收到请求：
+GET /test-dispatcher HTTP/1.1
+Host: localhost:8089
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:59.0) Gecko/20100101 Firefox/59.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Accept-Language: zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2
+Accept-Encoding: gzip, deflate
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+Cache-Control: max-age=0
+
+
+请求结束
+2018-03-27 00:01:24.953 INFO  com.http.handler.RequestHandler - 得到了uri /test-dispatcher
+2018-03-27 00:01:25.003 INFO  com.http.handler.ClassMapper - 成功添加了URI： /helloworld到servlet： HelloWorld的映射
+2018-03-27 00:01:25.005 INFO  com.http.handler.ClassMapper - 成功添加了URI： /test-thread-party-fast-json到servlet： TestThridPartyJar的映射
+2018-03-27 00:01:25.006 INFO  com.http.handler.ClassMapper - 成功添加了URI： /test-dispatcher到servlet： DispatcherTest的映射
+2018-03-27 00:01:25.010 INFO  com.http.handler.ClassMapper - 成功添加了URI： /show-request-message到servlet： ShowRequestMessage的映射
+2018-03-27 00:01:25.050 INFO  com.http.ServletProxy - servlet响应已写出
+2018-03-27 00:01:25.054 INFO  com.http.ServletProxy - servlet响应已写出
+2018-03-27 00:11:38.557 INFO  com.http.handler.RequestHandler - 收到请求：
+GET /test-dispatcher HTTP/1.1
+Host: localhost:8089
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:59.0) Gecko/20100101 Firefox/59.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Accept-Language: zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2
+Accept-Encoding: gzip, deflate
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+Cache-Control: max-age=0
+
+
+请求结束
+2018-03-27 00:11:38.560 INFO  com.http.handler.RequestHandler - 得到了uri /test-dispatcher
+2018-03-27 00:11:38.565 INFO  com.http.ServletProxy - servlet响应已写出
+2018-03-27 00:11:38.567 INFO  com.http.ServletProxy - servlet响应已写出
+2018-03-27 00:12:08.092 INFO  com.http.server.Server - 服务器已启动，端口号：8089
+2018-03-27 00:12:55.176 INFO  com.http.handler.RequestHandler - 收到请求：
+GET /test-dispatcher HTTP/1.1
+Host: localhost:8089
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:59.0) Gecko/20100101 Firefox/59.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Accept-Language: zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2
+Accept-Encoding: gzip, deflate
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+
+
+请求结束
+2018-03-27 00:12:55.201 INFO  com.http.handler.RequestHandler - 得到了uri /test-dispatcher
+2018-03-27 00:12:55.248 INFO  com.http.handler.ClassMapper - 成功添加了URI： /helloworld到servlet： HelloWorld的映射
+2018-03-27 00:12:55.251 INFO  com.http.handler.ClassMapper - 成功添加了URI： /test-thread-party-fast-json到servlet： TestThridPartyJar的映射
+2018-03-27 00:12:55.255 INFO  com.http.handler.ClassMapper - 成功添加了URI： /test-dispatcher到servlet： DispatcherTest的映射
+2018-03-27 00:12:55.256 INFO  com.http.handler.ClassMapper - 成功添加了URI： /show-request-message到servlet： ShowRequestMessage的映射
+2018-03-27 00:12:55.287 INFO  com.http.ServletProxy - servlet响应已写出
+2018-03-27 00:12:55.298 INFO  com.http.ServletProxy - servlet响应已写出
+2018-03-27 00:12:55.352 INFO  com.http.handler.RequestHandler - 收到请求：
+GET /favicon.ico HTTP/1.1
+Host: localhost:8089
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:59.0) Gecko/20100101 Firefox/59.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Accept-Language: zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2
+Accept-Encoding: gzip, deflate
+Connection: keep-alive
+
+
+请求结束
+2018-03-27 00:12:55.359 INFO  com.http.handler.RequestHandler - 得到了uri /favicon.ico
+2018-03-27 00:12:55.367 INFO  com.http.handler.RequestHandler - 静态资源:webapps/favicon.ico不存在或不是有效文件，显示404
+2018-03-27 00:13:34.327 INFO  com.http.handler.RequestHandler - 收到请求：
+GET /test-dispatcher HTTP/1.1
+Host: localhost:8089
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3350.0 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9
+Cookie: optimizelyEndUserId=oeu1506216020008r0.4545054078398614; _ga=GA1.1.1180129065.1489919936; Idea-7e4347d7=ed0e733b-8015-414b-bc82-8ac72402bfe1
+
+
+请求结束
+2018-03-27 00:13:34.331 INFO  com.http.handler.RequestHandler - 得到了uri /test-dispatcher
+2018-03-27 00:13:34.348 INFO  com.http.ServletProxy - servlet响应已写出
+2018-03-27 00:13:34.351 INFO  com.http.ServletProxy - servlet响应已写出
+2018-03-27 00:13:34.500 INFO  com.http.handler.RequestHandler - 收到请求：
+GET /favicon.ico HTTP/1.1
+Host: localhost:8089
+Connection: keep-alive
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3350.0 Safari/537.36
+Accept: image/webp,image/apng,image/*,*/*;q=0.8
+Referer: http://localhost:8089/test-dispatcher
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9
+Cookie: optimizelyEndUserId=oeu1506216020008r0.4545054078398614; _ga=GA1.1.1180129065.1489919936; Idea-7e4347d7=ed0e733b-8015-414b-bc82-8ac72402bfe1
+
+
+请求结束
+2018-03-27 00:13:34.504 INFO  com.http.handler.RequestHandler - 得到了uri /favicon.ico
+2018-03-27 00:13:34.513 INFO  com.http.handler.RequestHandler - 静态资源:webapps/favicon.ico不存在或不是有效文件，显示404
+2018-03-27 00:13:37.240 INFO  com.http.handler.RequestHandler - 收到请求：
+GET /test-dispatcher HTTP/1.1
+Host: localhost:8089
+Connection: keep-alive
+Cache-Control: max-age=0
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3350.0 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9
+Cookie: optimizelyEndUserId=oeu1506216020008r0.4545054078398614; _ga=GA1.1.1180129065.1489919936; Idea-7e4347d7=ed0e733b-8015-414b-bc82-8ac72402bfe1
+
+
+请求结束
+2018-03-27 00:13:37.247 INFO  com.http.handler.RequestHandler - 得到了uri /test-dispatcher
+2018-03-27 00:13:37.257 INFO  com.http.ServletProxy - servlet响应已写出
+2018-03-27 00:13:37.261 INFO  com.http.ServletProxy - servlet响应已写出
+2018-03-27 00:13:43.081 INFO  com.http.handler.RequestHandler - 收到请求：
+GET /test-dispatcher HTTP/1.1
+Host: localhost:8089
+Connection: keep-alive
+Cache-Control: max-age=0
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3350.0 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9
+Cookie: optimizelyEndUserId=oeu1506216020008r0.4545054078398614; _ga=GA1.1.1180129065.1489919936; Idea-7e4347d7=ed0e733b-8015-414b-bc82-8ac72402bfe1
+
+
+请求结束
+2018-03-27 00:13:43.092 INFO  com.http.handler.RequestHandler - 得到了uri /test-dispatcher
+2018-03-27 00:13:43.108 INFO  com.http.ServletProxy - servlet响应已写出
+2018-03-27 00:13:43.117 INFO  com.http.ServletProxy - servlet响应已写出
+2018-03-27 00:19:22.982 INFO  com.http.server.Server - 服务器已启动，端口号：8089
+2018-03-27 00:19:26.746 INFO  com.http.handler.RequestHandler - 收到请求：
+GET /test-dispatcher HTTP/1.1
+Host: localhost:8089
+Connection: keep-alive
+Cache-Control: max-age=0
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3350.0 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9
+Cookie: optimizelyEndUserId=oeu1506216020008r0.4545054078398614; _ga=GA1.1.1180129065.1489919936; Idea-7e4347d7=ed0e733b-8015-414b-bc82-8ac72402bfe1
+
+
+请求结束
+2018-03-27 00:19:26.764 INFO  com.http.handler.RequestHandler - 得到了uri /test-dispatcher
+2018-03-27 00:19:26.795 INFO  com.http.handler.ClassMapper - 成功添加了URI： /helloworld到servlet： HelloWorld的映射
+2018-03-27 00:19:26.796 INFO  com.http.handler.ClassMapper - 成功添加了URI： /test-thread-party-fast-json到servlet： TestThridPartyJar的映射
+2018-03-27 00:19:26.797 INFO  com.http.handler.ClassMapper - 成功添加了URI： /test-dispatcher到servlet： DispatcherTest的映射
+2018-03-27 00:19:26.799 INFO  com.http.handler.ClassMapper - 成功添加了URI： /show-request-message到servlet： ShowRequestMessage的映射
+2018-03-27 00:19:26.823 INFO  com.http.ServletProxy - servlet响应已写出
+2018-03-27 00:19:26.832 INFO  com.http.ServletProxy - servlet响应已写出
+2018-03-27 00:20:56.090 INFO  com.http.handler.RequestHandler - 收到请求：
+GET /test-dispatcher HTTP/1.1
+Host: localhost:8089
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:59.0) Gecko/20100101 Firefox/59.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Accept-Language: zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2
+Accept-Encoding: gzip, deflate
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+Cache-Control: max-age=0
+
+
+请求结束
+2018-03-27 00:20:56.090 INFO  com.http.handler.RequestHandler - 收到请求：
+GET /test-dispatcher HTTP/1.1
+Host: localhost:8089
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:59.0) Gecko/20100101 Firefox/59.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Accept-Language: zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2
+Accept-Encoding: gzip, deflate
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+Cache-Control: max-age=0
+
+
+请求结束
+2018-03-27 00:20:56.107 INFO  com.http.handler.RequestHandler - 得到了uri /test-dispatcher
+2018-03-27 00:20:56.108 INFO  com.http.handler.RequestHandler - 得到了uri /test-dispatcher
+2018-03-27 00:20:56.142 INFO  com.http.ServletProxy - servlet响应已写出
+2018-03-27 00:20:56.156 INFO  com.http.ServletProxy - servlet响应已写出
+2018-03-27 00:20:56.156 INFO  com.http.ServletProxy - servlet响应已写出
+2018-03-27 00:20:56.180 INFO  com.http.ServletProxy - servlet响应已写出
+2018-03-27 00:21:15.621 INFO  com.http.server.Server - 服务器已启动，端口号：8089
+2018-03-27 00:21:17.406 INFO  com.http.handler.RequestHandler - 收到请求：
+GET /test-dispatcher HTTP/1.1
+Host: localhost:8089
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:59.0) Gecko/20100101 Firefox/59.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Accept-Language: zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2
+Accept-Encoding: gzip, deflate
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+Cache-Control: max-age=0
+
+
+请求结束
+2018-03-27 00:21:17.435 INFO  com.http.handler.RequestHandler - 得到了uri /test-dispatcher
+2018-03-27 00:21:17.470 INFO  com.http.handler.ClassMapper - 成功添加了URI： /helloworld到servlet： HelloWorld的映射
+2018-03-27 00:21:17.471 INFO  com.http.handler.ClassMapper - 成功添加了URI： /test-thread-party-fast-json到servlet： TestThridPartyJar的映射
+2018-03-27 00:21:17.475 INFO  com.http.handler.ClassMapper - 成功添加了URI： /test-dispatcher到servlet： DispatcherTest的映射
+2018-03-27 00:21:17.476 INFO  com.http.handler.ClassMapper - 成功添加了URI： /show-request-message到servlet： ShowRequestMessage的映射
+2018-03-27 00:21:17.506 INFO  com.http.ServletProxy - servlet响应已写出
+2018-03-27 00:21:17.511 INFO  com.http.ServletProxy - servlet响应已写出
+2018-03-27 00:21:25.757 INFO  com.http.handler.RequestHandler - 收到请求：
+GET /test-dispatcher HTTP/1.1
+Host: localhost:8089
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:59.0) Gecko/20100101 Firefox/59.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Accept-Language: zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2
+Accept-Encoding: gzip, deflate
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+Cache-Control: max-age=0
+
+
+请求结束
+2018-03-27 00:21:25.761 INFO  com.http.handler.RequestHandler - 得到了uri /test-dispatcher
+2018-03-27 00:21:25.777 INFO  com.http.ServletProxy - servlet响应已写出
+2018-03-27 00:21:25.789 INFO  com.http.ServletProxy - servlet响应已写出
+2018-03-27 00:21:35.142 INFO  com.http.server.Server - 服务器已启动，端口号：8089
+2018-03-27 00:21:44.263 INFO  com.http.handler.RequestHandler - 收到请求：
+GET /test-dispatcher HTTP/1.1
+Host: localhost:8089
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:59.0) Gecko/20100101 Firefox/59.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Accept-Language: zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2
+Accept-Encoding: gzip, deflate
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+
+
+请求结束
+2018-03-27 00:21:44.293 INFO  com.http.handler.RequestHandler - 得到了uri /test-dispatcher
+2018-03-27 00:21:44.334 INFO  com.http.handler.ClassMapper - 成功添加了URI： /helloworld到servlet： HelloWorld的映射
+2018-03-27 00:21:44.336 INFO  com.http.handler.ClassMapper - 成功添加了URI： /test-thread-party-fast-json到servlet： TestThridPartyJar的映射
+2018-03-27 00:21:44.339 INFO  com.http.handler.ClassMapper - 成功添加了URI： /test-dispatcher到servlet： DispatcherTest的映射
+2018-03-27 00:21:44.340 INFO  com.http.handler.ClassMapper - 成功添加了URI： /show-request-message到servlet： ShowRequestMessage的映射
+2018-03-27 00:21:44.372 INFO  com.http.ServletProxy - servlet响应已写出
+2018-03-27 00:21:44.380 INFO  com.http.ServletProxy - servlet响应已写出
+2018-03-27 11:00:40.062 INFO  com.http.server.Server - 服务器已启动，端口号：8089
+2018-03-27 11:01:16.938 INFO  com.http.handler.RequestHandler - 收到请求：
+GET /test-dispatcher HTTP/1.1
+Host: localhost:8089
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3350.0 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9
+Cookie: optimizelyEndUserId=oeu1506216020008r0.4545054078398614; _ga=GA1.1.1180129065.1489919936; Idea-7e4347d7=ed0e733b-8015-414b-bc82-8ac72402bfe1
+
+
+请求结束
+2018-03-27 11:01:17.008 INFO  com.http.handler.RequestHandler - 得到了uri /test-dispatcher
+2018-03-27 11:01:17.127 INFO  com.http.handler.ClassMapper - 成功添加了URI： /helloworld到servlet： HelloWorld的映射
+2018-03-27 11:01:17.133 INFO  com.http.handler.ClassMapper - 成功添加了URI： /test-thread-party-fast-json到servlet： TestThridPartyJar的映射
+2018-03-27 11:01:17.150 INFO  com.http.handler.ClassMapper - 成功添加了URI： /test-dispatcher到servlet： DispatcherTest的映射
+2018-03-27 11:01:17.162 INFO  com.http.handler.ClassMapper - 成功添加了URI： /show-request-message到servlet： ShowRequestMessage的映射
+2018-03-27 11:01:17.230 INFO  com.http.ServletProxy - servlet响应已写出
+2018-03-27 11:01:17.268 INFO  com.http.ServletProxy - servlet响应已写出
+2018-03-27 11:01:26.440 INFO  com.http.handler.RequestHandler - 收到请求：
+GET /helloworld HTTP/1.1
+Host: localhost:8089
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3350.0 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9
+Cookie: optimizelyEndUserId=oeu1506216020008r0.4545054078398614; _ga=GA1.1.1180129065.1489919936; Idea-7e4347d7=ed0e733b-8015-414b-bc82-8ac72402bfe1
+
+
+请求结束
+2018-03-27 11:01:26.453 INFO  com.http.handler.RequestHandler - 得到了uri /helloworld
+2018-03-27 11:01:26.460 INFO  com.http.ServletProxy - servlet响应已写出
+2018-03-27 11:02:09.774 INFO  com.http.handler.RequestHandler - 收到请求：
+GET /helloworld HTTP/1.1
+Host: localhost:8089
+Connection: keep-alive
+Cache-Control: max-age=0
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3350.0 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9
+Cookie: optimizelyEndUserId=oeu1506216020008r0.4545054078398614; _ga=GA1.1.1180129065.1489919936; Idea-7e4347d7=ed0e733b-8015-414b-bc82-8ac72402bfe1
+
+
+请求结束
+2018-03-27 11:02:09.787 INFO  com.http.handler.RequestHandler - 得到了uri /helloworld
+2018-03-27 11:02:09.803 INFO  com.http.ServletProxy - servlet响应已写出
+2018-03-27 11:43:44.550 INFO  com.http.server.Server - 服务器已启动，端口号：8089
+2018-03-27 11:44:31.496 INFO  com.http.handler.RequestHandler - 收到请求：
+GET /helloworld HTTP/1.1
+Host: localhost:8089
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3350.0 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9
+Cookie: optimizelyEndUserId=oeu1506216020008r0.4545054078398614; _ga=GA1.1.1180129065.1489919936; Idea-7e4347d7=ed0e733b-8015-414b-bc82-8ac72402bfe1
+
+
+请求结束
+2018-03-27 11:44:31.599 INFO  com.http.handler.RequestHandler - 得到了uri /helloworld
+2018-03-27 11:44:31.659 INFO  com.http.handler.ClassMapper - 成功添加了URI： /helloworld到servlet： HelloWorld的映射
+2018-03-27 11:44:31.661 INFO  com.http.handler.ClassMapper - 成功添加了URI： /test-thread-party-fast-json到servlet： TestThridPartyJar的映射
+2018-03-27 11:44:31.664 INFO  com.http.handler.ClassMapper - 成功添加了URI： /test-dispatcher到servlet： DispatcherTest的映射
+2018-03-27 11:44:31.667 INFO  com.http.handler.ClassMapper - 成功添加了URI： /show-request-message到servlet： ShowRequestMessage的映射
+2018-03-27 11:48:46.928 INFO  com.http.server.Server - 服务器已启动，端口号：8089
+2018-03-27 11:48:50.470 INFO  com.http.handler.RequestHandler - 收到请求：
+GET /helloworld HTTP/1.1
+Host: localhost:8089
+Connection: keep-alive
+Cache-Control: max-age=0
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3350.0 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9
+Cookie: optimizelyEndUserId=oeu1506216020008r0.4545054078398614; _ga=GA1.1.1180129065.1489919936
+
+
+请求结束
+2018-03-27 11:48:50.509 INFO  com.http.handler.RequestHandler - 得到了uri /helloworld
+2018-03-27 11:48:50.560 INFO  com.http.handler.ClassMapper - 成功添加了URI： /helloworld到servlet： HelloWorld的映射
+2018-03-27 11:48:50.562 INFO  com.http.handler.ClassMapper - 成功添加了URI： /test-thread-party-fast-json到servlet： TestThridPartyJar的映射
+2018-03-27 11:48:50.570 INFO  com.http.handler.ClassMapper - 成功添加了URI： /test-dispatcher到servlet： DispatcherTest的映射
+2018-03-27 11:48:50.574 INFO  com.http.handler.ClassMapper - 成功添加了URI： /show-request-message到servlet： ShowRequestMessage的映射
+2018-03-27 11:48:50.626 INFO  com.http.ServletProxy - servlet响应已写出
+2018-03-27 11:49:00.130 INFO  com.http.handler.RequestHandler - 收到请求：
+GET /helloworld HTTP/1.1
+Host: localhost:8089
+Connection: keep-alive
+Cache-Control: max-age=0
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3350.0 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9
+Cookie: optimizelyEndUserId=oeu1506216020008r0.4545054078398614; _ga=GA1.1.1180129065.1489919936; Idea-7e4347d7=ed0e733b-8015-414b-bc82-8ac72402bfe1
+
+
+请求结束
+2018-03-27 11:49:00.142 INFO  com.http.handler.RequestHandler - 得到了uri /helloworld
+2018-03-27 11:49:00.158 INFO  com.http.ServletProxy - servlet响应已写出
+2018-03-27 11:52:21.023 INFO  com.http.server.Server - 服务器已启动，端口号：8089
+2018-03-27 11:52:31.141 INFO  com.http.handler.RequestHandler - 收到请求：
+GET /helloworld HTTP/1.1
+Host: localhost:8089
+Connection: keep-alive
+Cache-Control: max-age=0
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3350.0 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9
+Cookie: optimizelyEndUserId=oeu1506216020008r0.4545054078398614; _ga=GA1.1.1180129065.1489919936; Idea-7e4347d7=ed0e733b-8015-414b-bc82-8ac72402bfe1
+
+
+请求结束
+2018-03-27 11:52:31.175 INFO  com.http.handler.RequestHandler - 得到了uri /helloworld
+2018-03-27 11:52:31.217 INFO  com.http.handler.ClassMapper - 成功添加了URI： /helloworld到servlet： HelloWorld的映射
+2018-03-27 11:52:31.219 INFO  com.http.handler.ClassMapper - 成功添加了URI： /test-thread-party-fast-json到servlet： TestThridPartyJar的映射
+2018-03-27 11:52:31.223 INFO  com.http.handler.ClassMapper - 成功添加了URI： /test-dispatcher到servlet： DispatcherTest的映射
+2018-03-27 11:52:31.226 INFO  com.http.handler.ClassMapper - 成功添加了URI： /show-request-message到servlet： ShowRequestMessage的映射
+2018-03-27 11:52:31.304 INFO  com.http.ServletProxy - servlet响应已写出
+2018-03-27 11:58:17.727 INFO  com.http.server.Server - 服务器已启动，端口号：8089
+2018-03-27 11:58:24.155 INFO  com.http.handler.RequestHandler - 收到请求：
+GET /helloworld HTTP/1.1
+Host: localhost:8089
+Connection: keep-alive
+Cache-Control: max-age=0
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3350.0 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9
+Cookie: optimizelyEndUserId=oeu1506216020008r0.4545054078398614; _ga=GA1.1.1180129065.1489919936; Idea-7e4347d7=ed0e733b-8015-414b-bc82-8ac72402bfe1
+
+
+请求结束
+2018-03-27 11:58:24.242 INFO  com.http.handler.RequestHandler - 得到了uri /helloworld
+2018-03-27 11:58:24.288 INFO  com.http.handler.ClassMapper - 成功添加了URI： /helloworld到servlet： HelloWorld的映射
+2018-03-27 11:58:24.290 INFO  com.http.handler.ClassMapper - 成功添加了URI： /test-thread-party-fast-json到servlet： TestThridPartyJar的映射
+2018-03-27 11:58:24.294 INFO  com.http.handler.ClassMapper - 成功添加了URI： /test-dispatcher到servlet： DispatcherTest的映射
+2018-03-27 11:58:24.297 INFO  com.http.handler.ClassMapper - 成功添加了URI： /show-request-message到servlet： ShowRequestMessage的映射
+2018-03-27 11:58:24.346 INFO  com.http.ServletProxy - servlet响应已写出
+2018-03-27 11:59:40.350 INFO  com.http.server.Server - 服务器已启动，端口号：8089
+2018-03-27 11:59:43.949 INFO  com.http.handler.RequestHandler - 收到请求：
+GET /helloworld HTTP/1.1
+Host: localhost:8089
+Connection: keep-alive
+Cache-Control: max-age=0
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3350.0 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9
+Cookie: optimizelyEndUserId=oeu1506216020008r0.4545054078398614; _ga=GA1.1.1180129065.1489919936; Idea-7e4347d7=ed0e733b-8015-414b-bc82-8ac72402bfe1
+
+
+请求结束
+2018-03-27 11:59:43.985 INFO  com.http.handler.RequestHandler - 得到了uri /helloworld
+2018-03-27 11:59:44.024 INFO  com.http.handler.ClassMapper - 成功添加了URI： /helloworld到servlet： HelloWorld的映射
+2018-03-27 11:59:44.026 INFO  com.http.handler.ClassMapper - 成功添加了URI： /test-thread-party-fast-json到servlet： TestThridPartyJar的映射
+2018-03-27 11:59:44.030 INFO  com.http.handler.ClassMapper - 成功添加了URI： /test-dispatcher到servlet： DispatcherTest的映射
+2018-03-27 11:59:44.034 INFO  com.http.handler.ClassMapper - 成功添加了URI： /show-request-message到servlet： ShowRequestMessage的映射
+2018-03-27 11:59:44.097 INFO  com.http.ServletProxy - servlet响应已写出
+2018-03-27 12:10:38.308 INFO  com.http.server.Server - 服务器已启动，端口号：8089
+2018-03-27 12:10:53.560 INFO  com.http.handler.RequestHandler - 收到请求：
+GET /helloworld HTTP/1.1
+Host: localhost:8089
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3350.0 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9
+Cookie: optimizelyEndUserId=oeu1506216020008r0.4545054078398614; _ga=GA1.1.1180129065.1489919936; Idea-7e4347d7=ed0e733b-8015-414b-bc82-8ac72402bfe1
+
+
+请求结束
+2018-03-27 12:10:53.610 INFO  com.http.handler.RequestHandler - 得到了uri /helloworld
+2018-03-27 12:10:53.688 INFO  com.http.handler.ClassMapper - 成功添加了URI： /helloworld到servlet： HelloWorld的映射
+2018-03-27 12:10:53.689 INFO  com.http.handler.ClassMapper - 成功添加了URI： /test-thread-party-fast-json到servlet： TestThridPartyJar的映射
+2018-03-27 12:10:53.701 INFO  com.http.handler.ClassMapper - 成功添加了URI： /test-dispatcher到servlet： DispatcherTest的映射
+2018-03-27 12:10:53.713 INFO  com.http.handler.ClassMapper - 成功添加了URI： /show-request-message到servlet： ShowRequestMessage的映射
+2018-03-27 12:10:53.741 INFO  com.http.ServletProxy - servlet响应已写出
+2018-03-27 12:10:53.836 INFO  com.http.handler.RequestHandler - 收到请求：
+GET /favicon.ico HTTP/1.1
+Host: localhost:8089
+Connection: keep-alive
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3350.0 Safari/537.36
+Accept: image/webp,image/apng,image/*,*/*;q=0.8
+Referer: http://localhost:8089/helloworld
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9
+Cookie: optimizelyEndUserId=oeu1506216020008r0.4545054078398614; _ga=GA1.1.1180129065.1489919936; Idea-7e4347d7=ed0e733b-8015-414b-bc82-8ac72402bfe1
+
+
+请求结束
+2018-03-27 12:10:53.840 INFO  com.http.handler.RequestHandler - 得到了uri /favicon.ico
+2018-03-27 12:10:53.848 INFO  com.http.handler.RequestHandler - 静态资源:webapps/favicon.ico不存在或不是有效文件，显示404
+2018-03-27 12:10:59.811 INFO  com.http.handler.RequestHandler - 收到请求：
+GET /helloworld HTTP/1.1
+Host: localhost:8089
+Connection: keep-alive
+Cache-Control: max-age=0
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3350.0 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9
+Cookie: optimizelyEndUserId=oeu1506216020008r0.4545054078398614; _ga=GA1.1.1180129065.1489919936; Idea-7e4347d7=ed0e733b-8015-414b-bc82-8ac72402bfe1
+
+
+请求结束
+2018-03-27 12:10:59.821 INFO  com.http.handler.RequestHandler - 得到了uri /helloworld
+2018-03-27 12:10:59.831 INFO  com.http.ServletProxy - servlet响应已写出
+2018-03-27 12:11:36.069 INFO  com.http.handler.RequestHandler - 收到请求：
+GET /helloworld HTTP/1.1
+Host: localhost:8089
+Connection: keep-alive
+Cache-Control: max-age=0
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3350.0 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9
+Cookie: optimizelyEndUserId=oeu1506216020008r0.4545054078398614; _ga=GA1.1.1180129065.1489919936; Idea-7e4347d7=ed0e733b-8015-414b-bc82-8ac72402bfe1
+
+
+请求结束
+2018-03-27 12:11:36.077 INFO  com.http.handler.RequestHandler - 得到了uri /helloworld
+2018-03-27 12:11:36.086 INFO  com.http.ServletProxy - servlet响应已写出
+2018-03-27 12:16:04.665 INFO  com.http.server.Server - 服务器已启动，端口号：8089
+2018-03-27 12:16:08.542 INFO  com.http.handler.RequestHandler - 收到请求：
+GET /helloworld HTTP/1.1
+Host: localhost:8089
+Connection: keep-alive
+Cache-Control: max-age=0
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3350.0 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9
+Cookie: optimizelyEndUserId=oeu1506216020008r0.4545054078398614; _ga=GA1.1.1180129065.1489919936; Idea-7e4347d7=ed0e733b-8015-414b-bc82-8ac72402bfe1
+
+
+请求结束
+2018-03-27 12:16:08.573 INFO  com.http.handler.RequestHandler - 得到了uri /helloworld
+2018-03-27 12:16:08.620 INFO  com.http.handler.ClassMapper - 成功添加了URI： /helloworld到servlet： HelloWorld的映射
+2018-03-27 12:16:08.621 INFO  com.http.handler.ClassMapper - 成功添加了URI： /test-thread-party-fast-json到servlet： TestThridPartyJar的映射
+2018-03-27 12:16:08.623 INFO  com.http.handler.ClassMapper - 成功添加了URI： /test-dispatcher到servlet： DispatcherTest的映射
+2018-03-27 12:16:08.626 INFO  com.http.handler.ClassMapper - 成功添加了URI： /show-request-message到servlet： ShowRequestMessage的映射
+2018-03-27 12:16:08.646 INFO  com.http.ServletProxy - servlet响应已写出
+2018-03-27 12:17:16.308 INFO  com.http.server.Server - 服务器已启动，端口号：8089
+2018-03-27 12:17:19.690 INFO  com.http.handler.RequestHandler - 收到请求：
+GET /helloworld HTTP/1.1
+Host: localhost:8089
+Connection: keep-alive
+Cache-Control: max-age=0
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3350.0 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9
+Cookie: optimizelyEndUserId=oeu1506216020008r0.4545054078398614; _ga=GA1.1.1180129065.1489919936; Idea-7e4347d7=ed0e733b-8015-414b-bc82-8ac72402bfe1
+
+
+请求结束
+2018-03-27 12:17:19.726 INFO  com.http.handler.RequestHandler - 得到了uri /helloworld
+2018-03-27 12:17:19.762 INFO  com.http.handler.ClassMapper - 成功添加了URI： /helloworld到servlet： HelloWorld的映射
+2018-03-27 12:17:19.765 INFO  com.http.handler.ClassMapper - 成功添加了URI： /test-thread-party-fast-json到servlet： TestThridPartyJar的映射
+2018-03-27 12:17:19.770 INFO  com.http.handler.ClassMapper - 成功添加了URI： /test-dispatcher到servlet： DispatcherTest的映射
+2018-03-27 12:17:19.772 INFO  com.http.handler.ClassMapper - 成功添加了URI： /show-request-message到servlet： ShowRequestMessage的映射
+2018-03-27 12:17:19.801 INFO  com.http.ServletProxy - servlet响应已写出
+2018-03-27 12:19:21.311 INFO  com.http.server.Server - 服务器已启动，端口号：8089
+2018-03-27 12:19:23.756 INFO  com.http.handler.RequestHandler - 收到请求：
+GET /helloworld HTTP/1.1
+Host: localhost:8089
+Connection: keep-alive
+Cache-Control: max-age=0
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3350.0 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9
+Cookie: optimizelyEndUserId=oeu1506216020008r0.4545054078398614; _ga=GA1.1.1180129065.1489919936; Idea-7e4347d7=ed0e733b-8015-414b-bc82-8ac72402bfe1
+
+
+请求结束
+2018-03-27 12:19:23.788 INFO  com.http.handler.RequestHandler - 得到了uri /helloworld
+2018-03-27 12:19:23.831 INFO  com.http.handler.ClassMapper - 成功添加了URI： /helloworld到servlet： HelloWorld的映射
+2018-03-27 12:19:23.832 INFO  com.http.handler.ClassMapper - 成功添加了URI： /test-thread-party-fast-json到servlet： TestThridPartyJar的映射
+2018-03-27 12:19:23.835 INFO  com.http.handler.ClassMapper - 成功添加了URI： /test-dispatcher到servlet： DispatcherTest的映射
+2018-03-27 12:19:23.837 INFO  com.http.handler.ClassMapper - 成功添加了URI： /show-request-message到servlet： ShowRequestMessage的映射
+2018-03-27 12:19:23.862 INFO  com.http.ServletProxy - servlet响应已写出
+2018-03-27 12:24:10.143 INFO  com.http.server.Server - 服务器已启动，端口号：8089
+2018-03-27 12:24:15.909 INFO  com.http.handler.RequestHandler - 收到请求：
+GET /helloworld HTTP/1.1
+Host: localhost:8089
+Connection: keep-alive
+Cache-Control: max-age=0
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3350.0 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9
+Cookie: optimizelyEndUserId=oeu1506216020008r0.4545054078398614; _ga=GA1.1.1180129065.1489919936; Idea-7e4347d7=ed0e733b-8015-414b-bc82-8ac72402bfe1; cookie=test
+
+
+请求结束
+2018-03-27 12:24:15.949 INFO  com.http.handler.RequestHandler - 得到了uri /helloworld
+2018-03-27 12:24:15.997 INFO  com.http.handler.ClassMapper - 成功添加了URI： /helloworld到servlet： HelloWorld的映射
+2018-03-27 12:24:15.999 INFO  com.http.handler.ClassMapper - 成功添加了URI： /test-thread-party-fast-json到servlet： TestThridPartyJar的映射
+2018-03-27 12:24:16.002 INFO  com.http.handler.ClassMapper - 成功添加了URI： /test-dispatcher到servlet： DispatcherTest的映射
+2018-03-27 12:24:16.003 INFO  com.http.handler.ClassMapper - 成功添加了URI： /show-request-message到servlet： ShowRequestMessage的映射
+2018-03-27 12:24:16.026 INFO  com.http.ServletProxy - servlet响应已写出
+2018-03-27 12:28:34.616 INFO  com.http.handler.RequestHandler - 收到请求：
+GET /helloworld HTTP/1.1
+Host: localhost:8089
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:59.0) Gecko/20100101 Firefox/59.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Accept-Language: zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2
+Accept-Encoding: gzip, deflate
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+
+
+请求结束
+2018-03-27 12:28:34.623 INFO  com.http.handler.RequestHandler - 得到了uri /helloworld
+2018-03-27 12:28:34.633 INFO  com.http.ServletProxy - servlet响应已写出
+2018-03-27 12:28:34.913 INFO  com.http.handler.RequestHandler - 收到请求：
+GET /favicon.ico HTTP/1.1
+Host: localhost:8089
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:59.0) Gecko/20100101 Firefox/59.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Accept-Language: zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2
+Accept-Encoding: gzip, deflate
+Connection: keep-alive
+
+
+请求结束
+2018-03-27 12:28:34.914 INFO  com.http.handler.RequestHandler - 收到请求：
+GET /favicon.ico HTTP/1.1
+Host: localhost:8089
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:59.0) Gecko/20100101 Firefox/59.0
+Accept: */*
+Accept-Language: zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2
+Accept-Encoding: gzip, deflate
+Connection: keep-alive
+
+
+请求结束
+2018-03-27 12:28:34.923 INFO  com.http.handler.RequestHandler - 得到了uri /favicon.ico
+2018-03-27 12:28:34.924 INFO  com.http.handler.RequestHandler - 得到了uri /favicon.ico
+2018-03-27 12:28:34.936 INFO  com.http.handler.RequestHandler - 静态资源:webapps/favicon.ico不存在或不是有效文件，显示404
+2018-03-27 12:28:34.936 INFO  com.http.handler.RequestHandler - 静态资源:webapps/favicon.ico不存在或不是有效文件，显示404
+2018-03-27 12:28:57.020 INFO  com.http.handler.RequestHandler - 收到请求：
+GET /helloworld HTTP/1.1
+Host: localhost:8089
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:59.0) Gecko/20100101 Firefox/59.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Accept-Language: zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2
+Accept-Encoding: gzip, deflate
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+Cache-Control: max-age=0
+
+
+请求结束
+2018-03-27 12:28:57.025 INFO  com.http.handler.RequestHandler - 得到了uri /helloworld
+2018-03-27 12:28:57.037 INFO  com.http.ServletProxy - servlet响应已写出
+2018-03-27 12:38:19.890 INFO  com.http.server.Server - 服务器已启动，端口号：8089
+2018-03-27 12:38:29.141 INFO  com.http.handler.RequestHandler - 收到请求：
+GET /helloworld HTTP/1.1
+Host: localhost:8089
+Connection: keep-alive
+Cache-Control: max-age=0
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3350.0 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9
+Cookie: optimizelyEndUserId=oeu1506216020008r0.4545054078398614; _ga=GA1.1.1180129065.1489919936; Idea-7e4347d7=ed0e733b-8015-414b-bc82-8ac72402bfe1; cookie=test
+
+
+请求结束
+2018-03-27 12:38:29.169 INFO  com.http.handler.RequestHandler - 得到了uri /helloworld
+2018-03-27 12:38:29.212 INFO  com.http.handler.ClassMapper - 成功添加了URI： /helloworld到servlet： HelloWorld的映射
+2018-03-27 12:38:29.215 INFO  com.http.handler.ClassMapper - 成功添加了URI： /test-thread-party-fast-json到servlet： TestThridPartyJar的映射
+2018-03-27 12:38:29.218 INFO  com.http.handler.ClassMapper - 成功添加了URI： /test-dispatcher到servlet： DispatcherTest的映射
+2018-03-27 12:38:29.220 INFO  com.http.handler.ClassMapper - 成功添加了URI： /show-request-message到servlet： ShowRequestMessage的映射
+2018-03-27 12:38:29.250 INFO  com.http.ServletProxy - servlet响应已写出
+2018-03-27 12:48:49.098 INFO  com.http.server.Server - 服务器已启动，端口号：8089
+2018-03-27 13:12:19.969 INFO  com.http.server.Server - 服务器已启动，端口号：8089
+2018-03-27 13:12:50.193 INFO  com.http.handler.RequestHandler - 收到请求：
+GET /put-session-message HTTP/1.1
+Host: localhost:8089
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3350.0 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9
+Cookie: optimizelyEndUserId=oeu1506216020008r0.4545054078398614; _ga=GA1.1.1180129065.1489919936; Idea-7e4347d7=ed0e733b-8015-414b-bc82-8ac72402bfe1
+
+
+请求结束
+2018-03-27 13:12:50.290 INFO  com.http.handler.RequestHandler - 得到了uri /put-session-message
+2018-03-27 13:12:50.400 INFO  com.http.handler.ClassMapper - 成功添加了URI： /helloworld到servlet： HelloWorld的映射
+2018-03-27 13:12:50.402 INFO  com.http.handler.ClassMapper - 成功添加了URI： /test-thread-party-fast-json到servlet： TestThridPartyJar的映射
+2018-03-27 13:12:50.412 INFO  com.http.handler.ClassMapper - 成功添加了URI： /test-dispatcher到servlet： DispatcherTest的映射
+2018-03-27 13:12:50.425 INFO  com.http.handler.ClassMapper - 成功添加了URI： /show-request-message到servlet： ShowRequestMessage的映射
+2018-03-27 13:12:50.426 INFO  com.http.handler.ClassMapper - 成功添加了URI： /put-session-message到servlet： PutSessionMessage的映射
+2018-03-27 13:12:50.427 INFO  com.http.handler.ClassMapper - 成功添加了URI： /show-session-message到servlet： ShowSessionMessage的映射
+2018-03-27 13:12:50.458 INFO  com.http.ServletProxy - servlet响应已写出
+2018-03-27 13:12:50.468 INFO  com.http.handler.RequestHandler - 收到请求：
+GET /show-session-message HTTP/1.1
+Host: localhost:8089
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3350.0 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9
+Cookie: optimizelyEndUserId=oeu1506216020008r0.4545054078398614; _ga=GA1.1.1180129065.1489919936; Idea-7e4347d7=ed0e733b-8015-414b-bc82-8ac72402bfe1; JSESSIONID=152212757020610001
+
+
+请求结束
+2018-03-27 13:12:50.473 INFO  com.http.handler.RequestHandler - 得到了uri /show-session-message
+2018-03-27 13:12:50.491 INFO  com.http.ServletProxy - servlet响应已写出
+2018-03-27 13:12:56.452 INFO  com.http.handler.RequestHandler - 收到请求：
+GET /show-session-message HTTP/1.1
+Host: localhost:8089
+Connection: keep-alive
+Cache-Control: max-age=0
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3350.0 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9
+Cookie: optimizelyEndUserId=oeu1506216020008r0.4545054078398614; _ga=GA1.1.1180129065.1489919936; Idea-7e4347d7=ed0e733b-8015-414b-bc82-8ac72402bfe1; JSESSIONID=152212757047310002
+
+
+请求结束
+2018-03-27 13:12:56.459 INFO  com.http.handler.RequestHandler - 得到了uri /show-session-message
+2018-03-27 13:12:56.469 INFO  com.http.ServletProxy - servlet响应已写出
+2018-03-27 13:15:50.886 INFO  com.http.handler.RequestHandler - 收到请求：
+GET /put-session-message HTTP/1.1
+Host: localhost:8089
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3350.0 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9
+Cookie: optimizelyEndUserId=oeu1506216020008r0.4545054078398614; _ga=GA1.1.1180129065.1489919936; Idea-7e4347d7=ed0e733b-8015-414b-bc82-8ac72402bfe1; JSESSIONID=152212757645810003
+
+
+请求结束
+2018-03-27 13:15:50.892 INFO  com.http.handler.RequestHandler - 得到了uri /put-session-message
+2018-03-27 13:15:50.904 INFO  com.http.ServletProxy - servlet响应已写出
+2018-03-27 13:15:50.917 INFO  com.http.handler.RequestHandler - 收到请求：
+GET /show-session-message HTTP/1.1
+Host: localhost:8089
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3350.0 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9
+Cookie: optimizelyEndUserId=oeu1506216020008r0.4545054078398614; _ga=GA1.1.1180129065.1489919936; Idea-7e4347d7=ed0e733b-8015-414b-bc82-8ac72402bfe1; JSESSIONID=152212775089210004
+
+
+请求结束
+2018-03-27 13:15:50.920 INFO  com.http.handler.RequestHandler - 得到了uri /show-session-message
+2018-03-27 13:15:50.931 INFO  com.http.ServletProxy - servlet响应已写出
+2018-03-27 13:15:54.297 INFO  com.http.handler.RequestHandler - 收到请求：
+GET /show-session-message HTTP/1.1
+Host: localhost:8089
+Connection: keep-alive
+Cache-Control: max-age=0
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3350.0 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9
+Cookie: optimizelyEndUserId=oeu1506216020008r0.4545054078398614; _ga=GA1.1.1180129065.1489919936; Idea-7e4347d7=ed0e733b-8015-414b-bc82-8ac72402bfe1; JSESSIONID=152212775092010005
+
+
+请求结束
+2018-03-27 13:15:54.306 INFO  com.http.handler.RequestHandler - 得到了uri /show-session-message
+2018-03-27 13:15:54.313 INFO  com.http.ServletProxy - servlet响应已写出
+2018-03-27 13:15:59.953 INFO  com.http.server.Server - 服务器已启动，端口号：8089
+2018-03-27 13:16:05.761 INFO  com.http.handler.RequestHandler - 收到请求：
+GET /put-session-message HTTP/1.1
+Host: localhost:8089
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3350.0 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9
+Cookie: optimizelyEndUserId=oeu1506216020008r0.4545054078398614; _ga=GA1.1.1180129065.1489919936; Idea-7e4347d7=ed0e733b-8015-414b-bc82-8ac72402bfe1; JSESSIONID=152212775430610006
+
+
+请求结束
+2018-03-27 13:16:05.787 INFO  com.http.handler.RequestHandler - 得到了uri /put-session-message
+2018-03-27 13:16:05.824 INFO  com.http.handler.ClassMapper - 成功添加了URI： /helloworld到servlet： HelloWorld的映射
+2018-03-27 13:16:05.826 INFO  com.http.handler.ClassMapper - 成功添加了URI： /test-thread-party-fast-json到servlet： TestThridPartyJar的映射
+2018-03-27 13:16:05.830 INFO  com.http.handler.ClassMapper - 成功添加了URI： /test-dispatcher到servlet： DispatcherTest的映射
+2018-03-27 13:16:05.831 INFO  com.http.handler.ClassMapper - 成功添加了URI： /show-request-message到servlet： ShowRequestMessage的映射
+2018-03-27 13:16:05.833 INFO  com.http.handler.ClassMapper - 成功添加了URI： /put-session-message到servlet： PutSessionMessage的映射
+2018-03-27 13:16:05.836 INFO  com.http.handler.ClassMapper - 成功添加了URI： /show-session-message到servlet： ShowSessionMessage的映射
+2018-03-27 13:16:05.857 INFO  com.http.ServletProxy - servlet响应已写出
+2018-03-27 13:16:05.867 INFO  com.http.handler.RequestHandler - 收到请求：
+GET /show-session-message HTTP/1.1
+Host: localhost:8089
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3350.0 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9
+Cookie: optimizelyEndUserId=oeu1506216020008r0.4545054078398614; _ga=GA1.1.1180129065.1489919936; Idea-7e4347d7=ed0e733b-8015-414b-bc82-8ac72402bfe1; JSESSIONID=152212776577410001
+
+
+请求结束
+2018-03-27 13:16:05.875 INFO  com.http.handler.RequestHandler - 得到了uri /show-session-message
+2018-03-27 13:16:05.887 INFO  com.http.ServletProxy - servlet响应已写出
+2018-03-27 13:21:45.660 INFO  com.http.server.Server - 服务器已启动，端口号：8089
+2018-03-27 13:21:52.167 INFO  com.http.handler.RequestHandler - 收到请求：
+GET /put-session-message HTTP/1.1
+Host: localhost:8089
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3350.0 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9
+Cookie: optimizelyEndUserId=oeu1506216020008r0.4545054078398614; _ga=GA1.1.1180129065.1489919936; Idea-7e4347d7=ed0e733b-8015-414b-bc82-8ac72402bfe1; JSESSIONID=152212776587510002
+
+
+请求结束
+2018-03-27 13:21:52.202 INFO  com.http.handler.RequestHandler - 得到了uri /put-session-message
+2018-03-27 13:21:52.243 INFO  com.http.handler.ClassMapper - 成功添加了URI： /helloworld到servlet： HelloWorld的映射
+2018-03-27 13:21:52.244 INFO  com.http.handler.ClassMapper - 成功添加了URI： /test-thread-party-fast-json到servlet： TestThridPartyJar的映射
+2018-03-27 13:21:52.249 INFO  com.http.handler.ClassMapper - 成功添加了URI： /test-dispatcher到servlet： DispatcherTest的映射
+2018-03-27 13:21:52.251 INFO  com.http.handler.ClassMapper - 成功添加了URI： /show-request-message到servlet： ShowRequestMessage的映射
+2018-03-27 13:21:52.253 INFO  com.http.handler.ClassMapper - 成功添加了URI： /put-session-message到servlet： PutSessionMessage的映射
+2018-03-27 13:21:52.260 INFO  com.http.handler.ClassMapper - 成功添加了URI： /show-session-message到servlet： ShowSessionMessage的映射
+2018-03-27 13:21:52.290 INFO  com.http.ServletProxy - servlet响应已写出
+2018-03-27 13:21:52.300 INFO  com.http.handler.RequestHandler - 收到请求：
+GET /show-session-message HTTP/1.1
+Host: localhost:8089
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3350.0 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9
+Cookie: optimizelyEndUserId=oeu1506216020008r0.4545054078398614; _ga=GA1.1.1180129065.1489919936; Idea-7e4347d7=ed0e733b-8015-414b-bc82-8ac72402bfe1; JSESSIONID=152212811217710001
+
+
+请求结束
+2018-03-27 13:21:52.308 INFO  com.http.handler.RequestHandler - 得到了uri /show-session-message
+2018-03-27 13:21:52.318 INFO  com.http.ServletProxy - servlet响应已写出
+2018-03-27 13:21:53.210 INFO  com.http.handler.RequestHandler - 收到请求：
+GET /put-session-message HTTP/1.1
+Host: localhost:8089
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3350.0 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9
+Cookie: optimizelyEndUserId=oeu1506216020008r0.4545054078398614; _ga=GA1.1.1180129065.1489919936; Idea-7e4347d7=ed0e733b-8015-414b-bc82-8ac72402bfe1; JSESSIONID=152212811230710002
+
+
+请求结束
+2018-03-27 13:21:53.224 INFO  com.http.handler.RequestHandler - 得到了uri /put-session-message
+2018-03-27 13:21:53.233 INFO  com.http.ServletProxy - servlet响应已写出
+2018-03-27 13:21:53.240 INFO  com.http.handler.RequestHandler - 收到请求：
+GET /show-session-message HTTP/1.1
+Host: localhost:8089
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3350.0 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9
+Cookie: optimizelyEndUserId=oeu1506216020008r0.4545054078398614; _ga=GA1.1.1180129065.1489919936; Idea-7e4347d7=ed0e733b-8015-414b-bc82-8ac72402bfe1; JSESSIONID=152212811321910003
+
+
+请求结束
+2018-03-27 13:21:53.245 INFO  com.http.handler.RequestHandler - 得到了uri /show-session-message
+2018-03-27 13:21:53.258 INFO  com.http.ServletProxy - servlet响应已写出
+2018-03-27 13:34:20.293 INFO  com.http.server.Server - 服务器已启动，端口号：8089
+2018-03-27 13:34:28.944 INFO  com.http.handler.RequestHandler - 收到请求：
+GET /put-session-message HTTP/1.1
+Host: localhost:8089
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3350.0 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9
+Cookie: optimizelyEndUserId=oeu1506216020008r0.4545054078398614; _ga=GA1.1.1180129065.1489919936; Idea-7e4347d7=ed0e733b-8015-414b-bc82-8ac72402bfe1; JSESSIONID=152212811324310004
+
+
+请求结束
+2018-03-27 13:34:28.974 INFO  com.http.handler.RequestHandler - 得到了uri /put-session-message
+2018-03-27 13:34:29.018 INFO  com.http.handler.ClassMapper - 成功添加了URI： /helloworld到servlet： HelloWorld的映射
+2018-03-27 13:34:29.019 INFO  com.http.handler.ClassMapper - 成功添加了URI： /test-thread-party-fast-json到servlet： TestThridPartyJar的映射
+2018-03-27 13:34:29.023 INFO  com.http.handler.ClassMapper - 成功添加了URI： /test-dispatcher到servlet： DispatcherTest的映射
+2018-03-27 13:34:29.024 INFO  com.http.handler.ClassMapper - 成功添加了URI： /show-request-message到servlet： ShowRequestMessage的映射
+2018-03-27 13:34:29.025 INFO  com.http.handler.ClassMapper - 成功添加了URI： /put-session-message到servlet： PutSessionMessage的映射
+2018-03-27 13:34:29.026 INFO  com.http.handler.ClassMapper - 成功添加了URI： /show-session-message到servlet： ShowSessionMessage的映射
+2018-03-27 13:34:29.045 INFO  com.http.ServletProxy - servlet响应已写出
+2018-03-27 13:34:29.054 INFO  com.http.handler.RequestHandler - 收到请求：
+GET /show-session-message HTTP/1.1
+Host: localhost:8089
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3350.0 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9
+Cookie: optimizelyEndUserId=oeu1506216020008r0.4545054078398614; _ga=GA1.1.1180129065.1489919936; Idea-7e4347d7=ed0e733b-8015-414b-bc82-8ac72402bfe1; JSESSIONID=152212886895410001
+
+
+请求结束
+2018-03-27 13:34:29.066 INFO  com.http.handler.RequestHandler - 得到了uri /show-session-message
+2018-03-27 13:34:29.074 INFO  com.http.ServletProxy - servlet响应已写出
+2018-03-27 13:34:29.498 INFO  com.http.handler.RequestHandler - 收到请求：
+GET /put-session-message HTTP/1.1
+Host: localhost:8089
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3350.0 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9
+Cookie: optimizelyEndUserId=oeu1506216020008r0.4545054078398614; _ga=GA1.1.1180129065.1489919936; Idea-7e4347d7=ed0e733b-8015-414b-bc82-8ac72402bfe1; JSESSIONID=152212886905810002
+
+
+请求结束
+2018-03-27 13:34:29.509 INFO  com.http.handler.RequestHandler - 得到了uri /put-session-message
+2018-03-27 13:34:29.517 INFO  com.http.ServletProxy - servlet响应已写出
+2018-03-27 13:34:29.528 INFO  com.http.handler.RequestHandler - 收到请求：
+GET /show-session-message HTTP/1.1
+Host: localhost:8089
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3350.0 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9
+Cookie: optimizelyEndUserId=oeu1506216020008r0.4545054078398614; _ga=GA1.1.1180129065.1489919936; Idea-7e4347d7=ed0e733b-8015-414b-bc82-8ac72402bfe1; JSESSIONID=152212886950610003
+
+
+请求结束
+2018-03-27 13:34:29.533 INFO  com.http.handler.RequestHandler - 得到了uri /show-session-message
+2018-03-27 13:34:29.543 INFO  com.http.ServletProxy - servlet响应已写出
+2018-03-27 13:35:13.276 INFO  com.http.handler.RequestHandler - 收到请求：
+GET /show-session-message HTTP/1.1
+Host: localhost:8089
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3350.0 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9
+Cookie: optimizelyEndUserId=oeu1506216020008r0.4545054078398614; _ga=GA1.1.1180129065.1489919936; Idea-7e4347d7=ed0e733b-8015-414b-bc82-8ac72402bfe1; JSESSIONID=152212886953210004
+
+
+请求结束
+2018-03-27 13:35:13.290 INFO  com.http.handler.RequestHandler - 得到了uri /show-session-message
+2018-03-27 13:35:13.298 INFO  com.http.ServletProxy - servlet响应已写出
+2018-03-27 13:37:11.872 INFO  com.http.server.Server - 服务器已启动，端口号：8089
+2018-03-27 13:37:19.345 INFO  com.http.handler.RequestHandler - 收到请求：
+GET /helloworld HTTP/1.1
+Host: localhost:8089
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:59.0) Gecko/20100101 Firefox/59.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Accept-Language: zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2
+Accept-Encoding: gzip, deflate
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+Cache-Control: max-age=0
+
+
+请求结束
+2018-03-27 13:37:25.804 INFO  com.http.handler.RequestHandler - 收到请求：
+GET /show-session-message HTTP/1.1
+Host: localhost:8089
+Connection: keep-alive
+Cache-Control: max-age=0
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3350.0 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9
+Cookie: optimizelyEndUserId=oeu1506216020008r0.4545054078398614; _ga=GA1.1.1180129065.1489919936; Idea-7e4347d7=ed0e733b-8015-414b-bc82-8ac72402bfe1; JSESSIONID=152212891328110005
+
+
+请求结束
+2018-03-27 13:37:33.737 INFO  com.http.handler.RequestHandler - 收到请求：
+GET /put-session-message HTTP/1.1
+Host: localhost:8089
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3350.0 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9
+Cookie: optimizelyEndUserId=oeu1506216020008r0.4545054078398614; _ga=GA1.1.1180129065.1489919936; Idea-7e4347d7=ed0e733b-8015-414b-bc82-8ac72402bfe1; JSESSIONID=152212891328110005
+
+
+请求结束
+2018-03-27 13:37:37.739 INFO  com.http.handler.RequestHandler - 收到请求：
+GET /put-session-message HTTP/1.1
+Host: localhost:8089
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3350.0 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9
+Cookie: optimizelyEndUserId=oeu1506216020008r0.4545054078398614; _ga=GA1.1.1180129065.1489919936; Idea-7e4347d7=ed0e733b-8015-414b-bc82-8ac72402bfe1; JSESSIONID=152212891328110005
+
+
+请求结束
+2018-03-27 13:40:03.619 INFO  com.http.server.Server - 服务器已启动，端口号：8089
+2018-03-27 13:40:07.134 INFO  com.http.handler.RequestHandler - 收到请求：
+GET /put-session-message HTTP/1.1
+Host: localhost:8089
+Connection: keep-alive
+Cache-Control: max-age=0
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3350.0 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9
+Cookie: optimizelyEndUserId=oeu1506216020008r0.4545054078398614; _ga=GA1.1.1180129065.1489919936; JSESSIONID=152212891328110005
+
+
+请求结束
+2018-03-27 13:45:11.018 INFO  com.http.server.Server - 服务器已启动，端口号：8089
+2018-03-27 13:45:17.382 INFO  com.http.handler.RequestHandler - 收到请求：
+GET /put-session-message HTTP/1.1
+Host: localhost:8089
+Connection: keep-alive
+Cache-Control: max-age=0
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3350.0 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9
+Cookie: optimizelyEndUserId=oeu1506216020008r0.4545054078398614; _ga=GA1.1.1180129065.1489919936; Idea-7e4347d7=ed0e733b-8015-414b-bc82-8ac72402bfe1; JSESSIONID=152212891328110005
+
+
+请求结束
+2018-03-27 13:45:17.415 INFO  com.http.handler.RequestHandler - 得到了uri /put-session-message
+2018-03-27 13:45:17.450 INFO  com.http.handler.ClassMapper - 成功添加了URI： /helloworld到servlet： HelloWorld的映射
+2018-03-27 13:45:17.451 INFO  com.http.handler.ClassMapper - 成功添加了URI： /test-thread-party-fast-json到servlet： TestThridPartyJar的映射
+2018-03-27 13:45:17.457 INFO  com.http.handler.ClassMapper - 成功添加了URI： /test-dispatcher到servlet： DispatcherTest的映射
+2018-03-27 13:45:17.463 INFO  com.http.handler.ClassMapper - 成功添加了URI： /show-request-message到servlet： ShowRequestMessage的映射
+2018-03-27 13:45:17.465 INFO  com.http.handler.ClassMapper - 成功添加了URI： /put-session-message到servlet： PutSessionMessage的映射
+2018-03-27 13:45:17.469 INFO  com.http.handler.ClassMapper - 成功添加了URI： /show-session-message到servlet： ShowSessionMessage的映射
+2018-03-27 13:45:17.497 INFO  com.http.ServletProxy - servlet响应已写出
+2018-03-27 13:45:17.514 INFO  com.http.handler.RequestHandler - 收到请求：
+GET /show-session-message HTTP/1.1
+Host: localhost:8089
+Connection: keep-alive
+Cache-Control: max-age=0
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3350.0 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9
+Cookie: optimizelyEndUserId=oeu1506216020008r0.4545054078398614; _ga=GA1.1.1180129065.1489919936; Idea-7e4347d7=ed0e733b-8015-414b-bc82-8ac72402bfe1; JSESSIONID=152212951739410001
+
+
+请求结束
+2018-03-27 13:47:11.505 INFO  com.http.server.Server - 服务器已启动，端口号：8089
+2018-03-27 13:47:11.522 INFO  com.http.handler.RequestHandler - 收到请求：
+GET /show-session-message HTTP/1.1
+Host: localhost:8089
+Connection: keep-alive
+Cache-Control: max-age=0
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3350.0 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9
+Cookie: optimizelyEndUserId=oeu1506216020008r0.4545054078398614; _ga=GA1.1.1180129065.1489919936; JSESSIONID=152212951739410001
+
+
+请求结束
+2018-03-27 13:47:11.547 INFO  com.http.handler.RequestHandler - 得到了uri /show-session-message
+2018-03-27 13:47:11.580 INFO  com.http.handler.ClassMapper - 成功添加了URI： /helloworld到servlet： HelloWorld的映射
+2018-03-27 13:47:11.581 INFO  com.http.handler.ClassMapper - 成功添加了URI： /test-thread-party-fast-json到servlet： TestThridPartyJar的映射
+2018-03-27 13:47:11.584 INFO  com.http.handler.ClassMapper - 成功添加了URI： /test-dispatcher到servlet： DispatcherTest的映射
+2018-03-27 13:47:11.586 INFO  com.http.handler.ClassMapper - 成功添加了URI： /show-request-message到servlet： ShowRequestMessage的映射
+2018-03-27 13:47:11.587 INFO  com.http.handler.ClassMapper - 成功添加了URI： /put-session-message到servlet： PutSessionMessage的映射
+2018-03-27 13:47:11.588 INFO  com.http.handler.ClassMapper - 成功添加了URI： /show-session-message到servlet： ShowSessionMessage的映射
+2018-03-27 13:47:11.611 INFO  com.http.ServletProxy - servlet响应已写出
+2018-03-27 13:47:47.334 INFO  com.http.handler.RequestHandler - 收到请求：
+GET /show-session-message HTTP/1.1
+Host: localhost:8089
+Connection: keep-alive
+Cache-Control: max-age=0
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3350.0 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9
+Cookie: optimizelyEndUserId=oeu1506216020008r0.4545054078398614; _ga=GA1.1.1180129065.1489919936; Idea-7e4347d7=ed0e733b-8015-414b-bc82-8ac72402bfe1; JSESSIONID=152212963153010001
+
+
+请求结束
+2018-03-27 13:47:47.339 INFO  com.http.handler.RequestHandler - 得到了uri /show-session-message
+2018-03-27 13:47:47.351 INFO  com.http.ServletProxy - servlet响应已写出
+2018-03-27 13:47:48.695 INFO  com.http.handler.RequestHandler - 收到请求：
+GET /show-session-message HTTP/1.1
+Host: localhost:8089
+Connection: keep-alive
+Cache-Control: max-age=0
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3350.0 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9
+Cookie: optimizelyEndUserId=oeu1506216020008r0.4545054078398614; _ga=GA1.1.1180129065.1489919936; Idea-7e4347d7=ed0e733b-8015-414b-bc82-8ac72402bfe1; JSESSIONID=152212966733810002
+
+
+请求结束
+2018-03-27 13:47:48.701 INFO  com.http.handler.RequestHandler - 得到了uri /show-session-message
+2018-03-27 13:47:48.716 INFO  com.http.ServletProxy - servlet响应已写出
+2018-03-27 13:47:49.277 INFO  com.http.handler.RequestHandler - 收到请求：
+GET /show-session-message HTTP/1.1
+Host: localhost:8089
+Connection: keep-alive
+Cache-Control: max-age=0
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3350.0 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9
+Cookie: optimizelyEndUserId=oeu1506216020008r0.4545054078398614; _ga=GA1.1.1180129065.1489919936; Idea-7e4347d7=ed0e733b-8015-414b-bc82-8ac72402bfe1; JSESSIONID=152212966869910003
+
+
+请求结束
+2018-03-27 13:47:49.283 INFO  com.http.handler.RequestHandler - 得到了uri /show-session-message
+2018-03-27 13:47:49.293 INFO  com.http.ServletProxy - servlet响应已写出
+2018-03-27 13:47:49.797 INFO  com.http.handler.RequestHandler - 收到请求：
+GET /show-session-message HTTP/1.1
+Host: localhost:8089
+Connection: keep-alive
+Cache-Control: max-age=0
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3350.0 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9
+Cookie: optimizelyEndUserId=oeu1506216020008r0.4545054078398614; _ga=GA1.1.1180129065.1489919936; Idea-7e4347d7=ed0e733b-8015-414b-bc82-8ac72402bfe1; JSESSIONID=152212966928110004
+
+
+请求结束
+2018-03-27 13:47:49.804 INFO  com.http.handler.RequestHandler - 得到了uri /show-session-message
+2018-03-27 13:47:49.814 INFO  com.http.ServletProxy - servlet响应已写出
+2018-03-27 13:47:50.309 INFO  com.http.handler.RequestHandler - 收到请求：
+GET /show-session-message HTTP/1.1
+Host: localhost:8089
+Connection: keep-alive
+Cache-Control: max-age=0
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3350.0 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9
+Cookie: optimizelyEndUserId=oeu1506216020008r0.4545054078398614; _ga=GA1.1.1180129065.1489919936; Idea-7e4347d7=ed0e733b-8015-414b-bc82-8ac72402bfe1; JSESSIONID=152212966980210005
+
+
+请求结束
+2018-03-27 13:47:50.313 INFO  com.http.handler.RequestHandler - 得到了uri /show-session-message
+2018-03-27 13:47:50.326 INFO  com.http.ServletProxy - servlet响应已写出
+2018-03-27 13:47:50.573 INFO  com.http.handler.RequestHandler - 收到请求：
+GET /show-session-message HTTP/1.1
+Host: localhost:8089
+Connection: keep-alive
+Cache-Control: max-age=0
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3350.0 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9
+Cookie: optimizelyEndUserId=oeu1506216020008r0.4545054078398614; _ga=GA1.1.1180129065.1489919936; Idea-7e4347d7=ed0e733b-8015-414b-bc82-8ac72402bfe1; JSESSIONID=152212967031210006
+
+
+请求结束
+2018-03-27 13:47:50.578 INFO  com.http.handler.RequestHandler - 得到了uri /show-session-message
+2018-03-27 13:47:50.590 INFO  com.http.ServletProxy - servlet响应已写出
+2018-03-27 13:47:50.767 INFO  com.http.handler.RequestHandler - 收到请求：
+GET /show-session-message HTTP/1.1
+Host: localhost:8089
+Connection: keep-alive
+Cache-Control: max-age=0
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3350.0 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9
+Cookie: optimizelyEndUserId=oeu1506216020008r0.4545054078398614; _ga=GA1.1.1180129065.1489919936; Idea-7e4347d7=ed0e733b-8015-414b-bc82-8ac72402bfe1; JSESSIONID=152212967057610007
+
+
+请求结束
+2018-03-27 13:47:50.778 INFO  com.http.handler.RequestHandler - 得到了uri /show-session-message
+2018-03-27 13:47:50.788 INFO  com.http.ServletProxy - servlet响应已写出
+2018-03-27 13:47:50.951 INFO  com.http.handler.RequestHandler - 收到请求：
+GET /show-session-message HTTP/1.1
+Host: localhost:8089
+Connection: keep-alive
+Cache-Control: max-age=0
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3350.0 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9
+Cookie: optimizelyEndUserId=oeu1506216020008r0.4545054078398614; _ga=GA1.1.1180129065.1489919936; Idea-7e4347d7=ed0e733b-8015-414b-bc82-8ac72402bfe1; JSESSIONID=152212967077610008
+
+
+请求结束
+2018-03-27 13:47:50.957 INFO  com.http.handler.RequestHandler - 得到了uri /show-session-message
+2018-03-27 13:47:50.966 INFO  com.http.ServletProxy - servlet响应已写出
+2018-03-27 13:47:51.124 INFO  com.http.handler.RequestHandler - 收到请求：
+GET /show-session-message HTTP/1.1
+Host: localhost:8089
+Connection: keep-alive
+Cache-Control: max-age=0
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3350.0 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9
+Cookie: optimizelyEndUserId=oeu1506216020008r0.4545054078398614; _ga=GA1.1.1180129065.1489919936; Idea-7e4347d7=ed0e733b-8015-414b-bc82-8ac72402bfe1; JSESSIONID=152212967095510009
+
+
+请求结束
+2018-03-27 13:47:51.128 INFO  com.http.handler.RequestHandler - 得到了uri /show-session-message
+2018-03-27 13:47:51.140 INFO  com.http.ServletProxy - servlet响应已写出
+2018-03-27 13:47:51.308 INFO  com.http.handler.RequestHandler - 收到请求：
+GET /show-session-message HTTP/1.1
+Host: localhost:8089
+Connection: keep-alive
+Cache-Control: max-age=0
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3350.0 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9
+Cookie: optimizelyEndUserId=oeu1506216020008r0.4545054078398614; _ga=GA1.1.1180129065.1489919936; Idea-7e4347d7=ed0e733b-8015-414b-bc82-8ac72402bfe1; JSESSIONID=152212967112710010
+
+
+请求结束
+2018-03-27 13:47:51.313 INFO  com.http.handler.RequestHandler - 得到了uri /show-session-message
+2018-03-27 13:47:51.324 INFO  com.http.ServletProxy - servlet响应已写出
+2018-03-27 13:47:52.075 INFO  com.http.handler.RequestHandler - 收到请求：
+GET /show-session-message HTTP/1.1
+Host: localhost:8089
+Connection: keep-alive
+Cache-Control: max-age=0
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3350.0 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9
+Cookie: optimizelyEndUserId=oeu1506216020008r0.4545054078398614; _ga=GA1.1.1180129065.1489919936; Idea-7e4347d7=ed0e733b-8015-414b-bc82-8ac72402bfe1; JSESSIONID=152212967131110011
+
+
+请求结束
+2018-03-27 13:47:52.080 INFO  com.http.handler.RequestHandler - 得到了uri /show-session-message
+2018-03-27 13:47:52.091 INFO  com.http.ServletProxy - servlet响应已写出
+2018-03-27 13:47:52.254 INFO  com.http.handler.RequestHandler - 收到请求：
+GET /show-session-message HTTP/1.1
+Host: localhost:8089
+Connection: keep-alive
+Cache-Control: max-age=0
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3350.0 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9
+Cookie: optimizelyEndUserId=oeu1506216020008r0.4545054078398614; _ga=GA1.1.1180129065.1489919936; Idea-7e4347d7=ed0e733b-8015-414b-bc82-8ac72402bfe1; JSESSIONID=152212967207810012
+
+
+请求结束
+2018-03-27 13:47:52.258 INFO  com.http.handler.RequestHandler - 得到了uri /show-session-message
+2018-03-27 13:47:52.269 INFO  com.http.ServletProxy - servlet响应已写出
+2018-03-27 13:47:52.457 INFO  com.http.handler.RequestHandler - 收到请求：
+GET /show-session-message HTTP/1.1
+Host: localhost:8089
+Connection: keep-alive
+Cache-Control: max-age=0
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3350.0 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9
+Cookie: optimizelyEndUserId=oeu1506216020008r0.4545054078398614; _ga=GA1.1.1180129065.1489919936; Idea-7e4347d7=ed0e733b-8015-414b-bc82-8ac72402bfe1; JSESSIONID=152212967225710013
+
+
+请求结束
+2018-03-27 13:47:52.468 INFO  com.http.handler.RequestHandler - 得到了uri /show-session-message
+2018-03-27 13:47:52.474 INFO  com.http.ServletProxy - servlet响应已写出
+2018-03-27 13:47:52.660 INFO  com.http.handler.RequestHandler - 收到请求：
+GET /show-session-message HTTP/1.1
+Host: localhost:8089
+Connection: keep-alive
+Cache-Control: max-age=0
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3350.0 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9
+Cookie: optimizelyEndUserId=oeu1506216020008r0.4545054078398614; _ga=GA1.1.1180129065.1489919936; Idea-7e4347d7=ed0e733b-8015-414b-bc82-8ac72402bfe1; JSESSIONID=152212967246110014
+
+
+请求结束
+2018-03-27 13:47:52.665 INFO  com.http.handler.RequestHandler - 得到了uri /show-session-message
+2018-03-27 13:47:52.678 INFO  com.http.ServletProxy - servlet响应已写出
+2018-03-27 13:47:53.229 INFO  com.http.handler.RequestHandler - 收到请求：
+GET /show-session-message HTTP/1.1
+Host: localhost:8089
+Connection: keep-alive
+Cache-Control: max-age=0
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3350.0 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9
+Cookie: optimizelyEndUserId=oeu1506216020008r0.4545054078398614; _ga=GA1.1.1180129065.1489919936; Idea-7e4347d7=ed0e733b-8015-414b-bc82-8ac72402bfe1; JSESSIONID=152212967266310015
+
+
+请求结束
+2018-03-27 13:47:53.241 INFO  com.http.handler.RequestHandler - 得到了uri /show-session-message
+2018-03-27 13:47:53.368 INFO  com.http.ServletProxy - servlet响应已写出
+2018-03-27 13:47:53.445 INFO  com.http.handler.RequestHandler - 收到请求：
+GET /show-session-message HTTP/1.1
+Host: localhost:8089
+Connection: keep-alive
+Cache-Control: max-age=0
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3350.0 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9
+Cookie: optimizelyEndUserId=oeu1506216020008r0.4545054078398614; _ga=GA1.1.1180129065.1489919936; Idea-7e4347d7=ed0e733b-8015-414b-bc82-8ac72402bfe1; JSESSIONID=152212967323410016
+
+
+请求结束
+2018-03-27 13:47:53.451 INFO  com.http.handler.RequestHandler - 得到了uri /show-session-message
+2018-03-27 13:47:53.462 INFO  com.http.ServletProxy - servlet响应已写出
+2018-03-27 13:47:54.102 INFO  com.http.handler.RequestHandler - 收到请求：
+GET /show-session-message HTTP/1.1
+Host: localhost:8089
+Connection: keep-alive
+Cache-Control: max-age=0
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3350.0 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9
+Cookie: optimizelyEndUserId=oeu1506216020008r0.4545054078398614; _ga=GA1.1.1180129065.1489919936; Idea-7e4347d7=ed0e733b-8015-414b-bc82-8ac72402bfe1; JSESSIONID=152212967344910017
+
+
+请求结束
+2018-03-27 13:47:54.107 INFO  com.http.handler.RequestHandler - 得到了uri /show-session-message
+2018-03-27 13:47:54.118 INFO  com.http.ServletProxy - servlet响应已写出
+2018-03-27 13:47:54.318 INFO  com.http.handler.RequestHandler - 收到请求：
+GET /show-session-message HTTP/1.1
+Host: localhost:8089
+Connection: keep-alive
+Cache-Control: max-age=0
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3350.0 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9
+Cookie: optimizelyEndUserId=oeu1506216020008r0.4545054078398614; _ga=GA1.1.1180129065.1489919936; Idea-7e4347d7=ed0e733b-8015-414b-bc82-8ac72402bfe1; JSESSIONID=152212967410510018
+
+
+请求结束
+2018-03-27 13:47:54.323 INFO  com.http.handler.RequestHandler - 得到了uri /show-session-message
+2018-03-27 13:47:54.332 INFO  com.http.ServletProxy - servlet响应已写出
+2018-03-27 13:47:54.492 INFO  com.http.handler.RequestHandler - 收到请求：
+GET /show-session-message HTTP/1.1
+Host: localhost:8089
+Connection: keep-alive
+Cache-Control: max-age=0
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3350.0 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9
+Cookie: optimizelyEndUserId=oeu1506216020008r0.4545054078398614; _ga=GA1.1.1180129065.1489919936; Idea-7e4347d7=ed0e733b-8015-414b-bc82-8ac72402bfe1; JSESSIONID=152212967432110019
+
+
+请求结束
+2018-03-27 13:47:54.498 INFO  com.http.handler.RequestHandler - 得到了uri /show-session-message
+2018-03-27 13:47:54.510 INFO  com.http.ServletProxy - servlet响应已写出
+2018-03-27 13:52:41.796 INFO  com.http.handler.RequestHandler - 收到请求：
+GET /show-session-message HTTP/1.1
+Host: localhost:8089
+Connection: keep-alive
+Cache-Control: max-age=0
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3350.0 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9
+Cookie: optimizelyEndUserId=oeu1506216020008r0.4545054078398614; _ga=GA1.1.1180129065.1489919936; Idea-7e4347d7=ed0e733b-8015-414b-bc82-8ac72402bfe1; JSESSIONID=152212967449610020
+
+
+请求结束
+2018-03-27 13:52:41.828 INFO  com.http.handler.RequestHandler - 收到请求：
+GET /show-session-message HTTP/1.1
+Host: localhost:8089
+Connection: keep-alive
+Cache-Control: max-age=0
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3350.0 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9
+Cookie: optimizelyEndUserId=oeu1506216020008r0.4545054078398614; _ga=GA1.1.1180129065.1489919936; Idea-7e4347d7=ed0e733b-8015-414b-bc82-8ac72402bfe1; JSESSIONID=152212967449610020
+
+
+请求结束
+2018-03-27 13:52:41.888 INFO  com.http.handler.RequestHandler - 得到了uri /show-session-message
+2018-03-27 13:52:41.897 INFO  com.http.handler.RequestHandler - 得到了uri /show-session-message
+2018-03-27 13:52:41.919 INFO  com.http.ServletProxy - servlet响应已写出
+2018-03-27 13:52:41.927 INFO  com.http.ServletProxy - servlet响应已写出
+2018-03-27 13:52:41.945 INFO  com.http.handler.RequestHandler - 收到请求：
+GET /show-session-message HTTP/1.1
+Host: localhost:8089
+Connection: keep-alive
+Cache-Control: max-age=0
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3350.0 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9
+Cookie: optimizelyEndUserId=oeu1506216020008r0.4545054078398614; _ga=GA1.1.1180129065.1489919936; Idea-7e4347d7=ed0e733b-8015-414b-bc82-8ac72402bfe1; JSESSIONID=152212967449610020
+
+
+请求结束
+2018-03-27 13:52:41.957 INFO  com.http.handler.RequestHandler - 得到了uri /show-session-message
+2018-03-27 13:52:41.963 INFO  com.http.ServletProxy - servlet响应已写出
+2018-03-27 13:52:50.374 INFO  com.http.server.Server - 服务器已启动，端口号：8089
+2018-03-27 13:52:53.225 INFO  com.http.handler.RequestHandler - 收到请求：
+GET /show-session-message HTTP/1.1
+Host: localhost:8089
+Connection: keep-alive
+Cache-Control: max-age=0
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3350.0 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9
+Cookie: optimizelyEndUserId=oeu1506216020008r0.4545054078398614; _ga=GA1.1.1180129065.1489919936; Idea-7e4347d7=ed0e733b-8015-414b-bc82-8ac72402bfe1; JSESSIONID=152212996195110023
+
+
+请求结束
+2018-03-27 13:52:53.263 INFO  com.http.handler.RequestHandler - 得到了uri /show-session-message
+2018-03-27 13:52:53.299 INFO  com.http.handler.ClassMapper - 成功添加了URI： /helloworld到servlet： HelloWorld的映射
+2018-03-27 13:52:53.301 INFO  com.http.handler.ClassMapper - 成功添加了URI： /test-thread-party-fast-json到servlet： TestThridPartyJar的映射
+2018-03-27 13:52:53.305 INFO  com.http.handler.ClassMapper - 成功添加了URI： /test-dispatcher到servlet： DispatcherTest的映射
+2018-03-27 13:52:53.306 INFO  com.http.handler.ClassMapper - 成功添加了URI： /show-request-message到servlet： ShowRequestMessage的映射
+2018-03-27 13:52:53.307 INFO  com.http.handler.ClassMapper - 成功添加了URI： /put-session-message到servlet： PutSessionMessage的映射
+2018-03-27 13:52:53.308 INFO  com.http.handler.ClassMapper - 成功添加了URI： /show-session-message到servlet： ShowSessionMessage的映射
+2018-03-27 13:52:53.333 INFO  com.http.ServletProxy - servlet响应已写出
+2018-03-27 13:54:29.409 INFO  com.http.handler.RequestHandler - 收到请求：
+GET /show-session-message HTTP/1.1
+Host: localhost:8089
+Connection: keep-alive
+Cache-Control: max-age=0
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3350.0 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9
+Cookie: optimizelyEndUserId=oeu1506216020008r0.4545054078398614; _ga=GA1.1.1180129065.1489919936; Idea-7e4347d7=ed0e733b-8015-414b-bc82-8ac72402bfe1; JSESSIONID=152212997324110001
+
+
+请求结束
+2018-03-27 13:54:29.421 INFO  com.http.handler.RequestHandler - 得到了uri /show-session-message
+2018-03-27 13:54:29.432 INFO  com.http.ServletProxy - servlet响应已写出
+2018-03-27 13:54:30.879 INFO  com.http.handler.RequestHandler - 收到请求：
+GET /show-session-message HTTP/1.1
+Host: localhost:8089
+Connection: keep-alive
+Cache-Control: max-age=0
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3350.0 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9
+Cookie: optimizelyEndUserId=oeu1506216020008r0.4545054078398614; _ga=GA1.1.1180129065.1489919936; Idea-7e4347d7=ed0e733b-8015-414b-bc82-8ac72402bfe1; JSESSIONID=152213006941310002
+
+
+请求结束
+2018-03-27 13:54:30.884 INFO  com.http.handler.RequestHandler - 得到了uri /show-session-message
+2018-03-27 13:54:30.896 INFO  com.http.ServletProxy - servlet响应已写出
+2018-03-27 13:54:34.832 INFO  com.http.handler.RequestHandler - 收到请求：
+GET /show-session-message HTTP/1.1
+Host: localhost:8089
+Connection: keep-alive
+Cache-Control: max-age=0
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3350.0 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9
+Cookie: optimizelyEndUserId=oeu1506216020008r0.4545054078398614; _ga=GA1.1.1180129065.1489919936; Idea-7e4347d7=ed0e733b-8015-414b-bc82-8ac72402bfe1; JSESSIONID=152213007088210003
+
+
+请求结束
+2018-03-27 13:54:34.837 INFO  com.http.handler.RequestHandler - 得到了uri /show-session-message
+2018-03-27 13:54:34.850 INFO  com.http.ServletProxy - servlet响应已写出
+2018-03-27 13:54:36.491 INFO  com.http.handler.RequestHandler - 收到请求：
+GET /show-session-message HTTP/1.1
+Host: localhost:8089
+Connection: keep-alive
+Cache-Control: max-age=0
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3350.0 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9
+Cookie: optimizelyEndUserId=oeu1506216020008r0.4545054078398614; _ga=GA1.1.1180129065.1489919936; Idea-7e4347d7=ed0e733b-8015-414b-bc82-8ac72402bfe1; JSESSIONID=152213007483510004
+
+
+请求结束
+2018-03-27 13:54:36.501 INFO  com.http.handler.RequestHandler - 得到了uri /show-session-message
+2018-03-27 13:54:36.509 INFO  com.http.ServletProxy - servlet响应已写出
+2018-03-27 13:57:11.376 INFO  com.http.handler.RequestHandler - 收到请求：
+GET /show-session-message HTTP/1.1
+Host: localhost:8089
+Connection: keep-alive
+Cache-Control: max-age=0
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3350.0 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9
+Cookie: optimizelyEndUserId=oeu1506216020008r0.4545054078398614; _ga=GA1.1.1180129065.1489919936; Idea-7e4347d7=ed0e733b-8015-414b-bc82-8ac72402bfe1; JSESSIONID=152213007649510005
+
+
+请求结束
+2018-03-27 13:57:11.383 INFO  com.http.handler.RequestHandler - 得到了uri /show-session-message
+2018-03-27 13:57:11.397 INFO  com.http.ServletProxy - servlet响应已写出
+2018-03-27 13:57:22.290 INFO  com.http.server.Server - 服务器已启动，端口号：8089
+2018-03-27 13:57:24.345 INFO  com.http.handler.RequestHandler - 收到请求：
+GET /show-session-message HTTP/1.1
+Host: localhost:8089
+Connection: keep-alive
+Cache-Control: max-age=0
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3350.0 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9
+Cookie: optimizelyEndUserId=oeu1506216020008r0.4545054078398614; _ga=GA1.1.1180129065.1489919936; Idea-7e4347d7=ed0e733b-8015-414b-bc82-8ac72402bfe1; JSESSIONID=152213023138010006
+
+
+请求结束
+2018-03-27 13:57:24.388 INFO  com.http.handler.RequestHandler - 得到了uri /show-session-message
+2018-03-27 13:57:24.438 INFO  com.http.handler.ClassMapper - 成功添加了URI： /helloworld到servlet： HelloWorld的映射
+2018-03-27 13:57:24.439 INFO  com.http.handler.ClassMapper - 成功添加了URI： /test-thread-party-fast-json到servlet： TestThridPartyJar的映射
+2018-03-27 13:57:24.443 INFO  com.http.handler.ClassMapper - 成功添加了URI： /test-dispatcher到servlet： DispatcherTest的映射
+2018-03-27 13:57:24.444 INFO  com.http.handler.ClassMapper - 成功添加了URI： /show-request-message到servlet： ShowRequestMessage的映射
+2018-03-27 13:57:24.446 INFO  com.http.handler.ClassMapper - 成功添加了URI： /put-session-message到servlet： PutSessionMessage的映射
+2018-03-27 13:57:24.449 INFO  com.http.handler.ClassMapper - 成功添加了URI： /show-session-message到servlet： ShowSessionMessage的映射
+2018-03-27 13:57:24.473 INFO  com.http.ServletProxy - servlet响应已写出
+2018-03-27 13:58:06.882 INFO  com.http.handler.RequestHandler - 收到请求：
+GET /show-session-message HTTP/1.1
+Host: localhost:8089
+Connection: keep-alive
+Cache-Control: max-age=0
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3350.0 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9
+Cookie: optimizelyEndUserId=oeu1506216020008r0.4545054078398614; _ga=GA1.1.1180129065.1489919936; Idea-7e4347d7=ed0e733b-8015-414b-bc82-8ac72402bfe1; JSESSIONID=152213024436310001
+
+
+请求结束
+2018-03-27 13:58:06.898 INFO  com.http.handler.RequestHandler - 得到了uri /show-session-message
+2018-03-27 13:58:06.907 INFO  com.http.ServletProxy - servlet响应已写出
+2018-03-27 14:02:35.290 INFO  com.http.server.Server - 服务器已启动，端口号：8089
+2018-03-27 14:02:38.364 INFO  com.http.handler.RequestHandler - 收到请求：
+GET /show-session-message HTTP/1.1
+Host: localhost:8089
+Connection: keep-alive
+Cache-Control: max-age=0
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3350.0 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9
+Cookie: optimizelyEndUserId=oeu1506216020008r0.4545054078398614; _ga=GA1.1.1180129065.1489919936; Idea-7e4347d7=ed0e733b-8015-414b-bc82-8ac72402bfe1; JSESSIONID=152213028689710002
+
+
+请求结束
+2018-03-27 14:02:38.409 INFO  com.http.handler.RequestHandler - 得到了uri /show-session-message
+2018-03-27 14:02:38.462 INFO  com.http.handler.ClassMapper - 成功添加了URI： /helloworld到servlet： HelloWorld的映射
+2018-03-27 14:02:38.464 INFO  com.http.handler.ClassMapper - 成功添加了URI： /test-thread-party-fast-json到servlet： TestThridPartyJar的映射
+2018-03-27 14:02:38.470 INFO  com.http.handler.ClassMapper - 成功添加了URI： /test-dispatcher到servlet： DispatcherTest的映射
+2018-03-27 14:02:38.477 INFO  com.http.handler.ClassMapper - 成功添加了URI： /show-request-message到servlet： ShowRequestMessage的映射
+2018-03-27 14:02:38.480 INFO  com.http.handler.ClassMapper - 成功添加了URI： /put-session-message到servlet： PutSessionMessage的映射
+2018-03-27 14:02:38.482 INFO  com.http.handler.ClassMapper - 成功添加了URI： /show-session-message到servlet： ShowSessionMessage的映射
+2018-03-27 14:02:38.515 INFO  com.http.ServletProxy - servlet响应已写出
+2018-03-27 14:03:19.768 INFO  com.http.server.Server - 服务器已启动，端口号：8089
+2018-03-27 14:03:23.185 INFO  com.http.handler.RequestHandler - 收到请求：
+GET /show-session-message HTTP/1.1
+Host: localhost:8089
+Connection: keep-alive
+Cache-Control: max-age=0
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3350.0 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9
+Cookie: optimizelyEndUserId=oeu1506216020008r0.4545054078398614; _ga=GA1.1.1180129065.1489919936; Idea-7e4347d7=ed0e733b-8015-414b-bc82-8ac72402bfe1; JSESSIONID=152213055838110001
+
+
+请求结束
+2018-03-27 14:03:23.217 INFO  com.http.handler.RequestHandler - 得到了uri /show-session-message
+2018-03-27 14:03:23.261 INFO  com.http.handler.ClassMapper - 成功添加了URI： /helloworld到servlet： HelloWorld的映射
+2018-03-27 14:03:23.262 INFO  com.http.handler.ClassMapper - 成功添加了URI： /test-thread-party-fast-json到servlet： TestThridPartyJar的映射
+2018-03-27 14:03:23.263 INFO  com.http.handler.ClassMapper - 成功添加了URI： /test-dispatcher到servlet： DispatcherTest的映射
+2018-03-27 14:03:23.268 INFO  com.http.handler.ClassMapper - 成功添加了URI： /show-request-message到servlet： ShowRequestMessage的映射
+2018-03-27 14:03:23.270 INFO  com.http.handler.ClassMapper - 成功添加了URI： /put-session-message到servlet： PutSessionMessage的映射
+2018-03-27 14:03:23.273 INFO  com.http.handler.ClassMapper - 成功添加了URI： /show-session-message到servlet： ShowSessionMessage的映射
+2018-03-27 14:03:23.295 INFO  com.http.ServletProxy - servlet响应已写出
+2018-03-27 14:05:24.591 INFO  com.http.server.Server - 服务器已启动，端口号：8089
+2018-03-27 14:05:28.004 INFO  com.http.handler.RequestHandler - 收到请求：
+GET /show-session-message HTTP/1.1
+Host: localhost:8089
+Connection: keep-alive
+Cache-Control: max-age=0
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3350.0 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9
+Cookie: optimizelyEndUserId=oeu1506216020008r0.4545054078398614; _ga=GA1.1.1180129065.1489919936; Idea-7e4347d7=ed0e733b-8015-414b-bc82-8ac72402bfe1; JSESSIONID=152213060319210001
+
+
+请求结束
+2018-03-27 14:05:28.056 INFO  com.http.handler.RequestHandler - 得到了uri /show-session-message
+2018-03-27 14:05:28.092 INFO  com.http.handler.ClassMapper - 成功添加了URI： /helloworld到servlet： HelloWorld的映射
+2018-03-27 14:05:28.094 INFO  com.http.handler.ClassMapper - 成功添加了URI： /test-thread-party-fast-json到servlet： TestThridPartyJar的映射
+2018-03-27 14:05:28.098 INFO  com.http.handler.ClassMapper - 成功添加了URI： /test-dispatcher到servlet： DispatcherTest的映射
+2018-03-27 14:05:28.100 INFO  com.http.handler.ClassMapper - 成功添加了URI： /show-request-message到servlet： ShowRequestMessage的映射
+2018-03-27 14:05:28.101 INFO  com.http.handler.ClassMapper - 成功添加了URI： /put-session-message到servlet： PutSessionMessage的映射
+2018-03-27 14:05:28.104 INFO  com.http.handler.ClassMapper - 成功添加了URI： /show-session-message到servlet： ShowSessionMessage的映射
+2018-03-27 14:05:28.130 INFO  com.http.ServletProxy - servlet响应已写出
+2018-03-27 14:05:57.181 INFO  com.http.server.Server - 服务器已启动，端口号：8089
+2018-03-27 14:05:59.047 INFO  com.http.handler.RequestHandler - 收到请求：
+GET /show-session-message HTTP/1.1
+Host: localhost:8089
+Connection: keep-alive
+Cache-Control: max-age=0
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3350.0 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9
+Cookie: optimizelyEndUserId=oeu1506216020008r0.4545054078398614; _ga=GA1.1.1180129065.1489919936; Idea-7e4347d7=ed0e733b-8015-414b-bc82-8ac72402bfe1; JSESSIONID=152213072803410001
+
+
+请求结束
+2018-03-27 14:05:59.083 INFO  com.http.handler.RequestHandler - 得到了uri /show-session-message
+2018-03-27 14:05:59.139 INFO  com.http.handler.ClassMapper - 成功添加了URI： /helloworld到servlet： HelloWorld的映射
+2018-03-27 14:05:59.141 INFO  com.http.handler.ClassMapper - 成功添加了URI： /test-thread-party-fast-json到servlet： TestThridPartyJar的映射
+2018-03-27 14:05:59.148 INFO  com.http.handler.ClassMapper - 成功添加了URI： /test-dispatcher到servlet： DispatcherTest的映射
+2018-03-27 14:05:59.151 INFO  com.http.handler.ClassMapper - 成功添加了URI： /show-request-message到servlet： ShowRequestMessage的映射
+2018-03-27 14:05:59.153 INFO  com.http.handler.ClassMapper - 成功添加了URI： /put-session-message到servlet： PutSessionMessage的映射
+2018-03-27 14:05:59.155 INFO  com.http.handler.ClassMapper - 成功添加了URI： /show-session-message到servlet： ShowSessionMessage的映射
+2018-03-27 14:05:59.183 INFO  com.http.ServletProxy - servlet响应已写出
+2018-03-27 14:09:39.584 INFO  com.http.server.Server - 服务器已启动，端口号：8089
+2018-03-27 14:09:44.460 INFO  com.http.handler.RequestHandler - 收到请求：
+GET /show-session-message HTTP/1.1
+Host: localhost:8089
+Connection: keep-alive
+Cache-Control: max-age=0
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3350.0 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9
+Cookie: optimizelyEndUserId=oeu1506216020008r0.4545054078398614; _ga=GA1.1.1180129065.1489919936; Idea-7e4347d7=ed0e733b-8015-414b-bc82-8ac72402bfe1; JSESSIONID=152213075905610001
+
+
+请求结束
+2018-03-27 14:12:12.713 INFO  com.http.server.Server - 服务器已启动，端口号：8089
+2018-03-27 14:12:12.792 INFO  com.http.handler.RequestHandler - 收到请求：
+GET /show-session-message HTTP/1.1
+Host: localhost:8089
+Connection: keep-alive
+Cache-Control: max-age=0
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3350.0 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9
+Cookie: optimizelyEndUserId=oeu1506216020008r0.4545054078398614; _ga=GA1.1.1180129065.1489919936; JSESSIONID=152213075905610001
+
+
+请求结束
+2018-03-27 14:12:12.850 INFO  com.http.handler.RequestHandler - 得到了uri /show-session-message
+2018-03-27 14:12:12.895 INFO  com.http.handler.ClassMapper - 成功添加了URI： /helloworld到servlet： HelloWorld的映射
+2018-03-27 14:12:12.897 INFO  com.http.handler.ClassMapper - 成功添加了URI： /test-thread-party-fast-json到servlet： TestThridPartyJar的映射
+2018-03-27 14:12:12.903 INFO  com.http.handler.ClassMapper - 成功添加了URI： /test-dispatcher到servlet： DispatcherTest的映射
+2018-03-27 14:12:12.907 INFO  com.http.handler.ClassMapper - 成功添加了URI： /show-request-message到servlet： ShowRequestMessage的映射
+2018-03-27 14:12:12.909 INFO  com.http.handler.ClassMapper - 成功添加了URI： /put-session-message到servlet： PutSessionMessage的映射
+2018-03-27 14:12:12.912 INFO  com.http.handler.ClassMapper - 成功添加了URI： /show-session-message到servlet： ShowSessionMessage的映射
+2018-03-27 14:19:15.559 INFO  com.http.handler.RequestHandler - 收到请求：
+GET /show-session-message HTTP/1.1
+Host: localhost:8089
+Connection: keep-alive
+Cache-Control: max-age=0
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3350.0 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9
+Cookie: optimizelyEndUserId=oeu1506216020008r0.4545054078398614; _ga=GA1.1.1180129065.1489919936; Idea-7e4347d7=ed0e733b-8015-414b-bc82-8ac72402bfe1; JSESSIONID=152213075905610001
+
+
+请求结束
+2018-03-27 14:19:15.680 INFO  com.http.handler.RequestHandler - 得到了uri /show-session-message
+2018-03-27 14:22:07.046 INFO  com.http.server.Server - 服务器已启动，端口号：8089
+2018-03-27 14:22:10.233 INFO  com.http.handler.RequestHandler - 收到请求：
+GET /show-session-message HTTP/1.1
+Host: localhost:8089
+Connection: keep-alive
+Cache-Control: max-age=0
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3350.0 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9
+Cookie: optimizelyEndUserId=oeu1506216020008r0.4545054078398614; _ga=GA1.1.1180129065.1489919936; Idea-7e4347d7=ed0e733b-8015-414b-bc82-8ac72402bfe1; JSESSIONID=152213075905610001
+
+
+请求结束
+2018-03-27 14:22:10.322 INFO  com.http.handler.RequestHandler - 得到了uri /show-session-message
+2018-03-27 14:22:10.360 INFO  com.http.handler.ClassMapper - 成功添加了URI： /helloworld到servlet： HelloWorld的映射
+2018-03-27 14:22:10.361 INFO  com.http.handler.ClassMapper - 成功添加了URI： /test-thread-party-fast-json到servlet： TestThridPartyJar的映射
+2018-03-27 14:22:10.366 INFO  com.http.handler.ClassMapper - 成功添加了URI： /test-dispatcher到servlet： DispatcherTest的映射
+2018-03-27 14:22:10.368 INFO  com.http.handler.ClassMapper - 成功添加了URI： /show-request-message到servlet： ShowRequestMessage的映射
+2018-03-27 14:22:10.369 INFO  com.http.handler.ClassMapper - 成功添加了URI： /put-session-message到servlet： PutSessionMessage的映射
+2018-03-27 14:22:10.370 INFO  com.http.handler.ClassMapper - 成功添加了URI： /show-session-message到servlet： ShowSessionMessage的映射
+2018-03-27 14:30:30.874 INFO  com.http.server.Server - 服务器已启动，端口号：8089
+2018-03-27 14:30:36.337 INFO  com.http.handler.RequestHandler - 收到请求：
+GET /show-session-message HTTP/1.1
+Host: localhost:8089
+Connection: keep-alive
+Cache-Control: max-age=0
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3350.0 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9
+Cookie: optimizelyEndUserId=oeu1506216020008r0.4545054078398614; _ga=GA1.1.1180129065.1489919936; Idea-7e4347d7=ed0e733b-8015-414b-bc82-8ac72402bfe1
+
+
+请求结束
+2018-03-27 14:30:36.428 INFO  com.http.handler.RequestHandler - 得到了uri /show-session-message
+2018-03-27 14:30:36.466 INFO  com.http.handler.ClassMapper - 成功添加了URI： /helloworld到servlet： HelloWorld的映射
+2018-03-27 14:30:36.468 INFO  com.http.handler.ClassMapper - 成功添加了URI： /test-thread-party-fast-json到servlet： TestThridPartyJar的映射
+2018-03-27 14:30:36.471 INFO  com.http.handler.ClassMapper - 成功添加了URI： /test-dispatcher到servlet： DispatcherTest的映射
+2018-03-27 14:30:36.474 INFO  com.http.handler.ClassMapper - 成功添加了URI： /show-request-message到servlet： ShowRequestMessage的映射
+2018-03-27 14:30:36.475 INFO  com.http.handler.ClassMapper - 成功添加了URI： /put-session-message到servlet： PutSessionMessage的映射
+2018-03-27 14:30:36.476 INFO  com.http.handler.ClassMapper - 成功添加了URI： /show-session-message到servlet： ShowSessionMessage的映射
+2018-03-27 14:30:36.508 INFO  com.http.ServletProxy - servlet响应已写出
+2018-03-27 14:31:00.738 INFO  com.http.handler.RequestHandler - 收到请求：
+GET /put-session-message HTTP/1.1
+Host: localhost:8089
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3350.0 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9
+Cookie: optimizelyEndUserId=oeu1506216020008r0.4545054078398614; _ga=GA1.1.1180129065.1489919936; Idea-7e4347d7=ed0e733b-8015-414b-bc82-8ac72402bfe1; JSESSIONID=152213223639910001
+
+
+请求结束
+2018-03-27 14:31:00.781 INFO  com.http.handler.RequestHandler - 得到了uri /put-session-message
+2018-03-27 14:31:00.795 INFO  com.http.ServletProxy - servlet响应已写出
+2018-03-27 14:31:00.808 INFO  com.http.handler.RequestHandler - 收到请求：
+GET /show-session-message HTTP/1.1
+Host: localhost:8089
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3350.0 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9
+Cookie: optimizelyEndUserId=oeu1506216020008r0.4545054078398614; _ga=GA1.1.1180129065.1489919936; Idea-7e4347d7=ed0e733b-8015-414b-bc82-8ac72402bfe1; JSESSIONID=152213223639910001
+
+
+请求结束
+2018-03-27 14:31:00.842 INFO  com.http.handler.RequestHandler - 得到了uri /show-session-message
+2018-03-27 14:31:00.853 INFO  com.http.ServletProxy - servlet响应已写出
+2018-03-27 14:31:02.732 INFO  com.http.handler.RequestHandler - 收到请求：
+GET /put-session-message HTTP/1.1
+Host: localhost:8089
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3350.0 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9
+Cookie: optimizelyEndUserId=oeu1506216020008r0.4545054078398614; _ga=GA1.1.1180129065.1489919936; Idea-7e4347d7=ed0e733b-8015-414b-bc82-8ac72402bfe1; JSESSIONID=152213223639910001
+
+
+请求结束
+2018-03-27 14:31:02.783 INFO  com.http.handler.RequestHandler - 得到了uri /put-session-message
+2018-03-27 14:31:02.793 INFO  com.http.ServletProxy - servlet响应已写出
+2018-03-27 14:31:02.812 INFO  com.http.handler.RequestHandler - 收到请求：
+GET /show-session-message HTTP/1.1
+Host: localhost:8089
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3350.0 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9
+Cookie: optimizelyEndUserId=oeu1506216020008r0.4545054078398614; _ga=GA1.1.1180129065.1489919936; Idea-7e4347d7=ed0e733b-8015-414b-bc82-8ac72402bfe1; JSESSIONID=152213223639910001
+
+
+请求结束
+2018-03-27 14:31:02.853 INFO  com.http.handler.RequestHandler - 得到了uri /show-session-message
+2018-03-27 14:31:02.870 INFO  com.http.ServletProxy - servlet响应已写出
+2018-03-27 14:31:24.814 INFO  com.http.handler.RequestHandler - 收到请求：
+GET /show-session-message HTTP/1.1
+Host: localhost:8089
+Connection: keep-alive
+Cache-Control: max-age=0
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3350.0 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9
+Cookie: optimizelyEndUserId=oeu1506216020008r0.4545054078398614; _ga=GA1.1.1180129065.1489919936; Idea-7e4347d7=ed0e733b-8015-414b-bc82-8ac72402bfe1; JSESSIONID=152213223639910001
+
+
+请求结束
+2018-03-27 14:31:24.867 INFO  com.http.handler.RequestHandler - 得到了uri /show-session-message
+2018-03-27 14:31:24.886 INFO  com.http.ServletProxy - servlet响应已写出
+2018-03-27 14:31:25.273 INFO  com.http.handler.RequestHandler - 收到请求：
+GET /show-session-message HTTP/1.1
+Host: localhost:8089
+Connection: keep-alive
+Cache-Control: max-age=0
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3350.0 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9
+Cookie: optimizelyEndUserId=oeu1506216020008r0.4545054078398614; _ga=GA1.1.1180129065.1489919936; Idea-7e4347d7=ed0e733b-8015-414b-bc82-8ac72402bfe1; JSESSIONID=152213223639910001
+
+
+请求结束
+2018-03-27 14:31:25.325 INFO  com.http.handler.RequestHandler - 得到了uri /show-session-message
+2018-03-27 14:31:25.353 INFO  com.http.ServletProxy - servlet响应已写出
+2018-03-27 14:31:25.448 INFO  com.http.handler.RequestHandler - 收到请求：
+GET /show-session-message HTTP/1.1
+Host: localhost:8089
+Connection: keep-alive
+Cache-Control: max-age=0
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3350.0 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9
+Cookie: optimizelyEndUserId=oeu1506216020008r0.4545054078398614; _ga=GA1.1.1180129065.1489919936; Idea-7e4347d7=ed0e733b-8015-414b-bc82-8ac72402bfe1; JSESSIONID=152213223639910001
+
+
+请求结束
+2018-03-27 14:31:25.486 INFO  com.http.handler.RequestHandler - 得到了uri /show-session-message
+2018-03-27 14:31:25.515 INFO  com.http.ServletProxy - servlet响应已写出
+2018-03-27 14:31:25.635 INFO  com.http.handler.RequestHandler - 收到请求：
+GET /show-session-message HTTP/1.1
+Host: localhost:8089
+Connection: keep-alive
+Cache-Control: max-age=0
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3350.0 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9
+Cookie: optimizelyEndUserId=oeu1506216020008r0.4545054078398614; _ga=GA1.1.1180129065.1489919936; Idea-7e4347d7=ed0e733b-8015-414b-bc82-8ac72402bfe1; JSESSIONID=152213223639910001
+
+
+请求结束
+2018-03-27 14:31:25.700 INFO  com.http.handler.RequestHandler - 得到了uri /show-session-message
+2018-03-27 14:31:25.716 INFO  com.http.ServletProxy - servlet响应已写出
+2018-03-27 14:31:25.780 INFO  com.http.handler.RequestHandler - 收到请求：
+GET /show-session-message HTTP/1.1
+Host: localhost:8089
+Connection: keep-alive
+Cache-Control: max-age=0
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3350.0 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9
+Cookie: optimizelyEndUserId=oeu1506216020008r0.4545054078398614; _ga=GA1.1.1180129065.1489919936; Idea-7e4347d7=ed0e733b-8015-414b-bc82-8ac72402bfe1; JSESSIONID=152213223639910001
+
+
+请求结束
+2018-03-27 14:31:25.822 INFO  com.http.handler.RequestHandler - 得到了uri /show-session-message
+2018-03-27 14:31:25.837 INFO  com.http.ServletProxy - servlet响应已写出
+2018-03-27 14:31:25.933 INFO  com.http.handler.RequestHandler - 收到请求：
+GET /show-session-message HTTP/1.1
+Host: localhost:8089
+Connection: keep-alive
+Cache-Control: max-age=0
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3350.0 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9
+Cookie: optimizelyEndUserId=oeu1506216020008r0.4545054078398614; _ga=GA1.1.1180129065.1489919936; Idea-7e4347d7=ed0e733b-8015-414b-bc82-8ac72402bfe1; JSESSIONID=152213223639910001
+
+
+请求结束
+2018-03-27 14:31:25.971 INFO  com.http.handler.RequestHandler - 得到了uri /show-session-message
+2018-03-27 14:31:25.997 INFO  com.http.ServletProxy - servlet响应已写出
+2018-03-27 14:31:26.091 INFO  com.http.handler.RequestHandler - 收到请求：
+GET /show-session-message HTTP/1.1
+Host: localhost:8089
+Connection: keep-alive
+Cache-Control: max-age=0
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3350.0 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9
+Cookie: optimizelyEndUserId=oeu1506216020008r0.4545054078398614; _ga=GA1.1.1180129065.1489919936; Idea-7e4347d7=ed0e733b-8015-414b-bc82-8ac72402bfe1; JSESSIONID=152213223639910001
+
+
+请求结束
+2018-03-27 14:31:26.141 INFO  com.http.handler.RequestHandler - 得到了uri /show-session-message
+2018-03-27 14:31:26.159 INFO  com.http.ServletProxy - servlet响应已写出
+2018-03-27 14:31:26.250 INFO  com.http.handler.RequestHandler - 收到请求：
+GET /show-session-message HTTP/1.1
+Host: localhost:8089
+Connection: keep-alive
+Cache-Control: max-age=0
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3350.0 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9
+Cookie: optimizelyEndUserId=oeu1506216020008r0.4545054078398614; _ga=GA1.1.1180129065.1489919936; Idea-7e4347d7=ed0e733b-8015-414b-bc82-8ac72402bfe1; JSESSIONID=152213223639910001
+
+
+请求结束
+2018-03-27 14:31:26.290 INFO  com.http.handler.RequestHandler - 得到了uri /show-session-message
+2018-03-27 14:31:26.318 INFO  com.http.ServletProxy - servlet响应已写出
+2018-03-27 14:31:26.400 INFO  com.http.handler.RequestHandler - 收到请求：
+GET /show-session-message HTTP/1.1
+Host: localhost:8089
+Connection: keep-alive
+Cache-Control: max-age=0
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3350.0 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9
+Cookie: optimizelyEndUserId=oeu1506216020008r0.4545054078398614; _ga=GA1.1.1180129065.1489919936; Idea-7e4347d7=ed0e733b-8015-414b-bc82-8ac72402bfe1; JSESSIONID=152213223639910001
+
+
+请求结束
+2018-03-27 14:31:26.428 INFO  com.http.handler.RequestHandler - 得到了uri /show-session-message
+2018-03-27 14:31:26.455 INFO  com.http.ServletProxy - servlet响应已写出
+2018-03-27 14:31:26.568 INFO  com.http.handler.RequestHandler - 收到请求：
+GET /show-session-message HTTP/1.1
+Host: localhost:8089
+Connection: keep-alive
+Cache-Control: max-age=0
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3350.0 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9
+Cookie: optimizelyEndUserId=oeu1506216020008r0.4545054078398614; _ga=GA1.1.1180129065.1489919936; Idea-7e4347d7=ed0e733b-8015-414b-bc82-8ac72402bfe1; JSESSIONID=152213223639910001
+
+
+请求结束
+2018-03-27 14:31:26.622 INFO  com.http.handler.RequestHandler - 得到了uri /show-session-message
+2018-03-27 14:31:26.649 INFO  com.http.ServletProxy - servlet响应已写出
+2018-03-27 14:31:26.747 INFO  com.http.handler.RequestHandler - 收到请求：
+GET /show-session-message HTTP/1.1
+Host: localhost:8089
+Connection: keep-alive
+Cache-Control: max-age=0
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3350.0 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9
+Cookie: optimizelyEndUserId=oeu1506216020008r0.4545054078398614; _ga=GA1.1.1180129065.1489919936; Idea-7e4347d7=ed0e733b-8015-414b-bc82-8ac72402bfe1; JSESSIONID=152213223639910001
+
+
+请求结束
+2018-03-27 14:31:26.871 INFO  com.http.handler.RequestHandler - 得到了uri /show-session-message
+2018-03-27 14:31:26.912 INFO  com.http.ServletProxy - servlet响应已写出
+2018-03-27 14:31:27.065 INFO  com.http.handler.RequestHandler - 收到请求：
+GET /show-session-message HTTP/1.1
+Host: localhost:8089
+Connection: keep-alive
+Cache-Control: max-age=0
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3350.0 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9
+Cookie: optimizelyEndUserId=oeu1506216020008r0.4545054078398614; _ga=GA1.1.1180129065.1489919936; Idea-7e4347d7=ed0e733b-8015-414b-bc82-8ac72402bfe1; JSESSIONID=152213223639910001
+
+
+请求结束
+2018-03-27 14:31:27.113 INFO  com.http.handler.RequestHandler - 得到了uri /show-session-message
+2018-03-27 14:31:27.158 INFO  com.http.ServletProxy - servlet响应已写出
+2018-03-27 14:31:27.261 INFO  com.http.handler.RequestHandler - 收到请求：
+GET /show-session-message HTTP/1.1
+Host: localhost:8089
+Connection: keep-alive
+Cache-Control: max-age=0
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3350.0 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9
+Cookie: optimizelyEndUserId=oeu1506216020008r0.4545054078398614; _ga=GA1.1.1180129065.1489919936; Idea-7e4347d7=ed0e733b-8015-414b-bc82-8ac72402bfe1; JSESSIONID=152213223639910001
+
+
+请求结束
+2018-03-27 14:31:27.378 INFO  com.http.handler.RequestHandler - 得到了uri /show-session-message
+2018-03-27 14:31:27.389 INFO  com.http.ServletProxy - servlet响应已写出
+2018-03-27 14:31:35.033 INFO  com.http.handler.RequestHandler - 收到请求：
+GET /show-session-message HTTP/1.1
+Host: localhost:8089
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3350.0 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9
+Cookie: optimizelyEndUserId=oeu1506216020008r0.4545054078398614; _ga=GA1.1.1180129065.1489919936; Idea-7e4347d7=ed0e733b-8015-414b-bc82-8ac72402bfe1; JSESSIONID=152213223639910001
+
+
+请求结束
+2018-03-27 14:31:35.169 INFO  com.http.handler.RequestHandler - 得到了uri /show-session-message
+2018-03-27 14:31:35.190 INFO  com.http.ServletProxy - servlet响应已写出
+2018-03-27 14:31:44.215 INFO  com.http.handler.RequestHandler - 收到请求：
+GET /show-session-message HTTP/1.1
+Host: localhost:8089
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3350.0 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9
+Cookie: optimizelyEndUserId=oeu1506216020008r0.4545054078398614; _ga=GA1.1.1180129065.1489919936; Idea-7e4347d7=ed0e733b-8015-414b-bc82-8ac72402bfe1; JSESSIONID=152213223639910001
+
+
+请求结束
+2018-03-27 14:31:44.298 INFO  com.http.handler.RequestHandler - 得到了uri /show-session-message
+2018-03-27 14:31:44.320 INFO  com.http.ServletProxy - servlet响应已写出
+2018-03-27 14:31:44.436 INFO  com.http.handler.RequestHandler - 收到请求：
+GET /favicon.ico HTTP/1.1
+Host: localhost:8089
+Connection: keep-alive
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3350.0 Safari/537.36
+Accept: image/webp,image/apng,image/*,*/*;q=0.8
+Referer: http://localhost:8089/show-session-message
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9
+Cookie: optimizelyEndUserId=oeu1506216020008r0.4545054078398614; _ga=GA1.1.1180129065.1489919936; Idea-7e4347d7=ed0e733b-8015-414b-bc82-8ac72402bfe1; JSESSIONID=152213223639910001
+
+
+请求结束
+2018-03-27 14:31:44.486 INFO  com.http.handler.RequestHandler - 得到了uri /favicon.ico
+2018-03-27 14:31:44.505 INFO  com.http.handler.RequestHandler - 静态资源:webapps/favicon.ico不存在或不是有效文件，显示404

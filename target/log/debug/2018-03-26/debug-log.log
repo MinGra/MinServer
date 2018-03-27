@@ -1,0 +1,198 @@
+2018-03-26 23:22:59.893 DEBUG com.http.utils.LibraryLoader - jar包路径：F:\Eclipse\TestCourse\MinServer\target/webapps/WEB-INF/lib/
+2018-03-26 23:22:59.896 DEBUG com.http.utils.LibraryLoader - 有1个jar包
+2018-03-26 23:22:59.915 DEBUG com.http.utils.LibraryLoader - 加载file:/F:/Eclipse/TestCourse/MinServer/target/webapps/WEB-INF/lib/fastjson-1.2.47.jar
+2018-03-26 23:23:52.712 DEBUG com.http.server.Server - 请求长度384
+2018-03-26 23:23:52.714 DEBUG com.http.server.Server - 请求内容GET /test-dispatcher HTTP/1.1
+Host: localhost:8089
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:59.0) Gecko/20100101 Firefox/59.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Accept-Language: zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2
+Accept-Encoding: gzip, deflate
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+
+
+2018-03-26 23:23:52.718 DEBUG com.http.HttpRequest - 请求行：
+GET /test-dispatcher HTTP/1.1
+请求行结束
+2018-03-26 23:23:52.721 DEBUG com.http.HttpRequest - 请求行分割3
+2018-03-26 23:29:04.869 DEBUG com.http.utils.LibraryLoader - jar包路径：F:\Eclipse\TestCourse\MinServer\target/webapps/WEB-INF/lib/
+2018-03-26 23:29:04.872 DEBUG com.http.utils.LibraryLoader - 有1个jar包
+2018-03-26 23:29:04.872 DEBUG com.http.utils.LibraryLoader - 加载file:/F:/Eclipse/TestCourse/MinServer/target/webapps/WEB-INF/lib/fastjson-1.2.47.jar
+2018-03-26 23:29:10.355 DEBUG com.http.server.Server - 请求长度384
+2018-03-26 23:29:10.356 DEBUG com.http.server.Server - 请求内容GET /test-dispatcher HTTP/1.1
+Host: localhost:8089
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:59.0) Gecko/20100101 Firefox/59.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Accept-Language: zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2
+Accept-Encoding: gzip, deflate
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+
+
+2018-03-26 23:29:10.362 DEBUG com.http.HttpRequest - 请求行：
+GET /test-dispatcher HTTP/1.1
+请求行结束
+2018-03-26 23:29:10.364 DEBUG com.http.HttpRequest - 请求行分割3
+2018-03-26 23:29:10.366 DEBUG com.http.HttpRequest - cookies==null:true
+2018-03-26 23:30:17.238 DEBUG com.http.utils.LibraryLoader - jar包路径：F:\Eclipse\TestCourse\MinServer\target/webapps/WEB-INF/lib/
+2018-03-26 23:30:17.240 DEBUG com.http.utils.LibraryLoader - 有1个jar包
+2018-03-26 23:30:17.241 DEBUG com.http.utils.LibraryLoader - 加载file:/F:/Eclipse/TestCourse/MinServer/target/webapps/WEB-INF/lib/fastjson-1.2.47.jar
+2018-03-26 23:30:17.516 DEBUG com.http.server.Server - 请求长度384
+2018-03-26 23:30:17.517 DEBUG com.http.server.Server - 请求内容GET /test-dispatcher HTTP/1.1
+Host: localhost:8089
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:59.0) Gecko/20100101 Firefox/59.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Accept-Language: zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2
+Accept-Encoding: gzip, deflate
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+
+
+2018-03-26 23:30:17.520 DEBUG com.http.HttpRequest - 请求行：
+GET /test-dispatcher HTTP/1.1
+请求行结束
+2018-03-26 23:30:17.521 DEBUG com.http.HttpRequest - 请求行分割3
+2018-03-26 23:30:17.522 DEBUG com.http.HttpRequest - cookies==null:true
+2018-03-26 23:30:17.719 DEBUG com.http.handler.RequestHandler - DispatcherTest
+2018-03-26 23:30:17.721 DEBUG com.http.handler.RequestHandler - 被代理类名称：com.http.GenericServlet
+2018-03-26 23:30:17.722 DEBUG com.http.handler.RequestHandler - 被代理类实现接口数：2
+2018-03-26 23:30:17.724 DEBUG com.http.handler.RequestHandler - handler.getClass().getName()com.http.ServletProxy
+2018-03-26 23:30:17.729 DEBUG com.http.Dispatcher - 已根据url：/show-request-message创建Dispatcher
+2018-03-26 23:30:17.732 DEBUG com.http.Dispatcher - Dispatcher成功进入forward方法
+2018-03-26 23:30:17.736 DEBUG com.http.handler.RequestHandler - ShowRequestMessage
+2018-03-26 23:30:17.736 DEBUG com.http.handler.RequestHandler - 被代理类名称：com.http.GenericServlet
+2018-03-26 23:30:17.739 DEBUG com.http.handler.RequestHandler - 被代理类实现接口数：2
+2018-03-26 23:30:17.740 DEBUG com.http.handler.RequestHandler - handler.getClass().getName()com.http.ServletProxy
+2018-03-26 23:30:17.750 DEBUG com.http.ServletProxy - HTTP/1.1 200 OK
+CONTENT_TYPE: text/html
+SERVER: MinServer
+CONTENT_LENGTH: 56
+DATE: 2018-03-26
+
+
+2018-03-26 23:30:17.753 DEBUG com.http.ServletProxy - HTTP/1.1 200 OK
+CONTENT_TYPE: text/html
+SERVER: MinServer
+CONTENT_LENGTH: 112
+DATE: 2018-03-26
+
+
+2018-03-26 23:30:17.819 DEBUG com.http.server.Server - 请求长度350
+2018-03-26 23:30:17.820 DEBUG com.http.server.Server - 请求内容GET /favicon.ico HTTP/1.1
+Host: localhost:8089
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:59.0) Gecko/20100101 Firefox/59.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Accept-Language: zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2
+Accept-Encoding: gzip, deflate
+Connection: keep-alive
+
+
+2018-03-26 23:30:17.825 DEBUG com.http.HttpRequest - 请求行：
+GET /favicon.ico HTTP/1.1
+请求行结束
+2018-03-26 23:30:17.826 DEBUG com.http.HttpRequest - 请求行分割3
+2018-03-26 23:30:17.826 DEBUG com.http.HttpRequest - cookies==null:true
+2018-03-26 23:30:17.829 DEBUG com.http.handler.RequestHandler - 响应内容为：
+HTTP/1.1 404 Not Found
+CONTENT_TYPE: text/html
+SERVER: MinServer
+CONTENT_LENGTH: 203
+DATE: 2018-03-26
+
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<title>404 From MinServer</title>
+	</head>
+	<body>
+		<h1>404 NOT Found</h1>
+		<p style="color:red;">--Min Server--</p>
+	</body>
+</html>
+2018-03-26 23:30:17.830 DEBUG com.http.handler.RequestHandler - 响应长度为：
+312
+2018-03-26 23:30:17.837 DEBUG com.http.handler.RequestHandler - 响应已输出
+2018-03-26 23:36:15.292 DEBUG com.http.server.Server - 请求长度410
+2018-03-26 23:36:15.293 DEBUG com.http.server.Server - 请求内容GET /test-dispatcher HTTP/1.1
+Host: localhost:8089
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:59.0) Gecko/20100101 Firefox/59.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Accept-Language: zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2
+Accept-Encoding: gzip, deflate
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+Cache-Control: max-age=0
+
+
+2018-03-26 23:36:15.295 DEBUG com.http.HttpRequest - 请求行：
+GET /test-dispatcher HTTP/1.1
+请求行结束
+2018-03-26 23:36:15.295 DEBUG com.http.HttpRequest - 请求行分割3
+2018-03-26 23:36:15.295 DEBUG com.http.HttpRequest - cookies==null:true
+2018-03-26 23:36:15.297 DEBUG com.http.handler.RequestHandler - DispatcherTest
+2018-03-26 23:36:15.297 DEBUG com.http.handler.RequestHandler - 被代理类名称：com.http.GenericServlet
+2018-03-26 23:36:15.297 DEBUG com.http.handler.RequestHandler - 被代理类实现接口数：2
+2018-03-26 23:36:15.298 DEBUG com.http.handler.RequestHandler - handler.getClass().getName()com.http.ServletProxy
+2018-03-26 23:36:15.298 DEBUG com.http.Dispatcher - 已根据url：/show-request-message创建Dispatcher
+2018-03-26 23:36:15.299 DEBUG com.http.Dispatcher - Dispatcher成功进入forward方法
+2018-03-26 23:36:15.299 DEBUG com.http.handler.RequestHandler - ShowRequestMessage
+2018-03-26 23:36:15.300 DEBUG com.http.handler.RequestHandler - 被代理类名称：com.http.GenericServlet
+2018-03-26 23:36:15.300 DEBUG com.http.handler.RequestHandler - 被代理类实现接口数：2
+2018-03-26 23:36:15.300 DEBUG com.http.handler.RequestHandler - handler.getClass().getName()com.http.ServletProxy
+2018-03-26 23:36:15.301 DEBUG com.http.ServletProxy - HTTP/1.1 200 OK
+CONTENT_TYPE: text/html
+SERVER: MinServer
+CONTENT_LENGTH: 56
+DATE: 2018-03-26
+
+
+2018-03-26 23:36:15.304 DEBUG com.http.ServletProxy - HTTP/1.1 200 OK
+CONTENT_TYPE: text/html
+SERVER: MinServer
+CONTENT_LENGTH: 112
+DATE: 2018-03-26
+
+
+2018-03-26 23:36:44.612 DEBUG com.http.server.Server - 请求长度410
+2018-03-26 23:36:44.613 DEBUG com.http.server.Server - 请求内容GET /test-dispatcher HTTP/1.1
+Host: localhost:8089
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:59.0) Gecko/20100101 Firefox/59.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Accept-Language: zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2
+Accept-Encoding: gzip, deflate
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+Cache-Control: max-age=0
+
+
+2018-03-26 23:36:44.615 DEBUG com.http.HttpRequest - 请求行：
+GET /test-dispatcher HTTP/1.1
+请求行结束
+2018-03-26 23:36:44.615 DEBUG com.http.HttpRequest - 请求行分割3
+2018-03-26 23:36:44.616 DEBUG com.http.HttpRequest - cookies==null:true
+2018-03-26 23:36:44.617 DEBUG com.http.handler.RequestHandler - DispatcherTest
+2018-03-26 23:36:44.617 DEBUG com.http.handler.RequestHandler - 被代理类名称：com.http.GenericServlet
+2018-03-26 23:36:44.617 DEBUG com.http.handler.RequestHandler - 被代理类实现接口数：2
+2018-03-26 23:36:44.617 DEBUG com.http.handler.RequestHandler - handler.getClass().getName()com.http.ServletProxy
+2018-03-26 23:36:44.618 DEBUG com.http.Dispatcher - 已根据url：/show-request-message创建Dispatcher
+2018-03-26 23:36:44.618 DEBUG com.http.Dispatcher - Dispatcher成功进入forward方法
+2018-03-26 23:36:44.619 DEBUG com.http.handler.RequestHandler - ShowRequestMessage
+2018-03-26 23:36:44.619 DEBUG com.http.handler.RequestHandler - 被代理类名称：com.http.GenericServlet
+2018-03-26 23:36:44.619 DEBUG com.http.handler.RequestHandler - 被代理类实现接口数：2
+2018-03-26 23:36:44.620 DEBUG com.http.handler.RequestHandler - handler.getClass().getName()com.http.ServletProxy
+2018-03-26 23:36:44.622 DEBUG com.http.ServletProxy - HTTP/1.1 200 OK
+CONTENT_TYPE: text/html
+SERVER: MinServer
+CONTENT_LENGTH: 56
+DATE: 2018-03-26
+
+
+2018-03-26 23:36:44.623 DEBUG com.http.ServletProxy - HTTP/1.1 200 OK
+CONTENT_TYPE: text/html
+SERVER: MinServer
+CONTENT_LENGTH: 112
+DATE: 2018-03-26
+
+

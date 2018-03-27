@@ -5,6 +5,7 @@ import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Enumeration;
 import java.util.HashMap;
+import java.util.LinkedList;
 import java.util.List;
 import java.util.Map;
 import java.util.Set;
@@ -12,7 +13,10 @@ import java.util.Set;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
+import com.http.constant.Constant;
 import com.http.constant.HttpHeader;
+import com.http.session.MemerySession;
+import com.http.storage.SessionQueue;
 /**
  * 一个线程一个request，没有线程安全问题
  * @author MYD
@@ -26,9 +30,11 @@ public class HttpRequest implements Request {
 	private Map<String, Object> headers = new HashMap<>();	//请求头 例如 Content-Length: 25
 	private Map<String, List<String>> parameters = new HashMap<>();	//参数
 	private Map<String, Object> attrbutes = new HashMap<>();
-	private Map<String, String> cookies = new HashMap<>();
+	private Cookie[] cookies;
 	private Context context = null;	//此request所在的Context
 	private AsynchronousSocketChannel channel;	//此request所在的AsynchronousSocketChannel
+	private Session session;
+	private boolean isSessionCreated = false;
 	
 	public HttpRequest(String requestStr, Context context, AsynchronousSocketChannel channel) {
 		this.context = context;
@@ -57,6 +63,10 @@ public class HttpRequest implements Request {
 		
 		//获取cookie
 		initRequestCookies(this.headers);
+		
+		//获取Session
+		initRequestSession();
+		
 	}
 	
 	/**
@@ -86,17 +96,24 @@ public class HttpRequest implements Request {
 	private void initRequestHeaders(String[] strs) {
 		//去掉第一行
 		for(int i = 1; i < strs.length; i++) {
-			String key = strs[i].substring(0, strs[i].indexOf(":"));
-			String value = strs[i].substring(strs[i].indexOf(":") + 1);
+			String key = strs[i].substring(0, strs[i].indexOf(":")).trim();
+			logger.debug("请求头：" + key);
+			String value = strs[i].substring(strs[i].indexOf(":") + 1).trim();
 			headers.put(key, value);
 		}
 	}
-	
+	/**
+	 * 获取Cookie
+	 * @param headers
+	 */
 	private void initRequestCookies(Map<String, Object> headers) {
-		Object cookieObj = headers.get(HttpHeader.COOKIE);
+		logger.debug(HttpHeader.COOKIE.toString());
+		String cookieObj = (String) headers.get(HttpHeader.COOKIE.toString());
+		logger.debug("获得Cookie字符串：" + cookieObj);
 		if(cookieObj==null) {
 			return;
 		}
+		LinkedList<Cookie> list = new LinkedList<>();
 		String cookieStr = ((String)cookieObj).trim();
 		String[] cookieStringArray = cookieStr.split(";");
 		for(String s : cookieStringArray) {
@@ -104,8 +121,34 @@ public class HttpRequest implements Request {
 			if(2 == keyValue.length) {
 				String key = keyValue[0].trim();
 				String value = keyValue[1].trim();
-				cookies.put(key, value);
+				if(!(key.startsWith("$"))) {
+					list.add(new Cookie(key,value));
+				}
 			}
+		}
+		cookies = list.toArray(new Cookie[list.size()]);
+	}
+	
+	/**
+	 * 获取Session
+	 */
+	private void initRequestSession() {
+		String sessionId = null;
+		logger.debug("cookies==null:" + (cookies==null) );
+		if(cookies != null) {
+			for(Cookie cookie: cookies) {
+				logger.debug("cookie.getName()" + cookie.getName() + "/" + Constant.JSESSION_ID_COOKIE_NAME);
+				if(cookie.getName().equals(Constant.JSESSION_ID_COOKIE_NAME)) {
+					sessionId = cookie.getValue();
+					
+					session = SessionQueue.getSessionById(sessionId);
+					break;
+				}
+			}
+		}
+		if(sessionId == null) {
+			session = new MemerySession(this);
+			this.isSessionCreated = true;
 		}
 	}
 	
@@ -163,5 +206,24 @@ public class HttpRequest implements Request {
 	@Override
 	public AsynchronousSocketChannel getAsynchronousSocketChannel() {
 		return this.channel;
+	}
+
+	@Override
+	public RequestDispatcher getRequestDispatcher(String uriInContext) {
+		return new Dispatcher(uriInContext);
+	}
+	
+	public boolean isSessionCreated() {
+		return this.isSessionCreated;
+	}
+
+	@Override
+	public Session getSession() {
+		return session;
+	}
+
+	@Override
+	public Cookie[] getCookies() {
+		return cookies;
 	}
 }

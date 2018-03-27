@@ -1,8 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <web-app>
-	<!--该文件放在MinServer的同级目录下-->
-	<servlet>
-		<servlet-class>HelloWorld</servlet-class>
-		<url-patten>/helloworld</url-patten> 
-	</servlet>
+    <!--该文件放在MinServer的同级目录下-->
+    <servlet>
+        <servlet-class>HelloWorld</servlet-class>
+        <url-patten>/helloworld</url-patten> 
+    </servlet>
+    <servlet>
+        <servlet-class>TestThridPartyJar</servlet-class>
+        <url-patten>/test-thread-party-fast-json</url-patten> 
+    </servlet>
+    <servlet>
+        <servlet-class>DispatcherTest</servlet-class>
+        <url-patten>/test-dispatcher</url-patten> 
+    </servlet>
+    <servlet>
+        <servlet-class>ShowRequestMessage</servlet-class>
+        <url-patten>/show-request-message</url-patten> 
+    </servlet>
+    <servlet>
+        <servlet-class>PutSessionMessage</servlet-class>
+        <url-patten>/put-session-message</url-patten> 
+    </servlet>
+    <servlet>
+        <servlet-class>ShowSessionMessage</servlet-class>
+        <url-patten>/show-session-message</url-patten> 
+    </servlet>
 </web-app>

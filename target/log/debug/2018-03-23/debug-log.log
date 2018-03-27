@@ -1,0 +1,290 @@
+2018-03-23 20:17:45.967 DEBUG com.http.server.Server - 请求长度540
+2018-03-23 20:17:45.968 DEBUG com.http.server.Server - 请求内容GET /helloworld HTTP/1.1
+Host: localhost:8089
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3350.0 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9
+Cookie: optimizelyEndUserId=oeu1506216020008r0.4545054078398614; _ga=GA1.1.1180129065.1489919936; Idea-7e4347d7=ed0e733b-8015-414b-bc82-8ac72402bfe1
+
+
+2018-03-23 20:17:45.981 DEBUG com.http.HttpRequest - 请求行：
+GET /helloworld HTTP/1.1
+请求行结束
+2018-03-23 20:17:45.982 DEBUG com.http.HttpRequest - 请求行分割3
+2018-03-23 20:17:46.162 DEBUG com.http.handler.RequestHandler - HelloWorld
+2018-03-23 20:17:46.179 DEBUG com.http.handler.RequestHandler - 被代理类名称：com.http.GenericServlet
+2018-03-23 20:17:46.179 DEBUG com.http.handler.RequestHandler - 被代理类实现接口数：2
+2018-03-23 20:17:46.179 DEBUG com.http.handler.RequestHandler - handler.getClass().getName()com.http.ServletProxy
+2018-03-23 20:17:46.183 DEBUG com.http.ServletProxy - HTTP/1.1 200 OK
+SERVER: MinServer
+CONTENT_TYPE: text/html
+CONTENT_LENGTH: 56
+DATE: 2018-03-23
+
+
+2018-03-23 20:17:46.243 DEBUG com.http.server.Server - 请求长度508
+2018-03-23 20:17:46.244 DEBUG com.http.server.Server - 请求内容GET /favicon.ico HTTP/1.1
+Host: localhost:8089
+Connection: keep-alive
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3350.0 Safari/537.36
+Accept: image/webp,image/apng,image/*,*/*;q=0.8
+Referer: http://localhost:8089/helloworld
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9
+Cookie: optimizelyEndUserId=oeu1506216020008r0.4545054078398614; _ga=GA1.1.1180129065.1489919936; Idea-7e4347d7=ed0e733b-8015-414b-bc82-8ac72402bfe1
+
+
+2018-03-23 20:17:46.249 DEBUG com.http.HttpRequest - 请求行：
+GET /favicon.ico HTTP/1.1
+请求行结束
+2018-03-23 20:17:46.249 DEBUG com.http.HttpRequest - 请求行分割3
+2018-03-23 20:17:46.252 DEBUG com.http.handler.RequestHandler - 响应内容为：
+HTTP/1.1 404 Not Found
+SERVER: MinServer
+CONTENT_TYPE: text/html
+CONTENT_LENGTH: 203
+DATE: 2018-03-23
+
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<title>404 From MinServer</title>
+	</head>
+	<body>
+		<h1>404 NOT Found</h1>
+		<p style="color:red;">--Min Server--</p>
+	</body>
+</html>
+2018-03-23 20:17:46.257 DEBUG com.http.handler.RequestHandler - 响应长度为：
+312
+2018-03-23 20:17:46.261 DEBUG com.http.handler.RequestHandler - 响应已输出
+2018-03-23 20:19:35.459 DEBUG com.http.server.Server - 请求长度540
+2018-03-23 20:19:35.461 DEBUG com.http.server.Server - 请求内容GET /helloworld HTTP/1.1
+Host: localhost:8089
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3350.0 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9
+Cookie: optimizelyEndUserId=oeu1506216020008r0.4545054078398614; _ga=GA1.1.1180129065.1489919936; Idea-7e4347d7=ed0e733b-8015-414b-bc82-8ac72402bfe1
+
+
+2018-03-23 20:19:35.469 DEBUG com.http.HttpRequest - 请求行：
+GET /helloworld HTTP/1.1
+请求行结束
+2018-03-23 20:19:35.469 DEBUG com.http.HttpRequest - 请求行分割3
+2018-03-23 20:19:35.520 DEBUG com.http.handler.RequestHandler - HelloWorld
+2018-03-23 20:19:35.539 DEBUG com.http.handler.RequestHandler - 被代理类名称：com.http.GenericServlet
+2018-03-23 20:19:35.539 DEBUG com.http.handler.RequestHandler - 被代理类实现接口数：2
+2018-03-23 20:19:35.541 DEBUG com.http.handler.RequestHandler - handler.getClass().getName()com.http.ServletProxy
+2018-03-23 20:19:35.550 DEBUG com.http.ServletProxy - HTTP/1.1 200 OK
+CONTENT_TYPE: text/html
+SERVER: MinServer
+DATE: 2018-03-23
+CONTENT_LENGTH: 56
+
+
+2018-03-23 20:19:49.866 DEBUG com.http.server.Server - 请求长度557
+2018-03-23 20:19:49.867 DEBUG com.http.server.Server - 请求内容GET /test-thread-party-fast-json HTTP/1.1
+Host: localhost:8089
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3350.0 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9
+Cookie: optimizelyEndUserId=oeu1506216020008r0.4545054078398614; _ga=GA1.1.1180129065.1489919936; Idea-7e4347d7=ed0e733b-8015-414b-bc82-8ac72402bfe1
+
+
+2018-03-23 20:19:49.870 DEBUG com.http.HttpRequest - 请求行：
+GET /test-thread-party-fast-json HTTP/1.1
+请求行结束
+2018-03-23 20:19:49.871 DEBUG com.http.HttpRequest - 请求行分割3
+2018-03-23 20:19:49.878 DEBUG com.http.handler.RequestHandler - TestThridPartyJar
+2018-03-23 20:19:49.880 DEBUG com.http.handler.RequestHandler - 被代理类名称：com.http.GenericServlet
+2018-03-23 20:19:49.884 DEBUG com.http.handler.RequestHandler - 被代理类实现接口数：2
+2018-03-23 20:19:49.887 DEBUG com.http.handler.RequestHandler - handler.getClass().getName()com.http.ServletProxy
+2018-03-23 20:20:51.430 DEBUG com.http.server.Server - 请求长度531
+2018-03-23 20:20:51.431 DEBUG com.http.server.Server - 请求内容GET /test-thread-party-fast-json HTTP/1.1
+Host: localhost:8089
+Connection: keep-alive
+Cache-Control: max-age=0
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3350.0 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9
+Cookie: optimizelyEndUserId=oeu1506216020008r0.4545054078398614; _ga=GA1.1.1180129065.1489919936
+
+
+2018-03-23 20:20:51.435 DEBUG com.http.HttpRequest - 请求行：
+GET /test-thread-party-fast-json HTTP/1.1
+请求行结束
+2018-03-23 20:20:51.436 DEBUG com.http.HttpRequest - 请求行分割3
+2018-03-23 20:20:51.486 DEBUG com.http.handler.RequestHandler - TestThridPartyJar
+2018-03-23 20:20:51.503 DEBUG com.http.handler.RequestHandler - 被代理类名称：com.http.GenericServlet
+2018-03-23 20:20:51.504 DEBUG com.http.handler.RequestHandler - 被代理类实现接口数：2
+2018-03-23 20:20:51.507 DEBUG com.http.handler.RequestHandler - handler.getClass().getName()com.http.ServletProxy
+2018-03-23 20:21:10.970 DEBUG com.http.server.Server - 请求长度531
+2018-03-23 20:21:10.971 DEBUG com.http.server.Server - 请求内容GET /test-thread-party-fast-json HTTP/1.1
+Host: localhost:8089
+Connection: keep-alive
+Cache-Control: max-age=0
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3350.0 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9
+Cookie: optimizelyEndUserId=oeu1506216020008r0.4545054078398614; _ga=GA1.1.1180129065.1489919936
+
+
+2018-03-23 20:21:10.980 DEBUG com.http.HttpRequest - 请求行：
+GET /test-thread-party-fast-json HTTP/1.1
+请求行结束
+2018-03-23 20:21:10.983 DEBUG com.http.HttpRequest - 请求行分割3
+2018-03-23 20:21:11.040 DEBUG com.http.handler.RequestHandler - TestThridPartyJar
+2018-03-23 20:21:11.069 DEBUG com.http.handler.RequestHandler - 被代理类名称：com.http.GenericServlet
+2018-03-23 20:21:11.070 DEBUG com.http.handler.RequestHandler - 被代理类实现接口数：2
+2018-03-23 20:21:11.077 DEBUG com.http.handler.RequestHandler - handler.getClass().getName()com.http.ServletProxy
+2018-03-23 20:34:09.510 DEBUG com.http.server.Server - 请求长度583
+2018-03-23 20:34:09.511 DEBUG com.http.server.Server - 请求内容GET /test-thread-party-fast-json HTTP/1.1
+Host: localhost:8089
+Connection: keep-alive
+Cache-Control: max-age=0
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3350.0 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9
+Cookie: optimizelyEndUserId=oeu1506216020008r0.4545054078398614; _ga=GA1.1.1180129065.1489919936; Idea-7e4347d7=ed0e733b-8015-414b-bc82-8ac72402bfe1
+
+
+2018-03-23 20:34:09.515 DEBUG com.http.HttpRequest - 请求行：
+GET /test-thread-party-fast-json HTTP/1.1
+请求行结束
+2018-03-23 20:34:09.516 DEBUG com.http.HttpRequest - 请求行分割3
+2018-03-23 20:34:09.563 DEBUG com.http.handler.RequestHandler - TestThridPartyJar
+2018-03-23 20:34:09.573 DEBUG com.http.handler.RequestHandler - 被代理类名称：com.http.GenericServlet
+2018-03-23 20:34:09.574 DEBUG com.http.handler.RequestHandler - 被代理类实现接口数：2
+2018-03-23 20:34:09.575 DEBUG com.http.handler.RequestHandler - handler.getClass().getName()com.http.ServletProxy
+2018-03-23 20:41:20.246 DEBUG com.http.server.Server - 请求长度583
+2018-03-23 20:41:20.248 DEBUG com.http.server.Server - 请求内容GET /test-thread-party-fast-json HTTP/1.1
+Host: localhost:8089
+Connection: keep-alive
+Cache-Control: max-age=0
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3350.0 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9
+Cookie: optimizelyEndUserId=oeu1506216020008r0.4545054078398614; _ga=GA1.1.1180129065.1489919936; Idea-7e4347d7=ed0e733b-8015-414b-bc82-8ac72402bfe1
+
+
+2018-03-23 20:41:20.256 DEBUG com.http.HttpRequest - 请求行：
+GET /test-thread-party-fast-json HTTP/1.1
+请求行结束
+2018-03-23 20:41:20.260 DEBUG com.http.HttpRequest - 请求行分割3
+2018-03-23 20:41:20.292 DEBUG com.http.handler.RequestHandler - TestThridPartyJar
+2018-03-23 20:41:20.299 DEBUG com.http.handler.RequestHandler - 被代理类名称：com.http.GenericServlet
+2018-03-23 20:41:20.300 DEBUG com.http.handler.RequestHandler - 被代理类实现接口数：2
+2018-03-23 20:41:20.302 DEBUG com.http.handler.RequestHandler - handler.getClass().getName()com.http.ServletProxy
+2018-03-23 20:59:35.141 DEBUG com.http.server.Server - 请求长度583
+2018-03-23 20:59:35.152 DEBUG com.http.server.Server - 请求内容GET /test-thread-party-fast-json HTTP/1.1
+Host: localhost:8089
+Connection: keep-alive
+Cache-Control: max-age=0
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3350.0 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9
+Cookie: optimizelyEndUserId=oeu1506216020008r0.4545054078398614; _ga=GA1.1.1180129065.1489919936; Idea-7e4347d7=ed0e733b-8015-414b-bc82-8ac72402bfe1
+
+
+2018-03-23 20:59:35.159 DEBUG com.http.HttpRequest - 请求行：
+GET /test-thread-party-fast-json HTTP/1.1
+请求行结束
+2018-03-23 20:59:35.160 DEBUG com.http.HttpRequest - 请求行分割3
+2018-03-23 20:59:35.283 DEBUG com.http.handler.RequestHandler - TestThridPartyJar
+2018-03-23 20:59:35.290 DEBUG com.http.handler.RequestHandler - 被代理类名称：com.http.GenericServlet
+2018-03-23 20:59:35.290 DEBUG com.http.handler.RequestHandler - 被代理类实现接口数：2
+2018-03-23 20:59:35.290 DEBUG com.http.handler.RequestHandler - handler.getClass().getName()com.http.ServletProxy
+2018-03-23 21:09:22.779 DEBUG com.http.server.Server - 请求长度583
+2018-03-23 21:09:22.779 DEBUG com.http.server.Server - 请求内容GET /test-thread-party-fast-json HTTP/1.1
+Host: localhost:8089
+Connection: keep-alive
+Cache-Control: max-age=0
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3350.0 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9
+Cookie: optimizelyEndUserId=oeu1506216020008r0.4545054078398614; _ga=GA1.1.1180129065.1489919936; Idea-7e4347d7=ed0e733b-8015-414b-bc82-8ac72402bfe1
+
+
+2018-03-23 21:09:22.786 DEBUG com.http.HttpRequest - 请求行：
+GET /test-thread-party-fast-json HTTP/1.1
+请求行结束
+2018-03-23 21:09:22.786 DEBUG com.http.HttpRequest - 请求行分割3
+2018-03-23 21:09:22.846 DEBUG com.http.handler.RequestHandler - TestThridPartyJar
+2018-03-23 21:09:22.864 DEBUG com.http.handler.RequestHandler - 被代理类名称：com.http.GenericServlet
+2018-03-23 21:09:22.865 DEBUG com.http.handler.RequestHandler - 被代理类实现接口数：2
+2018-03-23 21:09:22.867 DEBUG com.http.handler.RequestHandler - handler.getClass().getName()com.http.ServletProxy
+2018-03-23 21:17:19.638 DEBUG com.http.server.Server - 请求长度583
+2018-03-23 21:17:19.639 DEBUG com.http.server.Server - 请求内容GET /test-thread-party-fast-json HTTP/1.1
+Host: localhost:8089
+Connection: keep-alive
+Cache-Control: max-age=0
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3350.0 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9
+Cookie: optimizelyEndUserId=oeu1506216020008r0.4545054078398614; _ga=GA1.1.1180129065.1489919936; Idea-7e4347d7=ed0e733b-8015-414b-bc82-8ac72402bfe1
+
+
+2018-03-23 21:17:19.648 DEBUG com.http.HttpRequest - 请求行：
+GET /test-thread-party-fast-json HTTP/1.1
+请求行结束
+2018-03-23 21:17:19.654 DEBUG com.http.HttpRequest - 请求行分割3
+2018-03-23 21:17:19.696 DEBUG com.http.handler.RequestHandler - TestThridPartyJar
+2018-03-23 21:17:19.715 DEBUG com.http.handler.RequestHandler - 被代理类名称：com.http.GenericServlet
+2018-03-23 21:17:19.716 DEBUG com.http.handler.RequestHandler - 被代理类实现接口数：2
+2018-03-23 21:17:19.718 DEBUG com.http.handler.RequestHandler - handler.getClass().getName()com.http.ServletProxy
+2018-03-23 21:21:08.330 DEBUG com.http.utils.LibraryLoader - jar包路径：F:\Eclipse\TestCourse\MinServer\targetwebapps/WEB-INF/lib/
+2018-03-23 21:22:33.872 DEBUG com.http.utils.LibraryLoader - jar包路径：F:\Eclipse\TestCourse\MinServer\target/webapps/WEB-INF/lib/
+2018-03-23 21:22:33.875 DEBUG com.http.utils.LibraryLoader - 有1个jar包
+2018-03-23 21:22:33.922 DEBUG com.http.utils.LibraryLoader - 加载file:/F:/Eclipse/TestCourse/MinServer/target/webapps/WEB-INF/lib/fastjson-1.2.47.jar
+2018-03-23 21:22:39.417 DEBUG com.http.server.Server - 请求长度583
+2018-03-23 21:22:39.418 DEBUG com.http.server.Server - 请求内容GET /test-thread-party-fast-json HTTP/1.1
+Host: localhost:8089
+Connection: keep-alive
+Cache-Control: max-age=0
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3350.0 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9
+Cookie: optimizelyEndUserId=oeu1506216020008r0.4545054078398614; _ga=GA1.1.1180129065.1489919936; Idea-7e4347d7=ed0e733b-8015-414b-bc82-8ac72402bfe1
+
+
+2018-03-23 21:22:39.427 DEBUG com.http.HttpRequest - 请求行：
+GET /test-thread-party-fast-json HTTP/1.1
+请求行结束
+2018-03-23 21:22:39.428 DEBUG com.http.HttpRequest - 请求行分割3
+2018-03-23 21:22:39.481 DEBUG com.http.handler.RequestHandler - TestThridPartyJar
+2018-03-23 21:22:39.482 DEBUG com.http.handler.RequestHandler - 被代理类名称：com.http.GenericServlet
+2018-03-23 21:22:39.482 DEBUG com.http.handler.RequestHandler - 被代理类实现接口数：2
+2018-03-23 21:22:39.483 DEBUG com.http.handler.RequestHandler - handler.getClass().getName()com.http.ServletProxy
+2018-03-23 21:22:39.808 DEBUG com.http.ServletProxy - HTTP/1.1 200 OK
+CONTENT_LENGTH: 35
+SERVER: MinServer
+CONTENT_TYPE: text/html
+DATE: 2018-03-23
+
+

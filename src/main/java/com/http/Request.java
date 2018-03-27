@@ -17,4 +17,7 @@ public interface Request {
 	public Set<String> getHeaderNames();
 	public Object getHeader(String key);
 	public AsynchronousSocketChannel getAsynchronousSocketChannel();
+	public RequestDispatcher getRequestDispatcher(String uriInContext);
+	public Session getSession();
+	public Cookie[] getCookies();
 }
